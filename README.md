@@ -12,8 +12,6 @@ cds/Brassica_napus.AST_PRJEB5043_v1.cds.all.fa.gz
 gunzip cds/*gz 
 `
 
-Note that the --one\_transcript option above was used so that only one transcript was used as a representative for each gene.
-
 ### Made BLAST database for A. thaliana (note that I specified the full path in this case, but normally this would just be installed globally):
 `
 /home/gavin/local/ncbi-blast-2.6.0+/bin/makeblastdb -in Arabidopsis_thaliana.TAIR10.cds.all.fa  -parse_seqids -dbtype nucl 
@@ -51,4 +49,5 @@ python3 scripts/parse_ENSEMBL_fasta_header.py -f cds/Brassica_napus.AST_PRJEB504
 python3 scripts/parse_ENSEMBL_fasta_header.py -f cds/Arabidopsis_thaliana.TAIR10.cds.all.fa -o tables/Arabidopsis_thaliana.TAIR10.cds.info.txt --one_transcript
 ```
 
+Note that the --one\_transcript option above was used so that only one transcript was used as a representative for each gene.
 
