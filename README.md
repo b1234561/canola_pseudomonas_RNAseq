@@ -1,7 +1,7 @@
 ## Running BLASTn
 The below commands were used to run blastn to annotate Brassica napus genes against Arabidopsis thaliana. Note that NCBI BLAST v2.6.0 was used for the below commands.
 
-### The CDS sequences for both species were downloaded from ENSEMBL v36:
+### The CDS sequences for both species were downloaded from ENSEMBL v36 (since these were the biggest files they are not part of this repository):
 ```
 cds/Arabidopsis_thaliana.TAIR10.cds.all.fa.gz
 cds/Brassica_napus.AST_PRJEB5043_v1.cds.all.fa.gz
