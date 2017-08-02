@@ -1,4 +1,4 @@
-## Running BLASTn
+# Running BLASTn
 The below commands were used to run blastn to annotate Brassica napus genes against Arabidopsis thaliana. Note that NCBI BLAST v2.6.0 was used for the below commands.
 
 ### The CDS sequences for both species were downloaded from ENSEMBL v36 (since these were the biggest files they are not part of this repository):
@@ -41,7 +41,7 @@ Arabidopsis_thaliana.TAIR10.cds.all.fa.nsq
 
 These blast output files were moved to _B.napus\_vs\_A.thaliana\_blast\_out_.
 
-## Parsing functional information for each gene
+# Parsing functional information for each gene
 
 ### The headers of these CDS FASTA files contain information on each gene. This information was parsed into tables using the _parse\_ENSEMBL\_fasta\_header.py_.
 
