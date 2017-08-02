@@ -8,14 +8,14 @@ cds/Brassica_napus.AST_PRJEB5043_v1.cds.all.fa.gz
 ```
 
 ### Both files were gunzipped:
-`
+```
 gunzip cds/*gz 
-`
+```
 
 ### Made BLAST database for A. thaliana (note that I specified the full path in this case, but normally this would just be installed globally):
-`
+```
 /home/gavin/local/ncbi-blast-2.6.0+/bin/makeblastdb -in Arabidopsis_thaliana.TAIR10.cds.all.fa  -parse_seqids -dbtype nucl 
-`
+```
 
 ### The command makeblastdb generate these database files (which were moved to At\_blast\_db):
 ```
@@ -28,14 +28,14 @@ Arabidopsis_thaliana.TAIR10.cds.all.fa.nsq
 ```
 
 ### Ran BLASTn against this database using B. napus CDS file as query. Outputted in tablular format (outfmt 6), limited to hits with an E-value of 0.0001 or lower, ran over 20 threads.
-`
+```
 /home/gavin/local/ncbi-blast-2.6.0+/bin/blastn -db Arabidopsis_thaliana.TAIR10.cds.all.fa -query Brassica_napus.AST_PRJEB5043_v1.cds.all.fa -out blastn_out_napus_vs_thaliana_evalue0.0001.txt -evalue 0.0001 -outfmt "6" -num_threads 20
-`
+```
 
 ### Also tested out a higher E-value cut-off, which didn't make a difference:
-`
+```
 /home/gavin/local/ncbi-blast-2.6.0+/bin/blastn -db Arabidopsis_thaliana.TAIR10.cds.all.fa -query Brassica_napus.AST_PRJEB5043_v1.cds.all.fa -out blastn_out_napus_vs_thaliana_evalue0.1.txt -evalue 0.1 -outfmt "6" -num_threads 20
-`
+```
 
 These blast output files were moved to _B.napus\_vs\_A.thaliana\_blast\_out_.
 
