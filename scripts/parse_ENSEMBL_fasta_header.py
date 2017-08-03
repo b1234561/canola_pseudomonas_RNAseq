@@ -7,7 +7,7 @@ import re
 
 def parse_info_source(line_input):
     '''Parses string matching [Source.+] at end of fasta headerlines.
-    If there is a match will return the string and return the headerline 
+    If there is a match will return the string and return the headerline
     after removing this string from the headerline. If there is no match then
     will return empty string and unaltered headerline.'''
 
@@ -23,7 +23,7 @@ def parse_info_source(line_input):
         info_source = info_source_match.group(1)
 
         # Remove this string from line (replace with empty string).
-        line_input = line_input.replace(info_source, "") 
+        line_input = line_input.replace(info_source, "")
 
         # Check that last element (info_source) starts and ends with
         # closed brackets (ignoring first character, which should be a space).
@@ -41,16 +41,14 @@ def parse_info_source(line_input):
         info_source = info_source[9:]
         info_source = info_source[0:-1]
 
-
-
     return(info_source, line_input)
 
 
 def parse_description(line_input):
-    '''Parses out elements of fasta headerline that correspond to 
-    "description:". If there is a match will return the string and 
-    return the headerline after removing this string from the headerline. 
-    If there is no match then will return empty string and unaltered 
+    '''Parses out elements of fasta headerline that correspond to
+    "description:". If there is a match will return the string and
+    return the headerline after removing this string from the headerline.
+    If there is no match then will return empty string and unaltered
     headerline.'''
 
     # Initialize descsription as empty.
@@ -65,7 +63,7 @@ def parse_description(line_input):
         description = description_match.group(1)
 
         # Remove this string from line (replace with empty string).
-        line_input = line_input.replace(description, "") 
+        line_input = line_input.replace(description, "")
 
         # Remove " description:" from start of string.
         description = description[13:]
@@ -74,10 +72,10 @@ def parse_description(line_input):
 
 
 def parse_gene_symbol(line_input):
-    '''Parses out elements of fasta headerline that correspond to 
-    "gene_symbol:". If there is a match will return the string and 
-    return the headerline after removing this string from the headerline. 
-    If there is no match then will return empty string and unaltered 
+    '''Parses out elements of fasta headerline that correspond to
+    "gene_symbol:". If there is a match will return the string and
+    return the headerline after removing this string from the headerline.
+    If there is no match then will return empty string and unaltered
     headerline.'''
 
     # Initialize gene_symbol as empty.
@@ -92,7 +90,7 @@ def parse_gene_symbol(line_input):
         gene_symbol = gene_symbol_match.group(1)
 
         # Remove this string from line (replace with empty string).
-        line_input = line_input.replace(gene_symbol, "") 
+        line_input = line_input.replace(gene_symbol, "")
 
         # Remove " gene_symbol:" from start of string.
         gene_symbol = gene_symbol[13:]
@@ -113,7 +111,7 @@ transcript_biotype:protein_coding gene_symbol:BnaAnng17200D \
 description:BnaAnng17200D protein \
 [Source:UniProtKB/TrEMBL;Acc:A0A078J9M5]",
 
-epilog='''Usage example:
+                                     epilog='''Usage example:
 
 python3 parse_ENSEMBL_fasta_header.py -f \
 Brassica_napus.AST_PRJEB5043_v1.cds.all.fa -o parsed_headers.tab
@@ -165,11 +163,10 @@ alternative transcripts.")
 
             # This is what an example headerline looks like (no newlines):
             # >CDY69013 cds supercontig:AST_PRJEB5043_v1:LK038450:1714:4174:-1
-            # gene:GSBRNA2T00082019001 gene_biotype:protein_coding 
+            # gene:GSBRNA2T00082019001 gene_biotype:protein_coding
             # transcript_biotype:protein_coding gene_symbol:BnaCnng61390D
-            # description:BnaCnng61390D protein 
+            # description:BnaCnng61390D protein
             # [Source:UniProtKB/TrEMBL;Acc:A0A078JNA5]
-
 
             # Inititalize dictionary with columns of interest as keys.
             # Missing values will be output as empty strings.
@@ -199,11 +196,11 @@ alternative transcripts.")
             # already seen.
             if args.one_transcript:
                 gene_name = gene_name.split(".")[0]
-       
+
                 # Skip line if already seen.
                 if gene_name in past_genes:
                     continue
-                
+
                 # Otherwise add to set.
                 past_genes.add(gene_name)
 
@@ -232,7 +229,7 @@ alternative transcripts.")
 
                 # If not in this known set then throw warning and skip.
                 else:
-                    print("Warning: element " + info_split[0] + 
+                    print("Warning: element " + info_split[0] +
                              " is not " +
                              "one of the expected columns: " + 
                              " ".join(info_columns) + "." +
