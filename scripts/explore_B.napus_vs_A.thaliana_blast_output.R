@@ -1,7 +1,12 @@
+# This script was used to explore the raw BLASTn output, to output a new table
+# with just the top hit per B. napus gene, and to output the difference in bitscores
+# between the top 2 A. thaliana genes for cases where multiple genes were hit.
+
 setwd("Dropbox/work/Langille/pseudomonas/canola_pseudomonas/")
 blast_out <- read.table("B.napus_vs_A.thaliana_blast_out/blastn_out_napus_vs_thaliana_evalue0.0001.txt", 
                         header = FALSE, sep = "\t", stringsAsFactors = FALSE)
 
+# Added column names.
 colnames(blast_out) <- c("qseqid", "sseqid", "pident", "length", "mismatch",
                          "gapopen", "qstart", "qend", "sstart", "send", 
                          "evalue", "bitscore")
