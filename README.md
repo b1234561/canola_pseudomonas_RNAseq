@@ -9,12 +9,12 @@ cds/Brassica_napus.AST_PRJEB5043_v1.cds.all.fa.gz
 
 ### Both files were gunzipped:
 ```
-gunzip cds/*gz 
+gunzip cds/*gz
 ```
 
 ### Made BLAST database for A. thaliana (note that I specified the full path in this case, but normally this would just be installed globally):
 ```
-/home/gavin/local/ncbi-blast-2.6.0+/bin/makeblastdb -in Arabidopsis_thaliana.TAIR10.cds.all.fa  -parse_seqids -dbtype nucl 
+/home/gavin/local/ncbi-blast-2.6.0+/bin/makeblastdb -in Arabidopsis_thaliana.TAIR10.cds.all.fa  -parse_seqids -dbtype nucl
 ```
 
 ### The command makeblastdb generate these database files (which were moved to At\_blast\_db):
@@ -51,3 +51,53 @@ python3 scripts/parse_ENSEMBL_fasta_header.py -f cds/Arabidopsis_thaliana.TAIR10
 
 Note that the --one\_transcript option above was used so that only one transcript was used as a representative for each gene.
 
+# Parsing blast output in R
+
+I then read this output blast file (for evalue=0.0001) and explored the data.
+The commands run are in *scripts/explore_B.napus_vs_A.thaliana_blast_output.R*.
+64996/101040 (64.33%) B. napus genes hit homologs in A. thaliana. The vast
+majority of the time there was only one homolog hit for each B. napus gene (see
+distribution of the number of hits in plots/num_unique_At_hits.pdf).
+
+Two cleaned versions of the blast output were created as well. In both cases the
+correct blast headers were added. In one case
+(*tables/blastn_out_napus_vs_thaliana_evalue0.0001_clean.txt*), only the top
+transcript hit from each A. thaliana gene was shown. In the second case, only
+the top gene hit was shown (*tables/blastn_out_napus_vs_thaliana_evalue0.0001_clean_tophits.txt*).
+
+### Difference in bitscore between top two hits
+To give a measure of confidence for each top blsat hit the difference in bitscore
+between the top hit and the next gene hit (when applicable) was outputted to
+*tables/blastn_out_napus_vs_thaliana_top2_bitscore_diffs.txt*. The distribution
+of these values is shown in *plots/top2_bitscore_diff_hist.pdf*. Clearly about 25%
+of gene hits should be interpreted cautiously since they are of similar bitscore
+to the next hit (<=100 bits).
+
+### Combining annotations into single file
+Next I combined all of the different annotations from the below files into one
+table using the R commands in *scripts/merge_func_data_into_single_table.R*.
+
+```
+tables/blastn_out_napus_vs_thaliana_evalue0.0001_clean_tophits.txt
+tables/Brassica_napus.AST_PRJEB5043_v1.cds.info.txt
+tables/Arabidopsis_thaliana.TAIR10.cds.info.txt
+B.napus_prior_annotation/Brassica_napus_GO
+B.napus_prior_annotation/Brassica_napus_IPR.withdescription
+```
+
+The merged annotation file is *tables/Bnapus_merged_func_annot.txt*.
+
+Note that the files in *B.napus_prior_annotation* were downloaded from
+http://www.genoscope.cns.fr/brassicanapus/ and were part of
+[this paper](http://science.sciencemag.org/content/345/6199/950).
+
+### Combining annotations with differentially expressed gene sets
+
+Finally the raw log fold significant differentially expressed (DE) genes
+provided by Jamie Cook (in *RNAseq_DE_genes/original_output/*) were combined
+with these annotations in *scripts/merge_func_data_w_DE_genes.R*.
+
+These combined files are in *RNAseq_DE_genes/annotated_output/*.
+
+Note that the first column name was missing in
+*RNAseq_DE_genes/original_output/RootDay3.txt* and had to be added by hand.
