@@ -114,5 +114,4 @@ colnames(top2_bitscore_diff_df) <- c("Bnapus_genes", "top2_bitscore_diff")
 top2_bitscore_diff_df$Bnapus_genes <- c(napus_genes_mult_hit, napus_genes_single_hit)
 top2_bitscore_diff_df$top2_bitscore_diff <- c(top2_bitscore_diff, rep(NA, length(napus_genes_single_hit)))
 
-write.table(x = top2_bitscore_diff_df, file = "tables/blastn_out_napus_vs_thaliana_top2_bitscore_diffs.txt", 
-            col.names=TRUE, row.names=FALSE, quote = FALSE, sep="\t")
+write.table(x = top2_bitscore_diff_df, file = "tables/blastn_out_napus_vs_thaliana_top2_bitscore_diffs.txt", col.names=TRUE, row.names=FALSE, quote = FALSE, sep="\t")
