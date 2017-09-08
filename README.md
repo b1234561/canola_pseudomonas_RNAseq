@@ -101,3 +101,63 @@ These combined files are in *RNAseq_DE_genes/annotated_output/*.
 
 Note that the first column name was missing in
 *RNAseq_DE_genes/original_output/RootDay3.txt* and had to be added by hand.
+
+# Generating 16S Phylogeny for Pseudomonas Species
+
+Downloaded unaligned 16S sequences from RDP 11.5 (current\_Bacteria\_unaligned.fa.gz) and training hidden markov models used by infernal to make alignment (in RDPinfernal1.1Traindata).
+
+### Split sequences corresponding to Pseudomonas species into separate FASTAs
+
+```
+mkdir pseudomonas_16S_seq
+
+python scripts/split_fasta_by_species.py -f RDP_release_11.5_align/current_Bacteria_unaligned.fa.gz -o pseudomonas_16S_seq/by_species -g Pseudomonas
+```
+
+Resulted in 15224 sequences from 206 Pseudomonas species.
+
+### Filter 16S sequences 
+
+Remove sequences contains Ns, less than 1500 nt, or bigger than 2500 nt.
+```
+cd pseudomonas_16S_seq
+
+mkdir by_species_filt
+
+parallel -j 60 'vsearch --fastx_filter {} --fastq_maxns 1 --fastq_minlen 1500 --fastq_maxlen 2500 -fastaout by_species_filt/{/.}_filt.fa' ::: by_species/*.fa
+```
+
+Retained only 1554 sequences.
+
+### Cluster sequences into centroids of 99% per species
+
+```
+mkdir species_centroids
+
+parallel -j 60 'vsearch --cluster_fast {} --id 0.99 --centroids species_centroids/{/.}_centroid.fa' ::: by_species_filt/*.fa
+```
+
+Retained 357 16S from 128 species.
+
+### Make alignment with infernal
+
+```
+cat species_centroids/*fa >pseudomonas_filt_99id_centroids.fa
+
+cmalign --cpu 70 --dnaout -g --noprob --outformat afa ../RDP_release_11.5_align/RDPinfernal1.1Traindata/bacteria_model.cm pseudomonas_filt_99id_centroids.fa > pseudomonas_filt_99id_centroids_RDP_aligned.afa  
+```
+
+Convert "." characters to "-".
+
+```
+sed 's/\./-/g' pseudomonas_filt_99id_centroids_RDP_aligned.afa > pseudomonas_filt_99id_centroids_RDP_aligned_no-period.afa
+```
+
+### Run RAxML to build phylogeny
+```
+raxmlHPC-PTHREADS-AVX -s pseudomonas_filt_99id_centroids_RDP_aligned_no-period.afa -n pseudomonas_filt_99id_centroids_RDP_aligned_raxml -m GTRGAMMA -p 51 -f d -T 70
+
+mv RAxML_bestTree.pseudomonas_filt_99id_centroids_RDP_aligned_raxml RAxML_bestTree.pseudomonas_filt_99id_centroids_RDP_aligned_raxml.tre
+```
+
+I then downloaded locally and made plots in Dendroscope.

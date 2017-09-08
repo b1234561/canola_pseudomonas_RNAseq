@@ -1,0 +1,85 @@
+
+
+IMPORTANT WARNING: Sequences Pseudomonas_aeruginosa_2980 and Pseudomonas_tropicalis_2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences Pseudomonas_corrugata_2 and Pseudomonas_tolaasii_3 are exactly identical
+
+IMPORTANT WARNING
+Found 2 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file pseudomonas_filt_99id_centroids_RDP_aligned_no-period.afa.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.11 released by Alexandros Stamatakis on June 2017.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 2607 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 75.32%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 2607
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS-AVX -s pseudomonas_filt_99id_centroids_RDP_aligned_no-period.afa -n pseudomonas_filt_99id_centroids_RDP_aligned_raxml -m GTRGAMMA -p 51 -f d -T 70 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.253 0.227 0.307 0.213 
+
+Inference[0]: Time 156.944764 GAMMA-based likelihood -57435.288113, best rearrangement setting 25
+alpha[0]: 0.477821 rates[0] ac ag at cg ct gt: 0.956157 1.636022 1.295099 0.930977 2.219962 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -57435.263248 tree written to file /home/gavin/projects/pseudomonas/canola_pseudomonas/pseudomonas_16S_seq/RAxML_result.pseudomonas_filt_99id_centroids_RDP_aligned_raxml
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -57435.263248 .... 
+
+Final GAMMA-based Score of best tree -57435.263211
+
+Program execution info written to /home/gavin/projects/pseudomonas/canola_pseudomonas/pseudomonas_16S_seq/RAxML_info.pseudomonas_filt_99id_centroids_RDP_aligned_raxml
+Best-scoring ML tree written to: /home/gavin/projects/pseudomonas/canola_pseudomonas/pseudomonas_16S_seq/RAxML_bestTree.pseudomonas_filt_99id_centroids_RDP_aligned_raxml
+
+Overall execution time: 198.305456 secs or 0.055085 hours or 0.002295 days
+
