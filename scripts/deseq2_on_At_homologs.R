@@ -3,6 +3,7 @@ library("RColorBrewer")
 library("pheatmap")
 library("ggplot2")
 library("VennDiagram")
+library("colorRamps")
 
 setwd("/home/gavin/projects/pseudomonas/canola_pseudomonas/")
 
@@ -144,7 +145,8 @@ ThreeWayVenn <- function(set1, set2, set3, name1, name2, name3) {
                 n23=length(which(set2 %in% set3)),
                 n13=length(which(set1 %in% set3)),
                 n123=length(which(set1[which(set1 %in% set2)] %in% set3)),
-                category=c(name1, name2, name3))
+                category=c(name1, name2, name3),
+                fill=c("#1f78b4", "#33a02c", "#e31a1c"))
 
   grid.draw(venn.plot);
   grid.newpage();
@@ -175,6 +177,7 @@ down_day1_rc_ri <- rownames(day1_results_RC_RI_shrink)[which(day1_results_RC_RI_
 down_day3_rc_ri <- rownames(day3_results_RC_RI_shrink)[which(day3_results_RC_RI_shrink$padj < 0.1 & day3_results_RC_RI_shrink$log2FoldChange < 0)]
 down_day5_rc_ri <- rownames(day5_results_RC_RI_shrink)[which(day5_results_RC_RI_shrink$padj < 0.1 & day5_results_RC_RI_shrink$log2FoldChange < 0)]
 
+grid.newpage();
 ThreeWayVenn(de_day1_sc_si, de_day3_sc_si, de_day5_sc_si, "Shoot Day1 DE", "Shoot Day3 DE", "Shoot Day5 DE")
 ThreeWayVenn(up_day1_sc_si, up_day3_sc_si, up_day5_sc_si, "Shoot Day1 up", "Shoot Day3 up", "Shoot Day5 up")
 ThreeWayVenn(down_day1_sc_si, down_day3_sc_si, down_day5_sc_si, "Shoot Day1 down", "Shoot Day3 down", "Shoot Day5 down")
