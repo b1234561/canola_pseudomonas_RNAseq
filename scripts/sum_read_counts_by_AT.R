@@ -2,6 +2,7 @@
 # to canola to reads mapped to AT homologs.
 
 setwd("/home/gavin/projects/pseudomonas/canola_pseudomonas/")
+source("/home/gavin/projects/pseudomonas/canola_pseudomonas/scripts/canola_pseudomonas_R_code.R")
 
 # First step is to read in all HTseq count files.
 htseq_files <- list.files(pattern="_HTSeq.txt", 
@@ -20,6 +21,10 @@ Bnapus_map <- read.table("tables/Bnapus_merged_func_annot.txt",
 
 # Limit to Bnapus genes which have an AT homolog (i.e. non-NA).
 Bnapus_map_AT <- Bnapus_map[-which(is.na(Bnapus_map$Athaliana_gene)),]
+
+unique_At_ids <- unique(Bnapus_map_AT$Athaliana_gene)
+# Write out At ids as ref set.
+write_out_vec(unique_At_ids, c("At_gene_sets/At_ref_gene_set.txt"))
 
 # Set Bnapus gene ids to be rownames.
 rownames(Bnapus_map_AT) <- Bnapus_map_AT$Bnapus_gene
