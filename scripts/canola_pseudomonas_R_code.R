@@ -53,11 +53,14 @@ deseq2_ThreeWayVenn_and_set <- function(results1, results2, results3, name1, nam
                                 category=c(name1, name2, name3),
                                 fill=venn_col)
 
-  grid.draw(venn.plot);
-  grid.newpage();
-  
   out_info <- paste(compare_type, "padj", as.character(padj_cut), "l2fc", as.character(l2fc_cut), sep="_")
   out_suffix <- paste(out_info, suffix, sep=".")
+  
+  out_pdf <- paste("plots/venn/", basename(prefix), "_", out_info, ".pdf", sep="")
+  pdf(file=out_pdf)
+  grid.draw(venn.plot);
+  dev.off()
+  grid.newpage();
   
   # Write out sets to files.
   write_out_vec(vec2write = set1, str_for_file = c(prefix, name1, out_suffix))
