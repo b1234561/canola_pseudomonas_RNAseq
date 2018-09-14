@@ -10,4 +10,5 @@ scripts/test_scripts/*
 plots/old_plots/*
 mmquant_out/*gtf
 mmquant_out/*gff3
+mmquant_out/Brassica_napus.AST_PRJEB5043_v1.dna.nonchromosomal.fa*
 mmquant_out/testing/*
