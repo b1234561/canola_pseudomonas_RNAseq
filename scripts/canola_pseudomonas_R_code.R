@@ -71,3 +71,51 @@ deseq2_ThreeWayVenn_and_set <- function(results1, results2, results3, name1, nam
   write_out_vec(vec2write = set_n13, str_for_file = c(prefix, name1, name3, out_suffix))
   write_out_vec(vec2write = set_n123, str_for_file = c(prefix, name1, name2, name3, out_suffix))  
 }
+
+# Function that will draw three way Venn diagram and output gene ids overlapping in each set to textfiles.
+deseq2_TwoWayVenn_and_set <- function(results1, results2, name1, name2,
+                                        padj_cut=0.1, l2fc_cut=0, compare_type="de", 
+                                        prefix = "genes", suffix="txt",
+                                        venn_col=c("#1f78b4", "#33a02c")) {
+  
+  if(compare_type == "de") {
+    # Just looking for differentially expressed. Note takes absolute of log2foldchanges.
+    set1 <- rownames(results1)[which(results1$padj < padj_cut & abs(results1$log2FoldChange) > l2fc_cut)]
+    set2 <- rownames(results2)[which(results2$padj < padj_cut & abs(results2$log2FoldChange) > l2fc_cut)]
+  } else if(compare_type == "up") {
+    # Get up-regulated only.
+    set1 <- rownames(results1)[which(results1$padj < padj_cut & results1$log2FoldChange > l2fc_cut)]
+    set2 <- rownames(results2)[which(results2$padj < padj_cut & results2$log2FoldChange > l2fc_cut)]
+    
+  } else if(compare_type == "down") {
+    # Get down-regulated only.
+    set1 <- rownames(results1)[which(results1$padj < padj_cut & results1$log2FoldChange < l2fc_cut)]
+    set2 <- rownames(results2)[which(results2$padj < padj_cut & results2$log2FoldChange < l2fc_cut)]
+  } else {
+    stop("Option compare_type needs to be one of \"de\", \"up\", or \"down\".")
+  }
+  
+  # Get ids overlapping between each set.
+  set_n12=set1[which(set1 %in% set2)]
+  
+  venn.plot <- draw.pairwise.venn(
+    area1=length(set1),
+    area2=length(set2),
+    cross.area=length(set_n12),
+    category=c(name1, name2),
+    fill=venn_col)
+  
+  out_info <- paste(compare_type, "padj", as.character(padj_cut), "l2fc", as.character(l2fc_cut), sep="_")
+  out_suffix <- paste(out_info, suffix, sep=".")
+  
+  out_pdf <- paste("plots/venn/", basename(prefix), "_", out_info, ".pdf", sep="")
+  pdf(file=out_pdf)
+  grid.draw(venn.plot);
+  dev.off()
+  grid.newpage();
+  
+  # Write out sets to files.
+  write_out_vec(vec2write = set1, str_for_file = c(prefix, name1, out_suffix))
+  write_out_vec(vec2write = set2, str_for_file = c(prefix, name2, out_suffix))
+  write_out_vec(vec2write = set_n12, str_for_file = c(prefix, name1, name2, out_suffix))
+}

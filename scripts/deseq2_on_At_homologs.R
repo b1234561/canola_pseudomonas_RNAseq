@@ -43,9 +43,12 @@ sample_table$condition <- rnaseq_map[sample_table$sample, "Sample._Name"]
 # Remove quotations from conditions, convert commands to hyphens,
 # and remove replicate number from after C and I.
 sample_table$condition <- gsub("\"", "", sample_table$condition)
-sample_table$condition <- gsub(", ", "-", sample_table$condition)
-sample_table$condition <- gsub("-C\\d-", "-C-", sample_table$condition)
-sample_table$condition <- gsub("-I\\d-", "-I-", sample_table$condition)
+sample_table$condition <- gsub(", ", "_", sample_table$condition)
+sample_table$condition <- gsub("_C\\d_", "_C_", sample_table$condition)
+sample_table$condition <- gsub("_I\\d_", "_I_", sample_table$condition)
+
+# Remove D3 samples since we believe these have technical issues.
+sample_table <- sample_table[-grep("_D3", sample_table$condition),]
 
 # Convert all columns to be factors.
 sample_table$sample <- as.factor(sample_table$sample)
@@ -61,36 +64,36 @@ sample_table_datset <- DESeqDataSetFromHTSeqCount(sampleTable=sample_table,
 sample_deseq2 <- DESeq(sample_table_datset)
 
 # Run day 1 comparisons:
-sample_day1_results_SC_SI <- results(sample_deseq2, contrast=c("condition", "S-I-D1", "S-C-D1"))
-sample_day1_results_RC_RI <- results(sample_deseq2, contrast=c("condition", "R-I-D1", "R-C-D1"))
+sample_day1_results_SC_SI <- results(sample_deseq2, contrast=c("condition", "S_I_D1", "S_C_D1"))
+sample_day1_results_RC_RI <- results(sample_deseq2, contrast=c("condition", "R_I_D1", "R_C_D1"))
 
 # Run day 3 comparisons:
-sample_day3_results_SC_SI <- results(sample_deseq2, contrast=c("condition", "S-I-D3", "S-C-D3"))
-sample_day3_results_RC_RI <- results(sample_deseq2, contrast=c("condition", "R-I-D3", "R-C-D3"))
+#sample_day3_results_SC_SI <- results(sample_deseq2, contrast=c("condition", "S_I_D3", "S_C_D3"))
+#sample_day3_results_RC_RI <- results(sample_deseq2, contrast=c("condition", "R_I_D3", "R_C_D3"))
 
 # Run day 5 comparisons:
-sample_day5_results_SC_SI <- results(sample_deseq2, contrast=c("condition", "S-I-D5", "S-C-D5"))
-sample_day5_results_RC_RI <- results(sample_deseq2, contrast=c("condition", "R-I-D5", "R-C-D5"))
+sample_day5_results_SC_SI <- results(sample_deseq2, contrast=c("condition", "S_I_D5", "S_C_D5"))
+sample_day5_results_RC_RI <- results(sample_deseq2, contrast=c("condition", "R_I_D5", "R_C_D5"))
 
 day1_results_SC_SI_shrink <- lfcShrink(sample_deseq2, 
-                                    contrast=c("condition", "S-I-D1", "S-C-D1"), 
+                                    contrast=c("condition", "S_I_D1", "S_C_D1"), 
                                     res=sample_day1_results_SC_SI)
 day1_results_RC_RI_shrink <- lfcShrink(sample_deseq2, 
-                                       contrast=c("condition", "R-I-D1", "R-C-D1"), 
+                                       contrast=c("condition", "R_I_D1", "R_C_D1"), 
                                        res=sample_day1_results_RC_RI)
 
-day3_results_SC_SI_shrink <- lfcShrink(sample_deseq2, 
-                                       contrast=c("condition", "S-I-D3", "S-C-D3"), 
-                                       res=sample_day3_results_SC_SI)
-day3_results_RC_RI_shrink <- lfcShrink(sample_deseq2, 
-                                       contrast=c("condition", "R-I-D3", "R-C-D3"), 
-                                       res=sample_day3_results_RC_RI)
+#day3_results_SC_SI_shrink <- lfcShrink(sample_deseq2, 
+#                                       contrast=c("condition", "S_I_D3", "S_C_D3"), 
+#                                       res=sample_day3_results_SC_SI)
+#day3_results_RC_RI_shrink <- lfcShrink(sample_deseq2, 
+#                                       contrast=c("condition", "R_I_D3", "R_C_D3"), 
+#                                       res=sample_day3_results_RC_RI)
 
 day5_results_SC_SI_shrink <- lfcShrink(sample_deseq2, 
-                                       contrast=c("condition", "S-I-D5", "S-C-D5"), 
+                                       contrast=c("condition", "S_I_D5", "S_C_D5"), 
                                        res=sample_day5_results_SC_SI)
 day5_results_RC_RI_shrink <- lfcShrink(sample_deseq2, 
-                                       contrast=c("condition", "R-I-D5", "R-C-D5"), 
+                                       contrast=c("condition", "R_I_D5", "R_C_D5"), 
                                        res=sample_day5_results_RC_RI)
 
 # Create output directory.
@@ -101,10 +104,10 @@ write.table(day1_results_SC_SI_shrink, file="At_deseq2/day1_AT_deseq2_SC-SI.txt"
 write.table(day1_results_RC_RI_shrink, file="At_deseq2/day1_AT_deseq2_RC-RI.txt", 
             sep="\t", row.names=TRUE, col.names=NA, quote=FALSE)
 
-write.table(day3_results_SC_SI_shrink, file="At_deseq2/day3_AT_deseq2_SC-SI.txt", 
-            sep="\t", row.names=TRUE, col.names=NA, quote=FALSE)
-write.table(day3_results_RC_RI_shrink, file="At_deseq2/day3_AT_deseq2_RC-RI.txt", 
-            sep="\t", row.names=TRUE, col.names=NA, quote=FALSE)
+# write.table(day3_results_SC_SI_shrink, file="At_deseq2/day3_AT_deseq2_SC-SI.txt", 
+#             sep="\t", row.names=TRUE, col.names=NA, quote=FALSE)
+# write.table(day3_results_RC_RI_shrink, file="At_deseq2/day3_AT_deseq2_RC-RI.txt", 
+#             sep="\t", row.names=TRUE, col.names=NA, quote=FALSE)
 
 write.table(day5_results_SC_SI_shrink, file="At_deseq2/day5_AT_deseq2_SC-SI.txt", 
             sep="\t", row.names=TRUE, col.names=NA, quote=FALSE)
@@ -116,8 +119,8 @@ dir.create("At_deseq2/RDS_files", showWarnings = FALSE)
 saveRDS(object = day1_results_SC_SI_shrink, file = "At_deseq2/RDS_files/day1_results_SC_SI_shrink.rds")
 saveRDS(object = day1_results_RC_RI_shrink, file = "At_deseq2/RDS_files/day1_results_RC_RI_shrink.rds")
 
-saveRDS(object = day3_results_SC_SI_shrink, file = "At_deseq2/RDS_files/day3_results_SC_SI_shrink.rds")
-saveRDS(object = day3_results_RC_RI_shrink, file = "At_deseq2/RDS_files/day3_results_RC_RI_shrink.rds")
+#saveRDS(object = day3_results_SC_SI_shrink, file = "At_deseq2/RDS_files/day3_results_SC_SI_shrink.rds")
+#saveRDS(object = day3_results_RC_RI_shrink, file = "At_deseq2/RDS_files/day3_results_RC_RI_shrink.rds")
 
 saveRDS(object = day5_results_SC_SI_shrink, file = "At_deseq2/RDS_files/day5_results_SC_SI_shrink.rds")
 saveRDS(object = day5_results_RC_RI_shrink, file = "At_deseq2/RDS_files/day5_results_RC_RI_shrink.rds")
@@ -128,21 +131,21 @@ saveRDS(object = sample_deseq2, file = "At_deseq2/RDS_files/sample_deseq2.rds")
 
 #Combine all deseq2 output tables together.
 combined_deseq2_out <- cbind(day1_results_SC_SI_shrink[,"log2FoldChange", drop=FALSE],
-                             day3_results_SC_SI_shrink[,"log2FoldChange", drop=FALSE],
+                             #day3_results_SC_SI_shrink[,"log2FoldChange", drop=FALSE],
                              day5_results_SC_SI_shrink[,"log2FoldChange", drop=FALSE],
                              day1_results_RC_RI_shrink[,"log2FoldChange", drop=FALSE],
-                             day3_results_RC_RI_shrink[,"log2FoldChange", drop=FALSE],
+                             #day3_results_RC_RI_shrink[,"log2FoldChange", drop=FALSE],
                              day5_results_RC_RI_shrink[,"log2FoldChange", drop=FALSE])
 
-colnames(combined_deseq2_out) <- c("s1", "s3", "s5", "r1", "r3", "r5")
+colnames(combined_deseq2_out) <- c("s1", "s5", "r1","r5")
 
 # Remove rows that are all NAs
-combined_deseq2_out_nonNA <- combined_deseq2_out[-which(rowSums(is.na(combined_deseq2_out)) == 6), ]
+combined_deseq2_out_nonNA <- combined_deseq2_out[-which(rowSums(is.na(combined_deseq2_out)) == 4), ]
 
 combined_deseq2_out_nonNA$At_gene <- rownames(combined_deseq2_out_nonNA)
 combined_deseq2_out_nonNA$NAME <- At_to_descrip[rownames(combined_deseq2_out_nonNA), "Athaliana_description"]
 
-combined_deseq2_out_nonNA <- combined_deseq2_out_nonNA[,c("At_gene", "NAME", "s1", "s3", "s5", "r1", "r3", "r5")]
+combined_deseq2_out_nonNA <- combined_deseq2_out_nonNA[,c("At_gene", "NAME", "s1", "s5", "r1", "r5")]
 
 write.table(combined_deseq2_out_nonNA, file="tables/At_homolog_deseq2_log2fold.txt", 
             sep="\t", row.names=FALSE, col.names=TRUE, quote=FALSE)

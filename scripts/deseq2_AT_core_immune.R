@@ -11,20 +11,19 @@ sample_table$file <- as.factor(sample_table$file)
 sample_table_core <- sample_table
 
 sample_table_core$site <- NA
-sample_table_core[grep("S-", sample_table_core$condition), "site"] <- "shoot"
-sample_table_core[grep("R-", sample_table_core$condition), "site"] <- "root"
+sample_table_core[grep("S_", sample_table_core$condition), "site"] <- "shoot"
+sample_table_core[grep("R_", sample_table_core$condition), "site"] <- "root"
 sample_table_core$site <- as.factor(sample_table_core$site)
 
 sample_table_core$day <- NA
 sample_table_core[grep("D1", sample_table_core$condition), "day"] <- "day1"
-sample_table_core[grep("D3", sample_table_core$condition), "day"] <- "day3"
 sample_table_core[grep("D5", sample_table_core$condition), "day"] <- "day5"
 sample_table_core$day <- as.factor(sample_table_core$day)
 
 sample_table_core$condition <- as.character(sample_table_core$condition)
-sample_table_core$condition <- gsub("^R-", "", sample_table_core$condition)
-sample_table_core$condition <- gsub("^S-", "", sample_table_core$condition)
-sample_table_core$condition <- gsub("-D\\d$", "", sample_table_core$condition)
+sample_table_core$condition <- gsub("^R_", "", sample_table_core$condition)
+sample_table_core$condition <- gsub("^S_", "", sample_table_core$condition)
+sample_table_core$condition <- gsub("_D\\d$", "", sample_table_core$condition)
 sample_table_core$condition <- as.factor(sample_table_core$condition)
 
 sample_table_core_dataset <- DESeqDataSetFromHTSeqCount(sampleTable=sample_table_core, 

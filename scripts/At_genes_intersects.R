@@ -6,8 +6,8 @@ source("/home/gavin/projects/pseudomonas/canola_pseudomonas_RNAseq/scripts/canol
 day1_results_SC_SI_shrink <- readRDS(file = "At_deseq2/RDS_files/day1_results_SC_SI_shrink.rds")
 day1_results_RC_RI_shrink <- readRDS(file = "At_deseq2/RDS_files/day1_results_RC_RI_shrink.rds")
 
-day3_results_SC_SI_shrink <- readRDS(file = "At_deseq2/RDS_files/day3_results_SC_SI_shrink.rds")
-day3_results_RC_RI_shrink <- readRDS(file = "At_deseq2/RDS_files/day3_results_RC_RI_shrink.rds")
+#day3_results_SC_SI_shrink <- readRDS(file = "At_deseq2/RDS_files/day3_results_SC_SI_shrink.rds")
+#day3_results_RC_RI_shrink <- readRDS(file = "At_deseq2/RDS_files/day3_results_RC_RI_shrink.rds")
 
 day5_results_SC_SI_shrink <- readRDS(file = "At_deseq2/RDS_files/day5_results_SC_SI_shrink.rds")
 day5_results_RC_RI_shrink <- readRDS(file = "At_deseq2/RDS_files/day5_results_RC_RI_shrink.rds")
@@ -36,27 +36,22 @@ for(compare in comparison_types) {
     shoot_prefix = paste("At_gene_sets/shoot_", compare, "/At_shoot_genes", sep = "")
     root_prefix = paste("At_gene_sets/root_", compare, "/At_root_genes", sep = "")
     
-    deseq2_ThreeWayVenn_and_set(results1 = day1_results_SC_SI_shrink,
-                                results2 = day3_results_SC_SI_shrink,
-                                results3 = day5_results_SC_SI_shrink,
+    deseq2_TwoWayVenn_and_set(results1 = day1_results_SC_SI_shrink,
+                              results2 = day5_results_SC_SI_shrink,
                                 name1 = "d1",
-                                name2 = "d3",
-                                name3 = "d5",
+                                name2 = "d5",
                                 compare_type = compare,
                                 padj_cut = 0.1,
                                 l2fc_cut = l2fc,
                                 prefix = shoot_prefix)
     
-    deseq2_ThreeWayVenn_and_set(results1 = day1_results_RC_RI_shrink,
-                                results2 = day3_results_RC_RI_shrink,
-                                results3 = day5_results_RC_RI_shrink,
+    deseq2_TwoWayVenn_and_set(results1 = day1_results_RC_RI_shrink,
+                                results2 = day5_results_RC_RI_shrink,
                                 name1 = "d1",
-                                name2 = "d3",
-                                name3 = "d5",
+                                name2 = "d5",
                                 compare_type = compare,
                                 padj_cut = 0.1,
                                 l2fc_cut = l2fc,
                                 prefix = root_prefix)
   }
 }
-
