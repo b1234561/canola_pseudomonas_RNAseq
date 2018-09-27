@@ -103,6 +103,8 @@ deseq2_TwoWayVenn_and_set <- function(results1, results2, name1, name2,
     area2=length(set2),
     cross.area=length(set_n12),
     category=c(name1, name2),
+    cex = c(2, 2, 2),
+    cat.cex = c(2, 2),
     fill=venn_col)
   
   out_info <- paste(compare_type, "padj", as.character(padj_cut), "l2fc", as.character(l2fc_cut), sep="_")
