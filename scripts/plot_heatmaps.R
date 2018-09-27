@@ -144,6 +144,24 @@ ggplot(log_AT_melt_set_immune_subset, aes(y=At_gene, x=Sample)) +
   scale_fill_gradient2(high = muted("red"), low = muted("blue")) +
   ggtitle("A. thaliana immune genes") + ylab("Gene")
 
+# plot primary_metabolism genes.
+log_AT_primary_metabolism_htclust <- cluster_genes(ratios_AT_set[,-which(colnames(ratios_AT_set) == "At_gene")], primary_metabolism_genes$V1)
+log_AT_primary_metabolism_order <- log_AT_primary_metabolism_htclust$labels[log_AT_primary_metabolism_htclust$order]
+log_AT_primary_metabolism_order_names <- ratios_AT_info[log_AT_primary_metabolism_order, "unique_name"]
+log_AT_melt_set_primary_metabolism_subset <- ratios_AT_set_melt[which(ratios_AT_set_melt$At_gene %in% primary_metabolism_genes$V1),]
+log_AT_melt_set_primary_metabolism_subset$Gene <- factor(log_AT_melt_set_primary_metabolism_subset$Gene, levels = log_AT_primary_metabolism_order_names)
+log_AT_melt_set_primary_metabolism_subset$At_gene <- factor(log_AT_melt_set_primary_metabolism_subset$At_gene, levels = log_AT_primary_metabolism_order)
+
+ggplot(log_AT_melt_set_primary_metabolism_subset, aes(y=Gene, x=Sample)) +
+  geom_tile(aes(fill = log2fold)) +
+  scale_fill_gradient2(high = muted("red"), low = muted("blue")) +
+  ggtitle("A. thaliana primary metabolism genes")
+
+ggplot(log_AT_melt_set_primary_metabolism_subset, aes(y=At_gene, x=Sample)) +
+  geom_tile(aes(fill = log2fold)) +
+  scale_fill_gradient2(high = muted("red"), low = muted("blue")) +
+  ggtitle("A. thaliana primary metabolism genes") + ylab("Gene")
+
 
 # plot secondary_metabolism genes.
 log_AT_secondary_metabolism_htclust <- cluster_genes(ratios_AT_set[,-which(colnames(ratios_AT_set) == "At_gene")], secondary_metabolism_genes$V1)
