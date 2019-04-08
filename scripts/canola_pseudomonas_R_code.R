@@ -72,7 +72,7 @@ deseq2_ThreeWayVenn_and_set <- function(results1, results2, results3, name1, nam
   write_out_vec(vec2write = set_n123, str_for_file = c(prefix, name1, name2, name3, out_suffix))  
 }
 
-# Function that will draw three way Venn diagram and output gene ids overlapping in each set to textfiles.
+# Function that will draw two way Venn diagram and output gene ids overlapping in each set to textfiles.
 deseq2_TwoWayVenn_and_set <- function(results1, results2, name1, name2,
                                         padj_cut=0.1, l2fc_cut=0, compare_type="de", 
                                         prefix = "genes", suffix="txt",
@@ -98,14 +98,23 @@ deseq2_TwoWayVenn_and_set <- function(results1, results2, name1, name2,
   # Get ids overlapping between each set.
   set_n12=set1[which(set1 %in% set2)]
   
+  if(length(set1) < length(set2)) {
+    rotation_setting <- 180
+    names_set <- c(name2, name1)
+  } else {
+    rotation_setting <- 0
+    names_set <- c(name1, name2)
+  }
+
   venn.plot <- draw.pairwise.venn(
     area1=length(set1),
     area2=length(set2),
     cross.area=length(set_n12),
-    category=c(name1, name2),
+    category=names_set,
     cex = c(2, 2, 2),
     cat.cex = c(2, 2),
-    fill=venn_col)
+    fill=venn_col,
+    rotation.degree=rotation_setting)
   
   out_info <- paste(compare_type, "padj", as.character(padj_cut), "l2fc", as.character(l2fc_cut), sep="_")
   out_suffix <- paste(out_info, suffix, sep=".")
@@ -121,3 +130,5 @@ deseq2_TwoWayVenn_and_set <- function(results1, results2, name1, name2,
   write_out_vec(vec2write = set2, str_for_file = c(prefix, name2, out_suffix))
   write_out_vec(vec2write = set_n12, str_for_file = c(prefix, name1, name2, out_suffix))
 }
+
+
