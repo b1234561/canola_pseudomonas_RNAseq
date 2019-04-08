@@ -1,5 +1,4 @@
 setwd("/home/gavin/projects/pseudomonas/canola_pseudomonas_RNAseq/")
-
 source("/home/gavin/projects/pseudomonas/canola_pseudomonas_RNAseq/scripts/canola_pseudomonas_R_code.R")
 
 # Load in DESeq2 output RDS objects:
