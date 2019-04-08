@@ -1,0 +1,1839 @@
+AGI	Gene Name	Short Description	T1_Ax_Pst vs Ax_CTL_log2FC	T1_Ax_Pst vs Ax_CTL_FDR	T2_Ax_Pst vs Ax_CTL_log2FC	T2_Ax_Pst vs Ax_CTL_FDR	color
+AT1G76640		Calcium-binding EF-hand family protein	10.23	3.7E-15	10.05	5.7E-07	blue
+AT1G72260	THI2.1	thionin 2.1	9.47	1.0E-43	5.89	2.3E-05	blue
+AT3G11180		2-oxoglutarate (2OG) and Fe(II)-dependent oxygenase superfamily protein	9.39	4.6E-24	8.55	5.3E-11	blue
+AT4G37410	CYP81F4	"cytochrome P450, family 81, subfamily F, polypeptide 4"	9.28	1.7E-46	9.05	9.3E-19	blue
+AT2G39030	NATA1	Acyl-CoA N-acyltransferases (NAT) superfamily protein	8.98	9.4E-56	9.17	2.8E-21	blue
+AT4G10290		RmlC-like cupins superfamily protein	8.90	2.0E-16	8.53	8.8E-12	blue
+AT3G26330	CYP71B37	"cytochrome P450, family 71, subfamily B, polypeptide 37"	8.85	4.4E-40	8.26	6.6E-12	blue
+AT1G54020		GDSL-like Lipase/Acylhydrolase superfamily protein	8.61	8.0E-44	7.22	6.8E-12	blue
+AT4G11911			8.47	4.2E-17	9.26	6.1E-19	blue
+AT5G26260		TRAF-like family protein	8.19	1.1E-15	9.66	6.6E-14	blue
+AT3G55970	JRG21	jasmonate-regulated gene 21	8.10	2.5E-21	8.31	7.4E-15	blue
+AT1G51780	ILL5	IAA-leucine resistant (ILR)-like gene 5	8.02	9.2E-39	9.77	1.9E-12	blue
+AT3G45130	LAS1	lanosterol synthase 1	7.82	4.7E-29	7.94	1.5E-16	blue
+AT2G24210	TPS10	terpene synthase 10	7.65	2.1E-32	7.64	3.4E-09	blue
+AT5G24780	VSP1	vegetative storage protein 1	7.61	4.2E-109	7.96	2.5E-21	blue
+AT2G45940		Protein of unknown function (DUF295)	7.32	4.1E-09	5.44	8.6E-11	blue
+AT1G66280	BGLU22	Glycosyl hydrolase superfamily protein	7.26	2.7E-04	8.67	6.6E-07	blue
+AT4G17470		alpha/beta-Hydrolases superfamily protein	7.24	1.2E-69	7.84	1.4E-17	blue
+AT4G11310		Papain family cysteine protease	7.24	7.7E-08	10.15	3.6E-12	blue
+AT4G15200	FH3	formin 3	7.16	9.9E-28	9.57	4.9E-18	blue
+AT1G61110	NAC025	NAC domain containing protein 25	7.04	7.7E-09	5.43	5.6E-04	blue
+AT3G27416			7.00	7.9E-14	5.50	7.2E-07	blue
+AT1G52030	MBP2	myrosinase-binding protein 2	6.84	9.4E-56	5.04	2.2E-20	blue
+AT3G50280		HXXXD-type acyl-transferase family protein	6.81	2.0E-42	7.13	9.3E-23	blue
+AT3G11480	BSMT1	S-adenosyl-L-methionine-dependent methyltransferases superfamily protein	6.80	5.9E-22	7.61	3.9E-11	blue
+AT4G21830	MSRB7	methionine sulfoxide reductase B7	6.69	9.8E-08	12.35	1.1E-10	blue
+AT3G09940	MDHAR	monodehydroascorbate reductase	6.59	9.1E-05	10.06	1.9E-08	blue
+AT4G13410	ATCSLA15	Nucleotide-diphospho-sugar transferases superfamily protein	6.48	1.4E-63	7.09	3.1E-22	blue
+AT1G61120	TPS04	terpene synthase 04	6.47	1.0E-08	7.43	5.5E-08	blue
+AT2G39330	JAL23	jacalin-related lectin 23	6.43	9.1E-60	6.21	8.5E-24	blue
+AT2G30830		2-oxoglutarate (2OG) and Fe(II)-dependent oxygenase superfamily protein	6.42	6.5E-25	7.46	5.1E-12	blue
+AT5G38130		HXXXD-type acyl-transferase family protein	6.32	4.0E-14	8.27	2.3E-15	blue
+AT3G29110		Terpenoid cyclases/Protein prenyltransferases superfamily protein	6.03	4.7E-04	7.68	1.3E-03	blue
+AT1G52040	MBP1	myrosinase-binding protein 1	6.01	8.7E-31	5.69	1.8E-19	blue
+AT4G15210	BAM5	beta-amylase 5	5.98	9.5E-39	8.07	1.5E-18	blue
+AT4G16730	TPS02	terpene synthase 02	5.86	1.1E-08	5.44	9.7E-05	blue
+AT3G15536			5.62	9.6E-04	2.70	1.1E-02	blue
+AT5G07010	ST2A	sulfotransferase 2A	5.61	1.4E-14	7.53	7.6E-15	blue
+AT5G28237		Pyridoxal-5-phosphate-dependent enzyme family protein	5.58	9.3E-11	5.96	4.3E-12	blue
+AT3G55100	ABCG17	ABC-2 type transporter family protein	5.57	2.2E-03	9.57	3.1E-09	blue
+AT1G54010		GDSL-like Lipase/Acylhydrolase superfamily protein	5.43	3.1E-34	5.07	1.4E-12	blue
+AT1G24070	CSLA10	cellulose synthase-like A10	5.35	7.6E-63	5.50	1.1E-29	blue
+AT3G28290	AT14A	Protein of unknown function (DUF677)	5.32	1.7E-27	4.99	1.1E-30	blue
+AT1G28590		GDSL-like Lipase/Acylhydrolase superfamily protein	5.14	5.4E-03	8.13	1.7E-08	blue
+AT3G28300	AT14A	Protein of unknown function (DUF677)	5.09	1.2E-39	5.37	7.8E-27	blue
+AT2G05440	GRP9	GLYCINE RICH PROTEIN 9	5.00	2.9E-04	6.38	1.9E-13	blue
+AT4G35160		O-methyltransferase family protein	4.85	3.6E-09	6.31	6.7E-11	blue
+AT1G73325		Kunitz family trypsin and protease inhibitor protein	4.82	4.0E-52	5.34	1.9E-27	blue
+AT5G26690		Heavy metal transport/detoxification superfamily protein 	4.74	1.5E-02	3.32	3.2E-03	blue
+AT2G24850	TAT3	tyrosine aminotransferase 3	4.74	1.1E-04	7.43	2.4E-09	blue
+AT1G28480	GRX480	Thioredoxin superfamily protein	4.69	2.5E-09	7.99	3.8E-12	blue
+AT5G23830		MD-2-related lipid recognition domain-containing protein	4.62	1.1E-05	3.40	1.2E-03	blue
+AT4G16590	CSLA01	cellulose synthase-like A01	4.62	2.4E-40	6.03	2.1E-33	blue
+AT1G52400	BGLU18	beta glucosidase 18	4.54	4.9E-62	3.83	1.5E-26	blue
+AT1G76790	IGMT5	O-methyltransferase family protein	4.53	6.4E-36	4.28	8.0E-17	blue
+AT4G21850	MSRB9	methionine sulfoxide reductase B9	4.47	2.0E-03	7.42	4.1E-07	blue
+AT5G21960		Integrase-type DNA-binding superfamily protein	4.46	2.4E-03	6.92	3.7E-15	blue
+AT5G42655		Disease resistance-responsive (dirigent-like protein) family protein	4.46	4.7E-05	7.17	5.0E-10	blue
+AT5G24770	VSP2	vegetative storage protein 2	4.43	4.6E-53	5.78	1.7E-24	blue
+AT3G16450	JAL33	Mannose-binding lectin superfamily protein	4.40	5.3E-11	5.12	5.6E-16	blue
+AT1G52410	TSA1	TSK-associating protein 1	4.35	8.3E-47	4.38	3.4E-31	blue
+AT4G24340		Phosphorylase superfamily protein	4.27	2.1E-06	6.63	7.0E-11	blue
+AT5G19100		Eukaryotic aspartyl protease family protein	4.26	1.4E-15	5.16	1.0E-22	blue
+AT4G29690		Alkaline-phosphatase-like family protein	4.26	4.0E-11	7.57	1.4E-35	blue
+AT5G42800	DFR	dihydroflavonol 4-reductase	4.24	3.3E-32	7.89	4.4E-22	blue
+AT3G16470	JR1	Mannose-binding lectin superfamily protein	4.21	6.1E-40	4.22	9.5E-20	blue
+AT5G56880			4.20	7.2E-05	5.45	1.1E-12	blue
+AT4G23590		Tyrosine transaminase family protein	4.20	1.8E-06	5.52	1.5E-05	blue
+AT4G02360		"Protein of unknown function, DUF538"	4.15	3.0E-22	5.17	5.6E-16	blue
+AT2G38240		2-oxoglutarate (2OG) and Fe(II)-dependent oxygenase superfamily protein	4.14	1.7E-02	6.19	1.9E-05	blue
+AT3G44300	NIT2	nitrilase 2	4.12	5.0E-03	3.42	3.3E-03	blue
+AT3G28220		TRAF-like family protein	4.11	5.2E-47	3.73	1.2E-30	blue
+AT4G27860		vacuolar iron transporter (VIT) family protein	4.02	1.2E-49	4.79	1.1E-31	blue
+AT1G14120		2-oxoglutarate (2OG) and Fe(II)-dependent oxygenase superfamily protein	3.96	4.5E-12	2.59	1.7E-04	blue
+AT4G10500		2-oxoglutarate (2OG) and Fe(II)-dependent oxygenase superfamily protein	3.95	3.2E-02	3.43	2.1E-03	blue
+AT2G42350		RING/U-box superfamily protein	3.93	1.0E-03	3.08	3.7E-04	blue
+AT2G29460	GSTU4	glutathione S-transferase tau 4	3.88	1.3E-06	7.02	1.1E-10	blue
+AT5G19110		Eukaryotic aspartyl protease family protein	3.84	3.3E-03	6.37	1.7E-12	blue
+AT1G02930	GSTF6	glutathione S-transferase 6	3.80	2.8E-14	6.04	5.7E-43	blue
+AT3G25760	AOC1	allene oxide cyclase 1	3.78	5.5E-22	5.00	1.6E-28	blue
+AT4G22880	LDOX	leucoanthocyanidin dioxygenase	3.76	8.0E-28	7.41	6.4E-27	blue
+AT5G23820		MD-2-related lipid recognition domain-containing protein	3.73	3.8E-40	4.50	7.5E-26	blue
+AT5G41315	GL3	basic helix-loop-helix (bHLH) DNA-binding superfamily protein	3.66	2.1E-04	5.94	1.5E-11	blue
+AT2G04495			3.63	4.1E-02	2.41	3.8E-02	blue
+AT5G13220	JAZ10	jasmonate-zim-domain protein 10	3.63	2.8E-07	4.03	1.2E-09	blue
+AT3G57260	BGL2;PR2	"beta-1,3-glucanase 2"	3.58	1.6E-07	6.16	8.3E-09	blue
+AT2G44840	ERF13	ethylene-responsive element binding factor 13	3.58	2.4E-04	5.29	2.7E-10	blue
+AT5G54060	UF3GT	UDP-glucose:flavonoid 3-o-glucosyltransferase	3.58	6.5E-41	6.52	7.8E-26	blue
+AT4G11320		Papain family cysteine protease	3.55	9.4E-25	3.98	5.0E-26	blue
+AT4G13860		RNA-binding (RRM/RBD/RNP motifs) family protein	3.51	1.3E-10	5.21	7.2E-11	blue
+AT4G37140	MEE69	alpha/beta-Hydrolases superfamily protein	3.50	3.5E-18	5.01	2.2E-26	blue
+AT3G46700		UDP-Glycosyltransferase superfamily protein	3.46	3.9E-02	3.43	7.1E-03	blue
+AT2G47180	GolS1	galactinol synthase 1	3.45	7.0E-35	4.79	4.9E-29	blue
+AT1G53903		Protein of unknown function (DUF581)	3.41	1.1E-14	3.95	6.6E-17	blue
+AT4G37409			3.40	6.0E-06	2.57	3.7E-05	blue
+AT5G13330	Rap2.6L	related to AP2 6l	3.40	1.4E-07	4.60	5.4E-07	blue
+AT4G08870	ARGAH2	Arginase/deacetylase superfamily protein	3.37	2.6E-53	5.09	3.2E-30	blue
+AT1G44350	ILL6	IAA-leucine resistant (ILR)-like gene 6	3.36	7.3E-20	4.37	1.1E-18	blue
+AT1G19670	CLH1	chlorophyllase 1	3.33	1.2E-57	3.02	1.7E-25	blue
+AT1G17380	JAZ5	jasmonate-zim-domain protein 5	3.33	2.0E-08	3.45	2.4E-21	blue
+AT5G38120	 4CL8	AMP-dependent synthetase and ligase family protein	3.33	6.5E-13	5.11	1.2E-15	blue
+AT1G14250		GDA1/CD39 nucleoside phosphatase family protein	3.33	9.9E-60	5.18	1.8E-35	blue
+AT3G45140	LOX2	lipoxygenase 2	3.31	3.3E-52	3.95	1.9E-33	blue
+AT1G79680	WAKL10	WALL ASSOCIATED KINASE (WAK)-LIKE 10	3.30	1.5E-02	6.02	8.7E-10	blue
+AT2G44578		RING/U-box superfamily protein	3.25	3.2E-04	3.25	3.8E-06	blue
+AT5G05600		2-oxoglutarate (2OG) and Fe(II)-dependent oxygenase superfamily protein	3.22	3.1E-22	2.90	4.7E-12	blue
+AT4G23600	CORI3	Tyrosine transaminase family protein	3.21	1.6E-61	4.71	5.5E-30	blue
+AT1G79310	MC7	metacaspase 7	3.19	8.7E-07	5.34	1.0E-19	blue
+AT1G11185		other RNA	3.19	2.4E-03	3.71	4.4E-16	blue
+AT4G18440		L-Aspartase-like family protein	3.15	2.2E-57	4.31	1.7E-28	blue
+AT1G66100		Plant thionin	3.15	7.6E-63	3.94	2.3E-32	blue
+AT1G10530			3.15	1.3E-11	2.84	2.4E-07	blue
+AT2G34810		FAD-binding Berberine family protein	3.13	4.2E-64	4.09	1.8E-29	blue
+AT1G61810	BGLU45	beta-glucosidase 45	3.12	2.2E-02	4.52	1.2E-07	blue
+AT4G20190			3.12	5.8E-03	3.73	7.1E-10	blue
+AT1G17390		transposable element gene	3.10	7.0E-05	1.43	2.7E-02	blue
+AT1G77530		O-methyltransferase family protein	3.00	5.6E-03	6.94	1.5E-18	blue
+AT3G29590	AT5MAT	HXXXD-type acyl-transferase family protein	2.98	2.8E-31	6.45	3.4E-21	blue
+AT4G21680	NRT1.8	NITRATE TRANSPORTER 1.8	2.98	2.3E-05	5.63	2.2E-11	blue
+AT5G26220		ChaC-like family protein	2.97	1.1E-15	4.19	1.2E-10	blue
+AT4G15440	HPL1	hydroperoxide lyase 1	2.97	2.0E-32	3.57	4.4E-28	blue
+AT4G17480		alpha/beta-Hydrolases superfamily protein	2.95	1.3E-14	4.11	9.1E-13	blue
+AT1G61610		S-locus lectin protein kinase family protein	2.94	1.7E-19	4.29	5.1E-18	blue
+AT5G24290		Vacuolar iron transporter (VIT) family protein	2.93	1.4E-15	3.82	2.5E-20	blue
+AT3G46660	UGT76E12	UDP-glucosyl transferase 76E12	2.93	6.5E-03	5.06	2.9E-06	blue
+AT2G43530		Scorpion toxin-like knottin superfamily protein	2.92	9.3E-49	3.65	2.9E-36	blue
+AT5G19097		transposable element gene	2.89	2.1E-07	4.25	3.4E-12	blue
+AT2G34600	JAZ7	jasmonate-zim-domain protein 7	2.89	4.7E-03	2.08	6.3E-03	blue
+AT5G36220	CYP81D1	cytochrome p450 81d1	2.88	5.0E-50	4.20	1.9E-35	blue
+AT1G52000		Mannose-binding lectin superfamily protein	2.85	7.4E-29	2.61	1.6E-28	blue
+AT1G02940	GSTF5	glutathione S-transferase (class phi) 5	2.84	5.9E-03	4.52	6.0E-15	blue
+AT3G09260	PYK10	Glycosyl hydrolase superfamily protein	2.81	3.6E-25	3.62	3.5E-21	blue
+AT4G36950	MAPKKK21	mitogen-activated protein kinase kinase kinase 21	2.81	1.7E-03	3.37	3.5E-10	blue
+AT2G39310	JAL22	jacalin-related lectin 22	2.81	2.6E-09	3.80	5.3E-21	blue
+AT4G10390		Protein kinase superfamily protein	2.81	2.3E-13	3.39	2.6E-15	blue
+AT4G13395	RTFL12	ROTUNDIFOLIA like 12	2.78	1.7E-02	6.38	1.2E-14	blue
+AT1G23850			2.74	6.0E-10	3.71	6.7E-26	blue
+AT3G12145	FLR1	Leucine-rich repeat (LRR) family protein	2.72	4.9E-35	2.37	2.4E-17	blue
+AT4G29700		Alkaline-phosphatase-like family protein	2.72	3.2E-20	3.10	9.5E-21	blue
+AT4G09820	TT8	basic helix-loop-helix (bHLH) DNA-binding superfamily protein	2.68	6.1E-13	5.38	2.6E-38	blue
+AT1G35210			2.66	1.3E-02	3.08	6.5E-05	blue
+AT2G32487			2.65	4.9E-29	4.57	3.4E-42	blue
+AT1G80160	GLYI7	Lactoylglutathione lyase / glyoxalase I family protein	2.65	3.9E-03	3.06	2.6E-03	blue
+AT3G22600		Bifunctional inhibitor/lipid-transfer protein/seed storage 2S albumin superfamily protein	2.65	2.1E-02	1.96	2.0E-02	blue
+AT3G51450		Calcium-dependent phosphotriesterase superfamily protein	2.65	1.4E-19	2.79	2.2E-19	blue
+AT2G45930			2.64	1.1E-02	4.14	1.2E-08	blue
+AT1G19180	JAZ1	jasmonate-zim-domain protein 1	2.57	8.8E-09	3.54	8.9E-19	blue
+AT3G21680			2.56	1.2E-02	3.47	2.9E-03	blue
+AT2G30750	CYP71A12	"cytochrome P450, family 71, subfamily A, polypeptide 12"	2.56	2.1E-02	2.59	3.7E-03	blue
+AT1G70700	TIFY7	TIFY domain/Divergent CCT motif family protein	2.55	2.7E-18	2.65	6.4E-17	blue
+AT1G26762			2.54	1.2E-03	3.55	1.3E-11	blue
+AT2G22930		UDP-Glycosyltransferase superfamily protein	2.54	4.9E-10	4.57	2.4E-37	blue
+AT4G38560		Arabidopsis phospholipase-like protein (PEARLI 4) family	2.54	1.4E-02	1.58	7.2E-03	blue
+AT5G17220	GSTF12	glutathione S-transferase phi 12	2.51	3.6E-26	5.54	8.2E-30	blue
+AT1G19570	DHAR1	dehydroascorbate reductase	2.51	2.2E-39	4.16	4.8E-27	blue
+AT4G24000	CSLG2	cellulose synthase like G2	2.51	3.6E-02	4.79	6.9E-05	blue
+AT2G29710		UDP-Glycosyltransferase superfamily protein	2.50	1.8E-06	1.37	4.6E-03	blue
+AT2G03980		GDSL-like Lipase/Acylhydrolase superfamily protein	2.49	2.1E-44	2.82	2.3E-29	blue
+AT2G43510	TI1	trypsin inhibitor protein 1	2.47	3.6E-05	4.27	4.2E-10	blue
+AT2G29350	SAG13	senescence-associated gene 13	2.45	1.5E-02	3.96	2.4E-05	blue
+AT5G09980	PROPEP4	elicitor peptide 4 precursor	2.44	4.3E-06	2.15	3.0E-04	blue
+AT3G20370		TRAF-like family protein	2.43	5.3E-03	2.15	2.4E-02	blue
+AT2G23910		NAD(P)-binding Rossmann-fold superfamily protein	2.41	5.6E-03	3.07	7.2E-07	blue
+AT5G27060	RLP53	receptor like protein 53	2.41	1.8E-02	4.63	3.1E-06	blue
+AT5G04330		Cytochrome P450 superfamily protein	2.40	1.8E-06	2.81	2.6E-12	blue
+AT1G65890	AAE12	acyl activating enzyme 12	2.40	1.5E-08	4.26	1.4E-20	blue
+AT3G51440		Calcium-dependent phosphotriesterase superfamily protein	2.38	1.4E-07	2.72	6.0E-06	blue
+AT2G06050	OPR3	oxophytodienoate-reductase 3	2.38	1.8E-11	3.35	1.4E-21	blue
+AT2G15760		Protein of unknown function (DUF1645)	2.37	2.8E-03	3.38	2.8E-04	blue
+AT1G29540			2.36	4.3E-05	1.71	7.2E-04	blue
+AT2G32680	RLP23	receptor like protein 23	2.36	1.0E-02	2.16	2.0E-04	blue
+AT2G14560	LURP1	Protein of unknown function (DUF567)	2.34	3.0E-03	2.78	1.2E-03	blue
+AT2G23560	MES7	methyl esterase 7	2.34	5.5E-08	1.81	1.4E-03	blue
+AT2G06255	ELF4-L3	ELF4-like 3	2.32	6.6E-08	4.40	1.3E-26	blue
+AT4G15765		FAD/NAD(P)-binding oxidoreductase family protein	2.31	7.9E-14	3.24	1.7E-13	blue
+AT5G67080	MAPKKK19	mitogen-activated protein kinase kinase kinase 19	2.30	2.7E-02	3.15	1.3E-03	blue
+AT5G07990	TT7	Cytochrome P450 superfamily protein	2.30	1.9E-30	3.91	1.3E-23	blue
+AT5G48850	ATSDI1	Tetratricopeptide repeat (TPR)-like superfamily protein	2.28	1.5E-04	3.98	1.6E-12	blue
+AT5G10300	MES5	methyl esterase 5	2.26	3.4E-19	3.00	6.3E-16	blue
+AT4G37150	MES9	methyl esterase 9	2.25	5.5E-18	4.58	6.1E-29	blue
+AT3G44860	FAMT	farnesoic acid carboxyl-O-methyltransferase	2.25	5.8E-22	3.06	1.7E-23	blue
+AT1G64200	VHA-E3	vacuolar H+-ATPase subunit E isoform 3	2.24	4.5E-33	3.05	5.9E-23	blue
+AT1G64210		Leucine-rich repeat protein kinase family protein	2.21	2.7E-02	3.85	3.3E-06	blue
+AT3G25780	AOC3	allene oxide cyclase 3	2.16	1.3E-02	4.75	6.6E-17	blue
+AT2G16367			2.14	1.9E-14	1.63	7.3E-10	blue
+AT5G41120		Esterase/lipase/thioesterase family protein	2.14	2.8E-35	2.82	6.6E-20	blue
+AT4G01080	TBL26	TRICHOME BIREFRINGENCE-LIKE 26	2.13	6.9E-21	2.73	4.1E-29	blue
+AT5G24420	PGL5	6-phosphogluconolactonase 5	2.13	3.8E-12	2.39	1.5E-18	blue
+AT3G61920			2.13	2.6E-06	3.27	4.9E-18	blue
+AT3G04000		NAD(P)-binding Rossmann-fold superfamily protein	2.10	5.5E-08	3.07	3.0E-08	blue
+AT3G08860	PYD4	PYRIMIDINE 4	2.10	3.4E-06	3.82	9.7E-16	blue
+AT5G56840		myb-like transcription factor family protein	2.10	7.9E-06	3.22	2.5E-10	blue
+AT1G19640	JMT	jasmonic acid carboxyl methyltransferase	2.09	7.3E-25	3.09	7.8E-26	blue
+AT2G32510	MAPKKK17	mitogen-activated protein kinase kinase kinase 17	2.09	1.4E-07	3.09	3.0E-11	blue
+AT4G34710	ADC2	arginine decarboxylase 2	2.08	3.2E-24	2.79	6.2E-16	blue
+AT2G37260	TTG2	WRKY family transcription factor family protein	2.07	5.1E-12	3.19	4.8E-24	blue
+AT4G33150		lysine-ketoglutarate reductase/saccharopine dehydrogenase bifunctional enzyme	2.07	4.5E-11	3.63	1.8E-11	blue
+AT1G30135	JAZ8	jasmonate-zim-domain protein 8	2.07	4.8E-02	3.63	5.0E-05	blue
+AT5G19470	NUDT24	nudix hydrolase homolog 24	2.06	1.8E-05	3.40	1.6E-07	blue
+AT3G25770	AOC2	allene oxide cyclase 2	2.06	4.2E-35	3.20	6.2E-31	blue
+AT5G17490	RGL3	RGA-like protein 3	2.05	6.7E-06	2.58	4.0E-16	blue
+AT1G31550		GDSL-like Lipase/Acylhydrolase superfamily protein	2.05	9.2E-34	2.67	1.6E-28	blue
+AT4G31110		Wall-associated kinase family protein	2.04	1.8E-07	3.12	6.4E-12	blue
+AT1G03940		HXXXD-type acyl-transferase family protein	2.04	1.1E-46	3.34	1.1E-35	blue
+AT3G16490	IQD26	IQ-domain 26	2.04	3.0E-02	1.69	7.5E-03	blue
+AT5G16190	CSLA11	cellulose synthase like A11	2.03	1.3E-20	1.84	1.9E-16	blue
+AT1G72520	LOX4	PLAT/LH2 domain-containing lipoxygenase family protein	2.02	1.1E-03	2.50	1.6E-08	blue
+AT3G26840	PES2	Esterase/lipase/thioesterase family protein	2.01	1.0E-09	3.56	1.7E-12	blue
+AT5G42650	AOS	allene oxide synthase	2.01	6.7E-25	2.87	6.6E-31	blue
+AT1G32640	MYC2	Basic helix-loop-helix (bHLH) DNA-binding family protein	2.01	7.4E-17	2.83	2.1E-23	blue
+AT4G36110	SAUR9	SAUR-like auxin-responsive protein family 	2.01	3.5E-02	2.13	2.4E-03	blue
+AT3G16460	JAL34	Mannose-binding lectin superfamily protein	2.00	4.0E-14	2.78	5.9E-19	blue
+AT4G14090		UDP-Glycosyltransferase superfamily protein	2.00	9.4E-25	3.53	2.5E-50	blue
+AT5G13930	CHS	Chalcone and stilbene synthase family protein	1.99	1.3E-44	3.89	3.9E-31	blue
+AT1G52890	NAC019	NAC domain containing protein 19	1.99	8.3E-05	3.81	3.9E-13	blue
+AT5G38710		Methylenetetrahydrofolate reductase family protein	1.99	9.7E-12	3.06	1.1E-14	blue
+AT5G67210	IRX15-L	Protein of unknown function (DUF579)	1.97	2.3E-14	3.12	6.4E-14	blue
+AT3G46650		UDP-Glycosyltransferase superfamily protein	1.93	7.7E-17	1.88	2.7E-11	blue
+AT2G22860	PSK2	phytosulfokine 2 precursor	1.93	3.4E-07	3.48	1.4E-14	blue
+AT4G35060	HIPP25	Heavy metal transport/detoxification superfamily protein 	1.93	2.2E-09	1.46	5.3E-04	blue
+AT5G52882		P-loop containing nucleoside triphosphate hydrolases superfamily protein	1.91	5.0E-12	1.65	1.6E-05	blue
+AT5G10625			1.90	7.9E-07	3.25	2.4E-13	blue
+AT1G09155	PP2-B15	phloem protein 2-B15	1.90	3.9E-02	1.77	8.0E-04	blue
+AT2G22330	CYP79B3	"cytochrome P450, family 79, subfamily B, polypeptide 3"	1.88	1.0E-12	1.60	1.4E-15	blue
+AT2G17470	ALMT6	Aluminium activated malate transporter family protein	1.85	2.1E-09	2.88	6.8E-22	blue
+AT2G23010	SCPL9	serine carboxypeptidase-like 9	1.82	5.5E-26	2.75	5.3E-44	blue
+AT1G76650	CML38	calmodulin-like 38	1.81	1.0E-02	4.03	1.1E-07	blue
+AT2G38760	ANNAT3	annexin 3	1.81	2.6E-22	2.14	3.3E-13	blue
+AT1G61800	GPT2	glucose-6-phosphate/phosphate translocator 2	1.81	1.7E-06	2.47	1.7E-11	blue
+AT1G09157		Protein of unknown function (DUF679)	1.80	4.2E-02	2.89	1.6E-08	blue
+AT3G17690	CNGC19	cyclic nucleotide gated channel 19	1.80	4.0E-02	3.72	1.6E-06	blue
+AT5G59820	RHL41	C2H2-type zinc finger family protein	1.79	3.0E-03	3.45	5.2E-06	blue
+AT3G28740	CYP81D11	Cytochrome P450 superfamily protein	1.77	1.4E-05	3.57	1.0E-11	blue
+AT3G15950	NAI2	DNA topoisomerase-related	1.77	7.0E-09	2.42	2.2E-10	blue
+AT1G77520		O-methyltransferase family protein	1.77	5.1E-08	2.81	4.1E-08	blue
+AT1G51760	IAR3	peptidase M20/M25/M40 family protein	1.77	7.1E-17	2.01	2.0E-07	blue
+AT1G74950	TIFY10B	TIFY domain/Divergent CCT motif family protein	1.76	4.3E-13	2.46	7.4E-15	blue
+AT1G66760		MATE efflux family protein	1.76	1.3E-07	2.27	4.9E-15	blue
+AT2G43550		Scorpion toxin-like knottin superfamily protein	1.75	1.5E-42	2.30	4.0E-37	blue
+AT1G30040	GA2OX2	gibberellin 2-oxidase	1.74	1.7E-03	2.49	1.0E-07	blue
+AT1G04980	PDIL2-2	PDI-like 2-2	1.73	1.5E-11	3.21	2.0E-15	blue
+AT3G28270		Protein of unknown function (DUF677)	1.73	7.8E-15	1.77	3.8E-19	blue
+AT2G38750	ANNAT4	annexin 4	1.73	1.1E-33	2.24	2.9E-14	blue
+AT1G56650	PAP1	production of anthocyanin pigment 1	1.70	2.6E-25	3.45	1.4E-37	blue
+AT3G55110	ABCG18	ABC-2 type transporter family protein	1.69	8.0E-14	1.72	4.4E-11	blue
+AT3G16400	NSP1	nitrile specifier protein 1	1.68	1.2E-11	1.29	2.8E-06	blue
+AT1G72450	JAZ6	jasmonate-zim-domain protein 6	1.68	7.2E-09	1.41	9.1E-09	blue
+AT5G44390		FAD-binding Berberine family protein	1.68	9.5E-06	2.94	2.6E-20	blue
+AT4G39030	EDS5	MATE efflux family protein	1.67	2.1E-03	2.39	1.5E-06	blue
+AT5G02940		Protein of unknown function (DUF1012)	1.67	1.6E-41	1.80	2.2E-20	blue
+AT1G06620		2-oxoglutarate (2OG) and Fe(II)-dependent oxygenase superfamily protein	1.67	4.1E-08	3.46	3.7E-15	blue
+AT1G29330	ERD2	ER lumen protein retaining receptor family protein	1.66	4.2E-16	2.01	7.7E-16	blue
+AT1G68600		Aluminium activated malate transporter family protein	1.66	1.7E-11	2.99	5.0E-25	blue
+AT5G65280	GCL1	GCR2-like 1	1.66	6.6E-12	1.83	3.7E-13	blue
+AT1G06640		2-oxoglutarate (2OG) and Fe(II)-dependent oxygenase superfamily protein	1.65	1.0E-25	3.11	9.9E-22	blue
+AT1G34580		Major facilitator superfamily protein	1.65	4.9E-03	2.08	1.0E-05	blue
+AT2G39420		alpha/beta-Hydrolases superfamily protein	1.63	5.8E-16	2.66	4.7E-28	blue
+AT2G22200		Integrase-type DNA-binding superfamily protein	1.61	2.0E-06	2.08	1.2E-16	blue
+AT1G75300		NmrA-like negative transcriptional regulator family protein	1.61	4.5E-08	1.89	1.5E-13	blue
+AT2G43535		Scorpion toxin-like knottin superfamily protein	1.61	2.2E-19	2.58	2.6E-13	blue
+AT4G24010	CSLG1	cellulose synthase like G1	1.60	2.8E-15	2.36	8.7E-27	blue
+AT3G49570	LSU3	response to low sulfur 3	1.60	1.1E-02	3.50	8.6E-16	blue
+AT1G70690	HWI1	Receptor-like protein kinase-related family protein	1.59	7.8E-06	1.98	2.6E-06	blue
+AT5G19230		Glycoprotein membrane precursor GPI-anchored	1.58	2.5E-03	2.45	2.2E-08	blue
+AT2G34070	TBL37	TRICHOME BIREFRINGENCE-LIKE 37	1.57	1.1E-07	2.56	6.8E-07	blue
+AT1G52100		Mannose-binding lectin superfamily protein	1.57	1.8E-02	1.56	1.9E-05	blue
+AT1G73330	DR4	drought-repressed 4	1.56	4.0E-06	5.06	1.1E-68	blue
+AT1G78660	GGH1	gamma-glutamyl hydrolase 1	1.56	6.6E-24	2.23	2.0E-19	blue
+AT1G67070	DIN9	"Mannose-6-phosphate isomerase, type I"	1.55	3.9E-12	2.12	1.9E-28	blue
+AT1G20515		other RNA	1.55	5.7E-06	2.67	4.3E-21	blue
+AT2G42760			1.54	3.8E-05	2.65	6.0E-21	blue
+AT5G06870	PGIP2	polygalacturonase inhibiting protein 2	1.54	1.5E-09	2.09	2.2E-15	blue
+AT1G25400			1.52	1.1E-03	2.79	1.6E-06	blue
+AT1G25500		Plasma-membrane choline transporter family protein	1.51	9.7E-11	2.40	4.8E-13	blue
+AT2G26560	PLA2A	phospholipase A 2A	1.50	1.2E-02	1.66	1.7E-03	blue
+AT5G05590	PAI2	phosphoribosylanthranilate isomerase 2	1.49	6.3E-24	1.10	3.2E-09	blue
+AT1G20510	OPCL1	OPC-8:0 CoA ligase1	1.49	2.9E-06	1.86	1.6E-12	blue
+AT1G52720			1.49	2.7E-14	2.74	4.3E-21	blue
+AT4G28556	RIC7	PAK-box/P21-Rho-binding family protein	1.49	4.0E-04	3.14	2.7E-12	blue
+AT4G39950	CYP79B2	"cytochrome P450, family 79, subfamily B, polypeptide 2"	1.47	4.4E-14	1.28	1.3E-16	blue
+AT1G12240	ATBETAFRUCT4	Glycosyl hydrolases family 32 protein	1.45	2.0E-15	1.89	2.0E-15	blue
+AT5G47240	NUDT8	nudix hydrolase homolog 8	1.44	5.5E-16	2.13	1.3E-20	blue
+AT4G24350		Phosphorylase superfamily protein	1.43	2.1E-30	2.11	4.0E-29	blue
+AT1G74420	FUT3	fucosyltransferase 3	1.42	4.4E-03	1.65	2.7E-04	blue
+AT3G56710	SIB1	sigma factor binding protein 1	1.42	1.3E-03	2.62	2.0E-11	blue
+AT2G18193		P-loop containing nucleoside triphosphate hydrolases superfamily protein	1.40	1.8E-02	1.06	1.7E-02	blue
+AT4G19030	NLM1	NOD26-like major intrinsic protein 1	1.40	7.9E-03	1.63	1.1E-02	blue
+AT4G18360		Aldolase-type TIM barrel family protein	1.40	4.7E-03	1.44	1.9E-03	blue
+AT3G59052	CPuORF18	conserved peptide upstream open reading frame 18	1.39	4.8E-12	1.83	2.9E-11	blue
+AT4G21910		MATE efflux family protein	1.39	1.2E-23	1.74	5.3E-24	blue
+AT2G38500		2-oxoglutarate (2OG) and Fe(II)-dependent oxygenase superfamily protein	1.38	8.8E-05	3.21	1.6E-21	blue
+AT3G21560	UGT84A2	UDP-Glycosyltransferase superfamily protein	1.37	1.4E-21	1.96	1.6E-22	blue
+AT5G44050		MATE efflux family protein	1.37	3.1E-14	2.30	1.2E-21	blue
+AT3G16690	SWEET16	Nodulin MtN3 family protein	1.36	1.9E-09	2.06	4.2E-13	blue
+AT4G01895		systemic acquired resistance (SAR) regulator protein NIMIN-1-related	1.34	9.7E-04	2.93	1.8E-10	blue
+AT1G32920			1.34	6.8E-03	2.92	1.1E-10	blue
+AT5G63087		Plant thionin family protein	1.34	4.3E-04	1.84	5.8E-05	blue
+AT5G64510	TIN1		1.33	1.2E-04	2.57	2.1E-12	blue
+AT5G01840	OFP1	ovate family protein 1	1.33	1.4E-07	2.14	1.2E-14	blue
+AT1G62660		Glycosyl hydrolases family 32 protein	1.33	2.0E-16	2.10	4.1E-15	blue
+AT1G06000		UDP-Glycosyltransferase superfamily protein	1.32	1.4E-24	1.87	5.7E-26	blue
+AT4G21865			1.32	1.2E-02	1.65	8.6E-06	blue
+AT3G49580	LSU1	response to low sulfur 1	1.31	3.2E-02	2.90	1.3E-09	blue
+AT3G44320	NIT3	nitrilase 3	1.31	4.1E-07	2.03	3.7E-08	blue
+AT2G27310		F-box family protein	1.31	7.3E-06	2.20	3.6E-12	blue
+AT1G72120		Major facilitator superfamily protein	1.31	1.8E-08	2.14	3.8E-13	blue
+AT5G42860			1.30	9.7E-08	1.90	8.3E-09	blue
+AT3G15720		Pectin lyase-like superfamily protein	1.29	1.1E-03	3.48	2.6E-14	blue
+AT1G03495		HXXXD-type acyl-transferase family protein	1.28	4.1E-22	2.05	1.3E-26	blue
+AT5G43745		Protein of unknown function (DUF1012)	1.28	8.1E-25	1.03	3.3E-11	blue
+AT1G69370	CM3	chorismate mutase 3	1.27	1.9E-13	1.26	7.6E-17	blue
+AT5G53420		CCT motif family protein	1.26	4.1E-24	2.25	3.4E-26	blue
+AT2G16720	MYB7	myb domain protein 7	1.26	9.0E-06	1.36	9.2E-09	blue
+AT1G49370			1.25	6.8E-08	2.90	6.2E-27	blue
+AT3G51238		other RNA	1.25	5.2E-04	1.81	1.9E-05	blue
+AT1G54030	MVP1	GDSL-like Lipase/Acylhydrolase superfamily protein	1.25	5.0E-18	1.30	2.0E-08	blue
+AT1G77420		alpha/beta-Hydrolases superfamily protein	1.24	1.2E-15	2.02	6.9E-21	blue
+AT1G45145	TRX5	thioredoxin H-type 5	1.24	1.1E-05	3.78	7.3E-19	blue
+AT1G53885		Protein of unknown function (DUF581)	1.24	2.9E-02	1.80	2.6E-04	blue
+AT1G14130		2-oxoglutarate (2OG) and Fe(II)-dependent oxygenase superfamily protein	1.23	2.7E-09	1.64	1.5E-07	blue
+AT3G09910	RABC2b	RAB GTPase homolog C2B	1.23	2.6E-03	2.77	1.2E-15	blue
+AT5G40210		nodulin MtN21 /EamA-like transporter family protein	1.22	2.5E-05	1.55	8.8E-11	blue
+AT1G70810		Calcium-dependent lipid-binding (CaLB domain) family protein	1.21	2.3E-34	1.91	7.4E-33	blue
+AT1G61890		MATE efflux family protein	1.21	2.9E-02	1.67	5.9E-09	blue
+AT4G27560		UDP-Glycosyltransferase superfamily protein	1.21	9.1E-14	1.63	5.9E-21	blue
+AT5G05730	ASA1	anthranilate synthase alpha subunit 1	1.20	4.4E-11	1.02	3.0E-09	blue
+AT1G09970	LRR XI-23	Leucine-rich receptor-like protein kinase family protein	1.19	8.6E-20	1.92	6.3E-11	blue
+AT1G22550		Major facilitator superfamily protein	1.19	3.6E-06	2.23	4.7E-12	blue
+AT2G33380	RD20	Caleosin-related family protein	1.19	3.6E-06	2.77	4.9E-26	blue
+AT4G15230	ABCG30	pleiotropic drug resistance 2	1.19	6.5E-06	1.98	4.0E-17	blue
+AT5G44820		Nucleotide-diphospho-sugar transferase family protein	1.19	2.8E-02	1.19	2.3E-03	blue
+AT2G39770	CYT1	Glucose-1-phosphate adenylyltransferase family protein	1.19	3.0E-17	1.27	7.6E-19	blue
+AT2G36080		AP2/B3-like transcriptional factor family protein	1.19	1.4E-03	2.88	4.7E-12	blue
+AT4G29210	GGT4	gamma-glutamyl transpeptidase 4	1.18	3.7E-17	1.75	5.9E-16	blue
+AT5G03350		Legume lectin family protein	1.17	1.3E-02	2.44	5.3E-06	blue
+AT1G45191	BGLU1	Glycosyl hydrolase superfamily protein	1.17	1.1E-24	2.18	2.0E-29	blue
+AT3G18777			1.17	2.8E-03	1.94	8.0E-07	blue
+AT4G30530	GGP1	Class I glutamine amidotransferase-like superfamily protein	1.17	2.5E-25	1.67	5.7E-25	blue
+AT1G17745	PGDH	D-3-phosphoglycerate dehydrogenase	1.17	7.2E-09	1.96	3.2E-10	blue
+AT3G48350	CEP3	Cysteine proteinases superfamily protein	1.17	3.4E-09	1.76	1.0E-16	blue
+AT5G24380	YSL2	YELLOW STRIPE like 2	1.16	2.0E-03	2.05	4.3E-15	blue
+AT2G36590	ProT3	proline transporter 3	1.15	7.0E-05	2.12	5.0E-09	blue
+AT3G44970		Cytochrome P450 superfamily protein	1.14	2.3E-07	3.33	5.1E-33	blue
+AT5G67480	BT4	BTB and TAZ domain protein 4	1.13	3.7E-12	2.17	1.7E-14	blue
+AT3G51970	ASAT1	acyl-CoA sterol acyl transferase 1	1.12	5.3E-03	2.23	4.6E-13	blue
+AT4G36648		other RNA	1.12	5.1E-12	2.60	4.9E-18	blue
+AT2G46510	AIB	ABA-inducible BHLH-type transcription factor	1.11	1.6E-07	1.58	1.8E-12	blue
+AT2G04080		MATE efflux family protein	1.11	4.6E-14	1.97	1.5E-17	blue
+AT4G39980	DHS1	3-deoxy-D-arabino-heptulosonate 7-phosphate synthase 1	1.10	6.3E-16	1.62	4.5E-16	blue
+AT3G43270		Plant invertase/pectin methylesterase inhibitor superfamily	1.10	3.5E-06	2.06	4.0E-10	blue
+AT5G23660	SWEET12	homolog of Medicago truncatula MTN3	1.10	5.5E-18	2.42	1.1E-18	blue
+AT3G27170	CLC-B	chloride channel B	1.10	7.7E-09	2.36	5.4E-23	blue
+AT4G27852			1.09	8.6E-05	1.57	4.3E-08	blue
+AT5G13550	SULTR4;1	sulfate transporter 4.1	1.08	4.7E-21	1.96	9.3E-20	blue
+AT3G17860	JAZ3	jasmonate-zim-domain protein 3	1.08	1.4E-05	1.12	8.4E-12	blue
+AT1G60270	BGLU6	beta glucosidase 6	1.07	5.1E-11	1.87	2.0E-23	blue
+AT2G25820	ESE2	Integrase-type DNA-binding superfamily protein	1.07	2.3E-03	1.93	9.6E-10	blue
+AT1G75220	ERDL6	Major facilitator superfamily protein	1.07	1.2E-11	1.70	5.2E-16	blue
+AT3G11570	TBL8	TRICHOME BIREFRINGENCE-LIKE 8	1.06	1.9E-03	2.45	1.0E-12	blue
+AT5G48880	KAT5	peroxisomal 3-keto-acyl-CoA thiolase 2	1.06	1.1E-28	1.64	1.6E-23	blue
+AT3G06500	A/N-InvC	Plant neutral invertase family protein	1.05	1.7E-07	1.82	3.5E-26	blue
+AT1G62370		RING/U-box superfamily protein	1.05	3.0E-02	2.16	8.3E-10	blue
+AT2G26530	AR781	Protein of unknown function (DUF1645)	1.05	9.9E-03	2.64	2.4E-13	blue
+AT4G03420		Protein of unknown function (DUF789)	1.05	5.7E-09	1.54	6.4E-19	blue
+AT2G29450	GSTU5	glutathione S-transferase tau  5	1.05	3.3E-17	1.48	3.7E-15	blue
+AT1G51402			1.05	1.0E-02	1.77	8.1E-13	blue
+AT2G36380	ABCG34	pleiotropic drug resistance 6	1.05	6.2E-14	1.66	5.1E-11	blue
+AT3G54990	SMZ	Integrase-type DNA-binding superfamily protein	1.04	3.5E-03	2.04	1.3E-12	blue
+AT1G78490	CYP708A3	"cytochrome P450, family 708, subfamily A, polypeptide 3"	1.04	9.8E-10	1.46	2.1E-14	blue
+AT5G67300	MYBR1	myb domain protein r1	1.04	1.7E-03	2.10	3.5E-17	blue
+AT3G51240	F3H	flavanone 3-hydroxylase	1.03	3.1E-11	1.95	1.4E-18	blue
+AT1G60090	BGLU4	beta glucosidase 4	1.02	5.4E-05	1.63	2.9E-14	blue
+AT4G04830	MSRB5	methionine sulfoxide reductase B5	1.02	1.4E-10	2.22	6.2E-31	blue
+AT1G65060	4CL3	4-coumarate:CoA ligase 3	1.02	2.1E-09	1.89	4.1E-17	blue
+AT5G27520	PNC2	peroxisomal adenine nucleotide carrier 2	1.02	1.7E-06	1.69	1.4E-09	blue
+AT4G08170		"Inositol 1,3,4-trisphosphate 5/6-kinase family protein"	1.01	3.0E-08	1.48	1.9E-12	blue
+AT1G14360	UTR3	UDP-galactose transporter 3	1.01	3.2E-10	2.08	4.4E-19	blue
+AT3G22740	HMT3	homocysteine S-methyltransferase 3	1.01	1.4E-07	1.87	4.0E-44	blue
+AT5G63970	RGLG3	Copine (Calcium-dependent phospholipid-binding protein) family	1.01	4.3E-06	2.53	3.9E-18	blue
+AT3G02875	ILR1	Peptidase M20/M25/M40 family protein	1.01	3.7E-09	1.76	2.5E-09	blue
+AT3G59710		NAD(P)-binding Rossmann-fold superfamily protein	1.00	7.5E-04	1.63	8.0E-12	blue
+AT4G22753	SMO1-3	sterol 4-alpha methyl oxidase 1-3	1.00	1.3E-11	1.73	7.1E-26	blue
+AT3G46490		2-oxoglutarate (2OG) and Fe(II)-dependent oxygenase superfamily protein	-1.07	8.4E-03	-2.22	1.2E-05	blue
+AT5G18050	SAUR22	SAUR-like auxin-responsive protein family 	-1.20	1.9E-03	-2.19	1.4E-05	blue
+AT4G32280	IAA29	indole-3-acetic acid inducible 29	-1.32	4.2E-04	-2.11	3.8E-07	blue
+AT5G62280		Protein of unknown function (DUF1442)	-1.33	9.9E-04	-1.86	3.8E-06	blue
+AT4G34530	CIB1	cryptochrome-interacting basic-helix-loop-helix 1	-2.19	3.0E-03	-2.78	1.5E-05	blue
+AT3G03480	CHAT	acetyl CoA:(Z)-3-hexen-1-ol acetyltransferase	1.98	4.2E-20	0.92	3.1E-02	purple
+AT3G16420	PBP1	PYK10-binding protein 1	1.34	4.4E-09	0.97	8.1E-07	purple
+AT4G35630	PSAT	phosphoserine aminotransferase	1.14	1.9E-09	0.85	3.3E-03	purple
+AT1G17420	LOX3	lipoxygenase 3	1.13	1.8E-02	0.95	9.6E-04	purple
+AT5G17990	TRP1	tryptophan biosynthesis 1	1.03	4.8E-14	0.96	1.0E-12	purple
+AT5G62040	BFT	PEBP (phosphatidylethanolamine-binding protein) family protein	1.03	4.5E-02	0.99	7.7E-03	purple
+AT3G54640	TSA1	tryptophan synthase alpha chain	1.01	2.1E-06	0.75	1.2E-06	purple
+AT4G31500	CYP83B1	"cytochrome P450, family 83, subfamily B, polypeptide 1"	1.01	1.2E-08	0.69	6.6E-05	purple
+AT3G19010		2-oxoglutarate (2OG) and Fe(II)-dependent oxygenase superfamily protein	0.99	2.1E-09	1.85	1.3E-18	red
+AT1G75450	CKX5	cytokinin oxidase 5	0.99	6.7E-03	1.50	2.4E-07	red
+AT1G74430	MYB95	myb domain protein 95	0.99	3.5E-05	1.56	2.9E-18	red
+AT1G11580	PMEPCRA	methylesterase PCR A	0.99	3.4E-14	1.54	1.8E-14	red
+AT2G37025	TRFL8	TRF-like 8	0.99	1.5E-03	1.75	1.2E-09	red
+AT5G17050	UGT78D2	UDP-glucosyl transferase 78D2	0.99	4.4E-16	1.74	3.2E-26	red
+AT5G44720		Molybdenum cofactor sulfurase family protein	0.98	2.5E-21	1.40	2.1E-33	red
+AT2G37900		Major facilitator superfamily protein	0.98	1.1E-03	2.30	7.6E-16	red
+AT1G09180	SARA1A	secretion-associated RAS super family 1	0.98	2.5E-09	2.03	6.2E-31	red
+AT5G42020	BIP2	Heat shock protein 70 (Hsp 70) family protein	0.98	5.7E-06	1.98	1.9E-11	red
+AT5G66650		Protein of unknown function (DUF607)	0.97	1.5E-02	1.93	2.2E-09	red
+AT2G02810	UTR1	UDP-galactose transporter 1	0.97	2.3E-06	2.27	3.4E-14	red
+AT2G04050		MATE efflux family protein	0.97	3.7E-02	1.18	1.1E-02	red
+AT5G55120	VTC5	galactose-1-phosphate guanylyltransferase (GDP)s;GDP-D-glucose phosphorylases;quercetin 4-O-glucosyltransferases	0.96	1.7E-09	1.35	7.4E-18	red
+AT5G61290		Flavin-binding monooxygenase family protein	0.96	2.9E-05	1.93	2.5E-31	red
+AT2G34930		disease resistance family protein / LRR family protein	0.96	6.0E-05	2.04	2.3E-24	red
+AT1G14520	MIOX1	myo-inositol oxygenase 1	0.95	3.4E-03	1.33	5.9E-06	red
+AT2G27228	CPuORF6	conserved peptide upstream open reading frame 6	0.95	2.3E-05	1.39	1.0E-06	red
+AT4G17680		SBP (S-ribonuclease binding protein) family protein	0.94	1.3E-04	1.71	3.9E-10	red
+AT3G55940		Phosphoinositide-specific phospholipase C family protein	0.93	1.2E-04	1.25	4.5E-09	red
+AT4G27070	TSB2	tryptophan synthase beta-subunit 2	0.93	6.0E-09	1.10	1.5E-11	red
+AT3G02510		Regulator of chromosome condensation (RCC1) family protein	0.92	2.2E-12	1.70	4.8E-17	red
+AT5G01850		Protein kinase superfamily protein	0.92	6.3E-11	1.79	2.7E-18	red
+AT5G28540	BIP1	heat shock protein 70 (Hsp 70) family protein	0.92	6.0E-08	1.75	6.6E-15	red
+AT5G46710		PLATZ transcription factor family protein	0.92	1.5E-02	1.12	7.1E-08	red
+AT1G27330		Ribosome associated membrane protein RAMP4	0.92	8.7E-10	1.97	9.2E-19	red
+AT1G65040	Hrd1B	RING/U-box superfamily protein	0.91	5.0E-12	1.81	6.2E-19	red
+AT4G00670		Remorin family protein	0.91	4.1E-02	2.55	9.9E-09	red
+AT2G04400		Aldolase-type TIM barrel family protein	0.91	3.4E-12	1.07	1.5E-11	red
+AT5G11930		Thioredoxin superfamily protein	0.91	8.3E-03	2.11	7.1E-14	red
+AT1G69360		Plant protein of unknown function (DUF863)	0.91	1.4E-07	1.44	3.2E-20	red
+AT2G20340		Pyridoxal phosphate (PLP)-dependent transferases superfamily protein	0.90	3.3E-09	1.21	1.4E-11	red
+AT5G63160	bt1	BTB and TAZ domain protein 1	0.90	9.7E-03	1.89	1.8E-29	red
+AT1G60260	BGLU5	beta glucosidase 5	0.90	8.1E-16	1.59	1.0E-38	red
+AT5G61790	CNX1	calnexin 1	0.89	1.8E-08	1.73	2.1E-14	red
+AT4G37260	MYB73	myb domain protein 73	0.89	2.8E-02	2.22	2.7E-11	red
+AT1G36370	SHM7	serine hydroxymethyltransferase 7	0.88	1.8E-02	2.03	9.2E-13	red
+AT2G37770	ChlAKR	NAD(P)-linked oxidoreductase superfamily protein	0.88	4.5E-02	1.55	1.5E-02	red
+AT5G48960		"HAD-superfamily hydrolase, subfamily IG, 5-nucleotidase"	0.88	1.6E-13	1.64	7.8E-27	red
+AT5G14700		NAD(P)-binding Rossmann-fold superfamily protein	0.87	1.6E-04	1.35	1.3E-08	red
+AT1G17750	PEPR2	PEP1 receptor 2	0.87	5.9E-05	1.62	9.8E-09	red
+AT1G76070			0.87	4.1E-03	1.83	2.6E-07	red
+AT1G21250	WAK1	cell wall-associated kinase	0.86	1.5E-02	1.40	1.1E-03	red
+AT1G54040	ESP	epithiospecifier protein	0.86	1.4E-13	1.65	1.2E-16	red
+AT1G44790		ChaC-like family protein	0.85	4.0E-16	1.60	3.4E-18	red
+AT3G55640		Mitochondrial substrate carrier family protein	0.84	6.1E-09	1.54	1.4E-09	red
+AT1G17830		Protein of unknown function (DUF789)	0.84	2.9E-04	1.86	1.6E-11	red
+AT3G19970		alpha/beta-Hydrolases superfamily protein	0.84	1.0E-03	2.32	1.4E-12	red
+AT5G16450		Ribonuclease E inhibitor RraA/Dimethylmenaquinone methyltransferase	0.83	6.5E-07	1.83	4.0E-12	red
+AT1G62540	FMO GS-OX2; At-GS-OX2	flavin-monooxygenase glucosinolate S-oxygenase 2	0.83	9.1E-08	1.01	1.0E-12	red
+AT3G17120			0.83	1.9E-09	1.96	6.9E-21	red
+AT3G50930	BCS1	cytochrome BC1 synthesis	0.83	4.5E-02	1.97	1.9E-08	red
+AT3G20390		endoribonuclease L-PSP family protein	0.82	1.5E-15	1.33	1.5E-21	red
+AT2G14750	APK	APS kinase	0.82	3.4E-14	1.16	4.7E-23	red
+AT5G60900	RLK1	receptor-like protein kinase 1	0.82	9.7E-04	1.07	3.4E-03	red
+AT5G05270	CHIL	Chalcone-flavanone isomerase family protein	0.81	8.0E-09	1.69	1.2E-23	red
+AT4G36640		Sec14p-like phosphatidylinositol transfer family protein	0.81	5.4E-10	1.65	6.3E-16	red
+AT5G47910	RBOHD	respiratory burst oxidase homologue D	0.81	2.6E-04	1.69	6.7E-24	red
+AT1G11840	GLX1	glyoxalase I homolog	0.81	8.6E-13	1.64	4.1E-14	red
+AT4G19390		Uncharacterised protein family (UPF0114)	0.81	3.6E-05	1.82	5.4E-18	red
+AT2G39020		Acyl-CoA N-acyltransferases (NAT) superfamily protein	0.80	1.5E-11	1.02	2.2E-09	red
+AT3G10260		Reticulon family protein	0.80	8.9E-13	1.56	1.5E-18	red
+AT1G58200	MSL3	MSCS-like 3	0.80	7.5E-12	1.51	4.9E-20	red
+AT3G55290		NAD(P)-binding Rossmann-fold superfamily protein	0.80	1.3E-05	1.29	1.2E-11	red
+AT1G31710		Copper amine oxidase family protein	0.79	3.7E-02	1.50	2.8E-13	red
+AT5G23010	MAM1	methylthioalkylmalate synthase 1	0.79	7.1E-10	1.53	3.4E-21	red
+AT3G53000	PP2-A15	phloem protein 2-A15	0.79	1.6E-11	1.87	1.7E-31	red
+AT3G22160		VQ motif-containing protein	0.79	3.4E-02	1.35	3.1E-04	red
+AT1G28230	PUP1	purine permease 1	0.79	5.5E-17	1.53	2.9E-17	red
+AT5G57800	CER3	Fatty acid hydroxylase superfamily	0.78	2.2E-11	1.67	2.0E-12	red
+AT1G58270	ZW9	TRAF-like family protein	0.78	7.0E-04	1.28	4.2E-04	red
+AT3G19710	BCAT4	branched-chain aminotransferase4	0.78	1.7E-07	1.75	8.1E-37	red
+AT1G73210		Protein of unknown function (DUF789)	0.78	2.4E-03	1.65	7.3E-13	red
+AT1G78370	GSTU20	glutathione S-transferase TAU 20	0.78	7.2E-12	1.13	3.2E-13	red
+AT5G06865		other RNA	0.78	1.8E-03	1.42	1.0E-07	red
+AT1G29300	UNE1	Plant protein of unknown function (DUF641)	0.78	3.0E-03	1.56	8.1E-13	red
+AT3G08970	ATERDJ3A	DNAJ heat shock N-terminal domain-containing protein	0.77	4.9E-02	2.26	2.9E-10	red
+AT1G32900	GBSS1	UDP-Glycosyltransferase superfamily protein	0.77	8.7E-07	1.75	1.5E-20	red
+AT4G29520			0.77	6.2E-04	1.82	7.0E-11	red
+AT2G39210		Major facilitator superfamily protein	0.76	4.5E-02	2.38	2.2E-12	red
+AT3G15990	SULTR3;4	sulfate transporter 3;4	0.76	4.0E-02	1.48	2.3E-10	red
+AT1G69610		Protein of unknown function (DUF1666)	0.76	1.2E-09	1.63	3.7E-15	red
+AT5G03630	ATMDAR2	Pyridine nucleotide-disulphide oxidoreductase family protein	0.75	2.0E-07	1.46	6.2E-15	red
+AT1G08920	ESL1	ERD (early response to dehydration) six-like 1	0.75	3.0E-03	1.65	9.8E-19	red
+AT1G45201	TLL1	triacylglycerol lipase-like 1	0.75	2.3E-11	1.48	4.3E-18	red
+AT5G24660	LSU2	response to low sulfur 2	0.75	1.3E-02	1.84	1.3E-11	red
+AT3G56200		Transmembrane amino acid transporter family protein	0.75	7.8E-03	1.39	3.4E-07	red
+AT5G54390	HL	HAL2-like	0.75	3.6E-19	1.59	6.3E-24	red
+AT3G56360			0.75	3.3E-02	1.73	4.9E-18	red
+AT1G75960		AMP-dependent synthetase and ligase family protein	0.74	1.0E-03	1.02	3.0E-05	red
+AT1G13280	AOC4	allene oxide cyclase 4	0.74	2.4E-10	1.28	1.8E-17	red
+AT4G30460		glycine-rich protein	0.74	1.4E-04	1.91	1.3E-13	red
+AT2G39050	EULS3	hydroxyproline-rich glycoprotein family protein	0.74	2.2E-05	1.60	7.0E-11	red
+AT4G09560		Protease-associated (PA) RING/U-box zinc finger family protein	0.74	1.7E-11	1.38	2.4E-20	red
+AT5G65870	PSK5	phytosulfokine 5 precursor	0.73	3.1E-04	1.57	9.8E-18	red
+AT4G13110		BSD domain-containing protein	0.73	8.2E-05	1.44	1.5E-09	red
+AT3G08990		Yippee family putative zinc-binding protein	0.73	1.1E-02	1.73	2.5E-07	red
+AT2G46430	CNGC3	cyclic nucleotide gated channel 3	0.73	3.6E-02	1.43	1.2E-04	red
+AT5G13800	PPH	pheophytinase	0.72	7.5E-12	1.29	6.7E-16	red
+AT5G56760	SERAT1;1	serine acetyltransferase 1;1	0.72	1.7E-08	1.59	1.5E-13	red
+AT2G46100		Nuclear transport factor 2 (NTF2) family protein	0.72	8.2E-12	1.40	6.0E-20	red
+AT5G17000		Zinc-binding dehydrogenase family protein	0.71	9.7E-07	1.77	1.6E-13	red
+AT2G23000	scpl10	serine carboxypeptidase-like 10	0.71	6.7E-16	1.56	3.8E-36	red
+AT2G27230	LHW	transcription factor-related	0.71	3.3E-05	1.40	7.3E-14	red
+AT1G28050		B-box type zinc finger protein with CCT domain	0.70	1.2E-03	1.30	1.0E-06	red
+AT4G30500		Protein of unknown function (DUF788)	0.70	4.7E-02	1.17	3.3E-04	red
+AT1G72940		Toll-Interleukin-Resistance (TIR) domain-containing protein	0.69	2.4E-02	1.36	3.7E-09	red
+AT4G12030	BAT5	bile acid transporter 5	0.69	3.0E-10	1.12	5.0E-22	red
+AT5G14200	IMD1	isopropylmalate dehydrogenase 1	0.69	6.0E-10	1.15	2.2E-19	red
+AT5G24160	SQE6	squalene monoxygenase 6	0.69	7.9E-13	1.73	6.8E-28	red
+AT3G62600	ATERDJ3B	DNAJ heat shock family protein	0.69	2.1E-06	1.41	3.1E-13	red
+AT4G04610	APR1	APS reductase 1	0.69	3.0E-04	1.19	2.4E-16	red
+AT4G16760	ACX1	acyl-CoA oxidase 1	0.68	3.3E-07	1.30	5.5E-09	red
+AT5G50670	SPL13B	Squamosa promoter-binding protein-like (SBP domain) transcription factor family protein	0.68	9.0E-03	1.77	3.9E-10	red
+AT1G19300	PARVUS	Nucleotide-diphospho-sugar transferases superfamily protein	0.68	5.6E-03	1.33	3.0E-09	red
+AT5G54860		Major facilitator superfamily protein	0.68	2.2E-03	1.33	8.5E-07	red
+AT3G25290		Auxin-responsive family protein	0.68	1.4E-03	1.23	1.4E-05	red
+AT5G39790		5-AMP-activated protein kinase-related	0.68	2.0E-11	1.12	3.8E-19	red
+AT3G02020	AK3	aspartate kinase 3	0.68	6.4E-06	1.66	2.1E-29	red
+AT3G10985	SAG20	senescence associated gene 20	0.68	8.9E-06	1.65	2.0E-11	red
+AT1G28570		SGNH hydrolase-type esterase superfamily protein	0.68	8.0E-05	1.40	6.1E-09	red
+AT3G12520	SULTR4;2	sulfate transporter 4;2	0.67	1.9E-03	1.37	1.9E-09	red
+AT5G08790	ATAF2	NAC (No Apical Meristem) domain transcriptional regulator superfamily protein	0.67	1.6E-06	1.50	4.2E-10	red
+AT1G30530	UGT78D1	UDP-glucosyl transferase 78D1	0.67	1.2E-12	1.02	3.6E-12	red
+AT1G09210	CRT1b	calreticulin 1b	0.67	3.5E-06	1.50	1.2E-12	red
+AT1G54050		HSP20-like chaperones superfamily protein	0.67	1.3E-05	1.02	1.7E-09	red
+AT5G67330	NRAMP4	natural resistance associated macrophage protein 4	0.66	5.1E-16	1.64	2.4E-46	red
+AT3G01180	SS2	starch synthase 2	0.66	1.0E-11	1.10	2.8E-15	red
+AT5G14120		Major facilitator superfamily protein	0.66	5.8E-03	1.50	1.2E-08	red
+AT3G15790	MBD11	methyl-CPG-binding domain 11	0.66	4.9E-06	1.25	1.7E-22	red
+AT1G70820		"phosphoglucomutase, putative / glucose phosphomutase, putative"	0.66	1.6E-13	1.16	7.5E-15	red
+AT3G51090		Protein of unknown function (DUF1640)	0.65	2.3E-06	1.32	1.7E-12	red
+AT3G14620	CYP72A8	"cytochrome P450, family 72, subfamily A, polypeptide 8"	0.65	1.0E-02	1.46	1.8E-06	red
+AT4G23990	CSLG3	cellulose synthase like G3	0.64	3.7E-04	1.69	4.8E-15	red
+AT5G24470	PRR5	pseudo-response regulator 5	0.64	3.1E-03	1.61	3.1E-07	red
+AT1G05620	URH2	uridine-ribohydrolase  2	0.64	8.3E-05	1.22	6.9E-09	red
+AT1G77510	PDIL1-2	PDI-like 1-2	0.64	3.6E-03	1.45	1.4E-07	red
+AT5G50460		secE/sec61-gamma protein transport protein	0.63	2.0E-06	1.31	1.1E-18	red
+AT5G52570	BETA-OHASE 2	beta-carotene hydroxylase 2	0.63	2.7E-05	1.04	1.2E-08	red
+AT2G37040	pal1	PHE ammonia lyase 1	0.63	5.3E-10	1.78	6.3E-15	red
+AT5G05140		Transcription elongation factor (TFIIS) family protein	0.63	1.8E-02	1.49	1.3E-16	red
+AT4G16660		heat shock protein 70 (Hsp 70) family protein	0.63	1.7E-06	1.18	7.2E-11	red
+AT2G30100		pentatricopeptide (PPR) repeat-containing protein	0.63	7.5E-06	1.01	2.9E-10	red
+AT1G56340	CRT1a	calreticulin 1a	0.63	7.0E-09	1.46	7.4E-17	red
+AT5G57630	CIPK21	CBL-interacting protein kinase 21	0.63	8.3E-05	1.55	5.2E-10	red
+AT2G34490	CYP710A2	"cytochrome P450, family 710, subfamily A, polypeptide 2"	0.62	1.3E-02	1.92	2.6E-24	red
+AT3G13310		Chaperone DnaJ-domain superfamily protein	0.62	4.1E-03	1.23	3.3E-05	red
+AT1G65860	FMO GS-OX1; At-GS-OX1	flavin-monooxygenase glucosinolate S-oxygenase 1	0.62	1.3E-05	1.32	2.6E-29	red
+AT3G08770	LTP6	lipid transfer protein 6	0.62	1.2E-02	1.31	8.2E-06	red
+AT3G03190	GSTF11	glutathione S-transferase F11	0.62	3.3E-04	1.65	4.8E-39	red
+AT1G28600		GDSL-like Lipase/Acylhydrolase superfamily protein	0.62	1.1E-10	1.33	7.2E-12	red
+AT1G49530	GGPS6	geranylgeranyl pyrophosphate synthase 6	0.62	3.5E-02	1.19	4.7E-06	red
+AT5G03160	P58IPK	homolog of mamallian P58IPK	0.61	1.1E-06	1.25	1.8E-11	red
+AT4G24380			0.60	4.7E-02	2.05	3.1E-15	red
+AT4G16750		Integrase-type DNA-binding superfamily protein	0.60	6.9E-03	1.04	1.3E-05	red
+AT4G01480	PPa5	pyrophosphorylase 5	0.59	2.6E-08	1.60	3.1E-33	red
+AT2G25110	SDF2	stromal cell-derived factor 2-like protein precursor	0.59	5.7E-06	1.34	8.6E-12	red
+AT4G26060		Ribosomal protein L18ae family	0.59	8.3E-03	1.09	5.7E-05	red
+AT4G37430	CYP91A2	"cytochrome P450, family 91, subfamily A, polypeptide 2"	0.59	2.3E-02	1.06	4.2E-06	red
+AT4G24510	CER2	HXXXD-type acyl-transferase family protein	-0.59	1.1E-03	-1.57	1.0E-10	red
+AT1G29460		SAUR-like auxin-responsive protein family 	-0.60	3.4E-03	-1.19	1.7E-13	red
+AT1G29450		SAUR-like auxin-responsive protein family 	-0.61	3.5E-03	-1.18	7.3E-07	red
+AT4G28240		Wound-responsive family protein	-0.63	2.8E-03	-1.10	1.9E-08	red
+AT3G55710		UDP-Glycosyltransferase superfamily protein	-0.64	2.3E-02	-1.43	8.4E-09	red
+AT1G52190		Major facilitator superfamily protein	-0.65	1.4E-03	-1.64	8.8E-08	red
+AT1G20190	EXPA11	expansin 11	-0.65	3.5E-03	-1.51	1.6E-09	red
+AT4G17460	HAT1	Homeobox-leucine zipper protein 4 (HB-4) / HD-ZIP protein	-0.65	3.4E-02	-2.07	9.5E-14	red
+AT1G72230		Cupredoxin superfamily protein	-0.65	8.2E-03	-1.60	1.4E-08	red
+AT5G54585			-0.67	1.7E-02	-1.81	3.8E-10	red
+AT5G22500	FAR1	fatty acid reductase 1	-0.67	5.0E-02	-1.92	1.6E-08	red
+AT1G47510	5PTASE11	inositol polyphosphate 5-phosphatase 11	-0.68	1.4E-02	-1.90	1.3E-14	red
+AT3G15540	IAA19	indole-3-acetic acid inducible 19	-0.68	5.6E-03	-1.77	3.1E-12	red
+AT2G21140	PRP2	proline-rich protein 2	-0.69	2.5E-03	-1.99	1.8E-06	red
+AT1G15550	GA3OX1	gibberellin 3-oxidase 1	-0.70	1.9E-02	-1.51	1.9E-10	red
+AT1G04220	KCS2	3-ketoacyl-CoA synthase 2	-0.70	3.9E-02	-2.62	5.4E-24	red
+AT3G16240	DELTA-TIP	delta tonoplast integral protein	-0.71	1.3E-04	-1.83	4.3E-15	red
+AT1G78090	TPPB	trehalose-6-phosphate phosphatase	-0.71	1.4E-02	-2.55	2.8E-14	red
+AT5G22580		Stress responsive A/B Barrel Domain	-0.73	5.6E-03	-2.06	2.0E-05	red
+AT3G54830		Transmembrane amino acid transporter family protein	-0.73	1.5E-03	-1.88	1.6E-14	red
+AT5G15780		Pollen Ole e 1 allergen and extensin family protein	-0.73	3.6E-05	-2.75	3.0E-07	red
+AT4G18970		GDSL-like Lipase/Acylhydrolase superfamily protein	-0.74	6.8E-05	-1.86	7.2E-08	red
+AT3G20810	JMJD5	2-oxoglutarate (2OG) and Fe(II)-dependent oxygenase superfamily protein	-0.74	2.6E-03	-1.47	8.1E-08	red
+AT4G29020		glycine-rich protein	-0.75	4.4E-02	-2.16	1.7E-04	red
+AT5G18010	SAUR19	SAUR-like auxin-responsive protein family 	-0.75	2.9E-02	-1.83	3.1E-06	red
+AT1G62510		Bifunctional inhibitor/lipid-transfer protein/seed storage 2S albumin superfamily protein	-0.76	3.7E-03	-2.45	1.9E-15	red
+AT1G62480		Vacuolar calcium-binding protein-related	-0.76	6.4E-03	-1.71	4.0E-12	red
+AT4G38400	EXLA2	expansin-like A2	-0.79	3.6E-02	-1.12	2.0E-03	red
+AT3G12710		DNA glycosylase superfamily protein	-0.79	4.2E-02	-1.98	7.1E-05	red
+AT3G60220	ATL4	TOXICOS EN LEVADURA 4	-0.80	1.5E-02	-1.35	6.8E-05	red
+AT3G14760			-0.83	5.2E-03	-1.86	1.5E-07	red
+AT5G37300	WSD1	O-acyltransferase (WSD1-like) family protein	-0.84	2.3E-03	-3.22	7.7E-12	red
+AT2G41170		F-box family protein	-0.85	5.2E-05	-2.30	3.3E-16	red
+AT3G22142		Bifunctional inhibitor/lipid-transfer protein/seed storage 2S albumin superfamily protein	-0.87	2.7E-03	-2.57	2.0E-15	red
+AT1G29500		SAUR-like auxin-responsive protein family 	-0.88	6.0E-08	-2.08	1.6E-08	red
+AT3G44550	FAR5	fatty acid reductase 5	4.47	1.8E-02	1.51	2.4E-01	magenta
+AT5G44420	PDF1.2	plant defensin 1.2	3.78	1.5E-02	-0.13	9.5E-01	magenta
+AT5G40350	MYB24	myb domain protein 24	3.30	1.9E-02	-1.84	6.2E-02	magenta
+AT1G57560	MYB50	myb domain protein 50	3.29	4.9E-02	2.31	5.3E-02	magenta
+AT4G04500	CRK37	cysteine-rich RLK (RECEPTOR-like protein kinase) 37	3.28	3.5E-02	1.45	1.6E-01	magenta
+AT1G40101		transposable element gene	3.11	1.2E-03	0.17	8.3E-01	magenta
+AT1G38360		transposable element gene	2.86	1.3E-03	-0.43	5.8E-01	magenta
+AT1G53830	PME2	pectin methylesterase 2	2.63	2.9E-04	0.92	9.0E-02	magenta
+AT2G11340		transposable element gene	2.55	3.2E-03	0.10	8.9E-01	magenta
+AT5G60880	BASL	breaking of asymmetry in the stomatal lineage	2.39	1.1E-03	1.02	9.7E-02	magenta
+AT5G26280		TRAF-like family protein	2.21	1.5E-03	0.68	2.6E-01	magenta
+AT2G25470	RLP21	receptor like protein 21	1.96	2.9E-02	-0.86	3.1E-01	magenta
+AT4G04840	MSRB6	methionine sulfoxide reductase B6	1.86	1.4E-13	0.49	5.7E-02	magenta
+AT4G16740	TPS03	terpene synthase 03	1.66	8.1E-05	-0.18	6.9E-01	magenta
+AT5G17540		HXXXD-type acyl-transferase family protein	1.53	2.2E-02	0.19	7.7E-01	magenta
+AT2G22770	NAI1	basic helix-loop-helix (bHLH) DNA-binding superfamily protein	1.34	5.3E-03	0.26	6.1E-01	magenta
+AT1G31690		Copper amine oxidase family protein	1.18	4.7E-04	0.48	2.1E-01	magenta
+AT5G53290	CRF3	cytokinin response factor 3	1.15	6.6E-04	-0.01	9.9E-01	magenta
+AT4G31330		"Protein of unknown function, DUF599"	1.14	6.3E-03	0.60	2.4E-01	magenta
+AT4G30270	XTH24	xyloglucan endotransglucosylase/hydrolase 24	1.13	7.3E-03	1.13	5.4E-02	magenta
+AT5G62360		Plant invertase/pectin methylesterase inhibitor superfamily protein	1.08	1.2E-02	-0.58	2.8E-01	magenta
+AT5G59090	SBT4.12	subtilase 4.12	3.11	3.6E-01	8.76	2.3E-11	orange
+AT2G29470	GSTU3	glutathione S-transferase tau 3	4.59	1.3E-01	8.65	7.4E-06	orange
+AT1G69930	GSTU11	glutathione S-transferase TAU 11	1.54	8.1E-01	8.34	1.2E-08	orange
+AT1G26390		FAD-binding Berberine family protein	3.35	3.3E-01	7.96	6.1E-08	orange
+AT5G56080	NAS2	nicotianamine synthase 2	0.08	1.0E+00	7.76	5.0E-05	orange
+AT4G15100	SCPL30	serine carboxypeptidase-like 30	2.25	2.3E-01	7.31	3.7E-18	orange
+AT3G28580		P-loop containing nucleoside triphosphate hydrolases superfamily protein	1.11	8.8E-01	7.30	7.1E-06	orange
+AT1G66570	SUC7	sucrose-proton symporter 7	-0.02	1.0E+00	7.21	1.0E-03	orange
+AT1G13710	CYP78A5	"cytochrome P450, family 78, subfamily A, polypeptide 5"	1.32	8.3E-01	7.17	6.5E-09	orange
+AT2G47950			2.78	1.1E-01	7.02	4.6E-08	orange
+AT3G59930			3.18	6.1E-02	7.01	1.2E-05	orange
+AT5G28235		Ulp1 protease family protein	3.94	5.9E-02	6.76	2.9E-06	orange
+AT3G43250		Family of unknown function (DUF572) 	0.01	1.0E+00	6.70	5.6E-05	orange
+AT1G26250		Proline-rich extensin-like family protein	4.04	4.3E-01	6.65	1.2E-07	orange
+AT3G26830	PAD3	Cytochrome P450 superfamily protein	1.06	8.8E-01	6.64	3.0E-07	orange
+AT1G19250	FMO1	flavin-dependent monooxygenase 1	-0.01	1.0E+00	6.54	3.0E-04	orange
+AT5G64810	WRKY51	WRKY DNA-binding protein 51	0.07	1.0E+00	6.41	2.8E-05	orange
+AT5G22545			-0.08	1.0E+00	6.37	5.5E-07	orange
+AT1G32350	AOX1D	alternative oxidase 1D	1.05	7.3E-01	6.35	3.7E-08	orange
+AT4G14630	GLP9	germin-like protein 9	3.05	3.5E-01	6.32	1.3E-05	orange
+AT3G23250	MYB15	myb domain protein 15	2.86	8.4E-02	6.27	2.2E-08	orange
+AT2G34500	CYP710A1	"cytochrome P450, family 710, subfamily A, polypeptide 1"	2.29	4.4E-01	6.23	1.1E-04	orange
+AT4G37010	CEN2	centrin 2	2.83	1.8E-01	6.23	2.3E-06	orange
+AT2G25440	RLP20	receptor like protein 20	2.71	2.5E-01	6.15	2.7E-06	orange
+AT1G60470	GolS4	galactinol synthase 4	1.19	7.9E-01	6.13	2.9E-10	orange
+AT3G21500	DXPS1	1-deoxy-D-xylulose 5-phosphate synthase 1	3.15	3.5E-01	5.79	1.2E-03	orange
+AT4G27654			2.60	2.5E-01	5.75	5.3E-08	orange
+AT2G13810	ALD1	AGD2-like defense response protein 1	1.19	8.7E-01	5.68	1.9E-06	orange
+AT2G14290		F-box family protein with a domain of unknown function (DUF295)	2.36	2.1E-01	5.63	1.8E-04	orange
+AT2G41800		"Protein of unknown function, DUF642"	-0.52	9.5E-01	5.60	6.1E-06	orange
+AT2G45220		Plant invertase/pectin methylesterase inhibitor superfamily	3.61	2.2E-01	5.53	2.3E-05	orange
+AT3G48850	PHT3;2	phosphate transporter 3;2	1.97	4.1E-01	5.47	2.9E-06	orange
+AT4G08770	PRX37	Peroxidase superfamily protein	-0.18	1.0E+00	5.38	2.1E-03	orange
+AT1G69880	TH8	thioredoxin H-type 8	0.00	1.0E+00	5.38	6.8E-05	orange
+AT4G37990	ELI3-2	elicitor-activated gene 3-2	2.12	3.3E-01	5.34	1.1E-05	orange
+AT1G80840	WRKY40	WRKY DNA-binding protein 40	1.12	7.1E-01	5.33	2.4E-13	orange
+AT5G42380	CML37	calmodulin like 37	1.46	5.3E-01	5.31	7.1E-06	orange
+AT1G05575			0.55	9.1E-01	5.22	3.2E-06	orange
+AT5G02780	GSTL1	glutathione transferase lambda 1	1.98	6.6E-01	5.10	8.8E-04	orange
+AT1G43160	RAP2.6	related to AP2 6	3.63	6.8E-02	5.09	1.3E-05	orange
+AT4G23700	CHX17	cation/H+ exchanger 17	2.82	5.6E-02	5.03	2.2E-10	orange
+AT1G32960	SBT3.3	Subtilase family protein	0.48	9.5E-01	4.99	1.6E-04	orange
+AT5G03204			2.36	2.4E-01	4.95	7.7E-07	orange
+AT3G48520	CYP94B3	"cytochrome P450, family 94, subfamily B, polypeptide 3"	0.98	8.0E-01	4.88	6.3E-05	orange
+AT3G11340	UGT76B1	UDP-Glycosyltransferase superfamily protein	3.22	1.0E-01	4.86	5.8E-04	orange
+AT3G01830		Calcium-binding EF-hand family protein	-0.07	9.9E-01	4.82	2.0E-06	orange
+AT5G22540		Plant protein of unknown function (DUF247)	1.66	7.1E-01	4.77	7.7E-07	orange
+AT4G11170		Disease resistance protein (TIR-NBS-LRR class) family	1.77	7.6E-01	4.68	2.5E-03	orange
+AT4G21840	MSRB8	methionine sulfoxide reductase B8	0.42	9.6E-01	4.67	3.5E-04	orange
+AT3G12220	SCPL16	serine carboxypeptidase-like 16	1.38	7.5E-01	4.62	2.5E-05	orange
+AT3G56970	BHLH038	basic helix-loop-helix (bHLH) DNA-binding superfamily protein	-1.15	9.3E-01	4.51	3.5E-06	orange
+AT2G41240	BHLH100	basic helix-loop-helix protein 100	0.22	9.8E-01	4.42	3.3E-05	orange
+AT1G66960	LUP5	Terpenoid cyclases family protein	-0.64	9.4E-01	4.42	2.9E-05	orange
+AT5G59580	UGT76E1	UDP-glucosyl transferase 76E1	1.53	3.5E-01	4.38	6.5E-10	orange
+AT3G02840		ARM repeat superfamily protein	1.38	6.1E-01	4.37	7.6E-05	orange
+AT1G47395			2.00	2.8E-01	4.36	2.7E-12	orange
+AT4G39670		Glycolipid transfer protein (GLTP) family protein	1.13	6.9E-01	4.33	2.6E-05	orange
+AT5G05340	PRX52	Peroxidase superfamily protein	4.64	7.7E-02	4.31	1.4E-05	orange
+AT1G76470		NAD(P)-binding Rossmann-fold superfamily protein	4.49	7.1E-02	4.30	1.7E-05	orange
+AT4G22070	WRKY31	WRKY DNA-binding protein 31	0.03	1.0E+00	4.29	6.1E-03	orange
+AT3G28340	GATL10	galacturonosyltransferase-like 10	0.67	8.1E-01	4.26	1.2E-05	orange
+AT1G67000		Protein kinase superfamily protein	0.56	8.6E-01	4.26	2.0E-08	orange
+AT1G13609		Defensin-like (DEFL) family protein	2.04	6.7E-01	4.16	2.2E-06	orange
+AT1G28370	ERF11	ERF domain protein 11	0.75	8.7E-01	4.15	2.9E-08	orange
+AT5G22570	WRKY38	WRKY DNA-binding protein 38	2.77	4.6E-01	4.13	5.2E-04	orange
+AT1G01680	PUB54	plant U-box 54	2.21	3.9E-01	4.12	3.4E-04	orange
+AT3G57460		catalytics;metal ion binding	2.63	1.1E-01	4.11	1.2E-05	orange
+AT3G56980	BHLH039	basic helix-loop-helix (bHLH) DNA-binding superfamily protein	-0.59	9.6E-01	4.07	1.1E-04	orange
+AT1G19020			1.15	4.0E-01	4.04	2.0E-09	orange
+AT3G10930			1.35	6.3E-01	4.03	5.1E-06	orange
+AT4G35180	LHT7	LYS/HIS transporter 7	1.10	7.8E-01	4.00	4.4E-04	orange
+AT4G24570	DIC2	dicarboxylate carrier 2	-0.29	9.6E-01	3.98	1.4E-08	orange
+AT2G36780		UDP-Glycosyltransferase superfamily protein	1.33	4.1E-01	3.93	3.9E-03	orange
+AT1G16370	OCT6	organic cation/carnitine transporter 6	2.96	7.0E-02	3.88	3.2E-06	orange
+AT2G15390	FUT4	fucosyltransferase 4	0.80	8.5E-01	3.86	3.1E-06	orange
+AT3G60966		RING/U-box superfamily protein	2.72	4.0E-01	3.82	2.9E-04	orange
+AT4G29780			0.50	8.8E-01	3.80	9.3E-12	orange
+AT1G47400			1.47	5.0E-01	3.75	5.4E-09	orange
+AT5G13080	WRKY75	WRKY DNA-binding protein 75	2.50	4.5E-01	3.72	1.5E-03	orange
+AT5G39670		Calcium-binding EF-hand family protein	2.14	6.4E-02	3.71	9.4E-06	orange
+AT3G46680		UDP-Glycosyltransferase superfamily protein	1.22	6.7E-01	3.70	1.7E-03	orange
+AT4G01360	BPS3		0.34	9.3E-01	3.70	2.4E-06	orange
+AT5G61890		Integrase-type DNA-binding superfamily protein	2.59	2.9E-01	3.70	5.7E-04	orange
+AT5G20230	BCB	blue-copper-binding protein	1.30	5.4E-02	3.68	5.2E-09	orange
+AT1G21240	WAK3	wall associated kinase 3	1.30	5.7E-01	3.60	1.5E-04	orange
+AT5G53820		Late embryogenesis abundant protein (LEA) family protein	0.59	8.3E-01	3.57	4.0E-07	orange
+AT5G10720	HK5	histidine kinase 5	1.54	5.9E-02	3.54	3.9E-10	orange
+AT1G13470		Protein of unknown function (DUF1262)	0.94	6.0E-01	3.53	1.0E-06	orange
+AT1G66390	MYB90	myb domain protein 90	2.18	3.7E-01	3.45	1.4E-05	orange
+AT5G62520	SRO5	similar to RCD one 5	0.49	8.5E-01	3.44	1.6E-05	orange
+AT3G50770	CML41	calmodulin-like 41	1.21	6.4E-01	3.42	1.4E-04	orange
+AT2G18660	PNP-A	plant natriuretic peptide A	1.99	1.8E-01	3.39	7.3E-05	orange
+AT1G14880	PCR1	PLANT CADMIUM RESISTANCE 1	-0.89	8.8E-01	3.37	8.1E-03	orange
+AT2G14247		Expressed protein	0.70	9.0E-01	3.37	1.5E-04	orange
+AT1G27730	STZ	salt tolerance zinc finger	1.02	4.4E-01	3.36	3.4E-06	orange
+AT1G43640	TLP5	tubby like protein 5	0.38	9.3E-01	3.34	3.1E-04	orange
+AT2G36640	ECP63	embryonic cell protein 63	1.73	1.8E-01	3.33	1.4E-06	orange
+AT4G12490		Bifunctional inhibitor/lipid-transfer protein/seed storage 2S albumin superfamily protein	-0.82	9.2E-01	3.33	5.3E-03	orange
+AT1G09080	BIP3	Heat shock protein 70 (Hsp 70) family protein	1.06	6.0E-01	3.30	6.9E-04	orange
+AT4G20860		FAD-binding Berberine family protein	0.92	1.2E-01	3.30	4.2E-19	orange
+AT3G49620	DIN11	2-oxoglutarate (2OG) and Fe(II)-dependent oxygenase superfamily protein	0.62	8.7E-01	3.24	3.0E-05	orange
+AT1G07135		glycine-rich protein	0.10	9.9E-01	3.24	6.4E-09	orange
+AT1G01480	ACS2		0.41	9.3E-01	3.21	1.8E-03	orange
+AT1G33030		O-methyltransferase family protein	0.87	8.3E-01	3.21	4.4E-03	orange
+AT5G41750		Disease resistance protein (TIR-NBS-LRR class) family	0.66	6.3E-01	3.21	1.4E-07	orange
+AT5G45630		"Protein of unknown function, DUF584"	-0.36	9.7E-01	3.21	3.2E-04	orange
+AT5G48657		defense protein-related	2.03	2.2E-01	3.21	2.5E-03	orange
+AT5G65300			0.86	5.3E-01	3.12	5.0E-09	orange
+AT1G66090		Disease resistance protein (TIR-NBS class)	0.37	9.4E-01	3.09	7.2E-06	orange
+AT1G19380		Protein of unknown function (DUF1195)	0.60	7.9E-01	3.08	8.2E-17	orange
+AT2G22880		VQ motif-containing protein	2.67	5.3E-02	3.07	3.4E-04	orange
+AT1G66600	ABO3	ABA overly sensitive mutant 3	0.72	8.9E-01	3.04	1.7E-02	orange
+AT3G23240	ERF1	ethylene response factor 1	1.72	2.4E-01	3.03	6.0E-05	orange
+AT1G65610	KOR2	Six-hairpin glycosidases superfamily protein	3.00	1.7E-01	3.03	6.6E-03	orange
+AT3G44260	CAF1a	"Polynucleotidyl transferase, ribonuclease H-like superfamily protein"	0.59	7.2E-01	3.02	2.8E-09	orange
+AT3G43930		BRCT domain-containing DNA repair protein	0.08	9.9E-01	2.98	2.5E-05	orange
+AT3G53150	UGT73D1	UDP-glucosyl transferase 73D1	2.31	4.4E-01	2.97	2.2E-02	orange
+AT5G22380	NAC090	NAC domain containing protein 90	1.58	7.0E-01	2.97	1.5E-02	orange
+AT3G01290	HIR2	SPFH/Band 7/PHB domain-containing membrane-associated protein family	1.39	7.7E-02	2.97	1.1E-04	orange
+AT4G21920			1.81	2.7E-01	2.97	1.3E-03	orange
+AT1G20310			2.99	1.6E-01	2.96	2.6E-03	orange
+AT3G49340		Cysteine proteinases superfamily protein	0.29	9.7E-01	2.95	1.2E-02	orange
+AT4G34410	RRTF1	redox responsive transcription factor 1	0.25	9.8E-01	2.95	8.7E-03	orange
+AT5G02170		Transmembrane amino acid transporter family protein	0.86	5.2E-01	2.94	4.6E-07	orange
+AT3G09270	GSTU8	glutathione S-transferase TAU 8	0.90	4.3E-01	2.94	6.6E-07	orange
+AT2G20142		Toll-Interleukin-Resistance (TIR) domain family protein	0.39	9.4E-01	2.92	3.8E-04	orange
+AT3G29000		Calcium-binding EF-hand family protein	1.74	1.5E-01	2.92	2.1E-04	orange
+AT2G32030		Acyl-CoA N-acyltransferases (NAT) superfamily protein	0.81	7.1E-01	2.92	1.2E-05	orange
+AT3G04220		Disease resistance protein (TIR-NBS-LRR class) family	1.64	5.8E-01	2.91	2.5E-03	orange
+AT4G20000		VQ motif-containing protein	0.70	9.0E-01	2.90	1.1E-02	orange
+AT4G33467			1.01	3.5E-01	2.90	3.7E-19	orange
+AT4G31800	WRKY18	WRKY DNA-binding protein 18	1.13	6.0E-02	2.90	1.5E-09	orange
+AT3G43715		transposable element gene	0.87	2.8E-01	2.89	1.8E-14	orange
+AT2G32140		transmembrane receptors	1.07	3.1E-01	2.86	1.0E-04	orange
+AT3G48640			1.44	8.1E-01	2.85	1.7E-02	orange
+AT1G24140		Matrixin family protein	0.48	8.7E-01	2.82	1.2E-06	orange
+AT2G30766			1.15	4.5E-01	2.81	8.4E-14	orange
+AT1G07500			1.25	3.3E-01	2.80	5.8E-08	orange
+AT3G19550			0.25	9.6E-01	2.78	1.7E-05	orange
+AT3G46690		UDP-Glycosyltransferase superfamily protein	0.56	9.0E-01	2.77	1.6E-02	orange
+AT4G15280	UGT71B5	UDP-glucosyl transferase 71B5	0.40	9.5E-01	2.76	2.2E-02	orange
+AT4G30280	XTH18	xyloglucan endotransglucosylase/hydrolase 18	1.96	3.6E-01	2.76	5.4E-03	orange
+AT5G57550	XTH25	xyloglucan endotransglucosylase/hydrolase 25	0.52	9.1E-01	2.75	2.3E-04	orange
+AT1G21525			0.89	7.9E-01	2.73	1.1E-02	orange
+AT2G43570	CHI	"chitinase, putative"	0.44	8.7E-01	2.73	1.3E-04	orange
+AT2G30020		Protein phosphatase 2C family protein	0.57	5.1E-01	2.70	3.6E-10	orange
+AT1G51820		Leucine-rich repeat protein kinase family protein	1.75	6.1E-01	2.68	2.5E-02	orange
+AT4G15670		Thioredoxin superfamily protein	0.09	9.7E-01	2.68	2.3E-19	orange
+AT3G28210	PMZ	zinc finger (AN1-like) family protein	1.44	1.7E-01	2.67	4.1E-04	orange
+AT5G04150	BHLH101	basic helix-loop-helix (bHLH) DNA-binding superfamily protein	0.18	9.8E-01	2.66	8.4E-08	orange
+AT1G77885			0.58	7.1E-02	2.65	8.6E-33	orange
+AT5G08240			0.85	7.2E-01	2.65	3.3E-06	orange
+AT3G55980	SZF1	salt-inducible zinc finger 1	0.44	8.8E-01	2.64	3.3E-12	orange
+AT3G04640		glycine-rich protein	0.06	9.9E-01	2.64	3.5E-11	orange
+AT2G34080		Cysteine proteinases superfamily protein	1.03	3.8E-01	2.64	7.2E-05	orange
+AT1G07985		Expressed protein	1.46	7.0E-02	2.64	1.1E-07	orange
+AT2G17040	NAC036	NAC domain containing protein 36	0.77	4.3E-01	2.63	8.3E-08	orange
+AT5G24200		alpha/beta-Hydrolases superfamily protein	0.73	8.4E-01	2.63	2.4E-03	orange
+AT1G34180	NAC016	NAC domain containing protein 16	0.47	7.9E-01	2.62	1.0E-05	orange
+AT3G60490		Integrase-type DNA-binding superfamily protein	1.41	1.9E-01	2.62	4.9E-05	orange
+AT1G66160	CMPG1	"CYS, MET, PRO, and GLY protein 1"	0.18	9.5E-01	2.60	3.1E-06	orange
+AT4G18422			0.57	8.2E-01	2.60	8.3E-06	orange
+AT1G43910		P-loop containing nucleoside triphosphate hydrolases superfamily protein	0.71	7.4E-01	2.59	6.2E-03	orange
+AT2G25735			0.57	8.3E-01	2.59	1.6E-03	orange
+AT5G09290		Inositol monophosphatase family protein	-0.46	9.5E-01	2.59	2.5E-02	orange
+AT5G52760		Copper transport protein family	1.67	4.3E-01	2.59	7.1E-04	orange
+AT5G14180	MPL1	Myzus persicae-induced lipase 1	1.05	7.0E-01	2.59	9.0E-03	orange
+AT5G57010		calmodulin-binding family protein	1.57	4.4E-01	2.58	3.8E-03	orange
+AT1G54575			0.59	2.2E-01	2.58	2.6E-15	orange
+AT5G61600	ERF104	ethylene response factor 104	0.70	6.3E-01	2.57	1.1E-04	orange
+AT1G33960	AIG1	P-loop containing nucleoside triphosphate hydrolases superfamily protein	0.60	8.8E-01	2.57	4.5E-03	orange
+AT1G15010			0.18	9.6E-01	2.55	5.1E-05	orange
+AT1G21310	EXT3	extensin 3	0.31	9.1E-01	2.54	4.5E-05	orange
+AT3G10600	CAT7	cationic amino acid transporter 7	0.85	8.3E-01	2.54	2.6E-07	orange
+AT2G14230		transposable element gene	0.69	6.9E-01	2.54	4.8E-05	orange
+AT2G14610	PR1	pathogenesis-related gene 1	-1.80	7.7E-01	2.54	4.7E-02	orange
+AT5G45340	CYP707A3	"cytochrome P450, family 707, subfamily A, polypeptide 3"	-0.22	9.7E-01	2.54	9.5E-05	orange
+AT3G48650			1.23	5.1E-01	2.52	3.4E-04	orange
+AT5G05250			1.27	2.9E-01	2.52	3.9E-11	orange
+AT2G28210	ACA2	alpha carbonic anhydrase 2	0.42	7.9E-01	2.50	7.9E-06	orange
+AT4G17490	ERF6	ethylene responsive element binding factor 6	0.49	8.8E-01	2.50	1.1E-05	orange
+AT1G56150		SAUR-like auxin-responsive protein family 	0.72	5.1E-01	2.48	1.4E-07	orange
+AT4G24110			1.47	2.9E-01	2.48	4.7E-03	orange
+AT3G07195		RPM1-interacting protein 4 (RIN4) family protein	0.04	9.9E-01	2.47	1.9E-03	orange
+AT5G44350		ethylene-responsive nuclear protein -related	0.88	6.9E-01	2.47	2.2E-05	orange
+AT1G21100	IGMT1	O-methyltransferase family protein	1.20	1.2E-01	2.46	1.2E-06	orange
+AT3G61190	BAP1	BON association protein 1	0.70	8.7E-01	2.45	2.3E-04	orange
+AT4G23215			1.70	1.3E-01	2.45	3.4E-03	orange
+AT2G44500		O-fucosyltransferase family protein	1.08	5.2E-02	2.44	2.4E-08	orange
+AT1G62440	LRX2	leucine-rich repeat/extensin 2	0.47	8.3E-01	2.42	7.0E-06	orange
+AT3G16330			0.23	9.4E-01	2.42	6.4E-03	orange
+AT4G23810	WRKY53	WRKY family transcription factor	0.57	8.2E-01	2.42	8.1E-08	orange
+AT1G07620	ATOBGM	GTP-binding protein Obg/CgtA	0.87	6.1E-01	2.41	3.8E-05	orange
+AT2G45760	BAP2	BON association protein 2	-0.31	9.5E-01	2.41	8.4E-04	orange
+AT2G47130	SDR3	NAD(P)-binding Rossmann-fold superfamily protein	0.18	9.6E-01	2.40	3.6E-03	orange
+AT5G63450	CYP94B1	"cytochrome P450, family 94, subfamily B, polypeptide 1"	1.81	4.0E-01	2.40	1.4E-03	orange
+AT5G22520			2.37	4.6E-01	2.40	3.2E-02	orange
+AT3G19580	ZF2	zinc-finger protein 2	0.39	8.5E-01	2.39	8.3E-11	orange
+AT3G57157		other RNA	0.56	5.8E-01	2.38	3.1E-05	orange
+AT1G10540	NAT8	nucleobase-ascorbate transporter 8	0.70	3.2E-01	2.37	3.0E-08	orange
+AT5G45810	CIPK19	CBL-interacting protein kinase 19	0.19	9.5E-01	2.35	7.7E-05	orange
+AT5G07322		other RNA	0.12	9.7E-01	2.34	1.5E-03	orange
+AT5G27420	CNI1	carbon/nitrogen insensitive 1	0.30	9.3E-01	2.34	8.0E-06	orange
+AT5G50940		RNA-binding KH domain-containing protein	0.31	8.1E-01	2.34	6.3E-10	orange
+AT3G57450			0.46	6.1E-01	2.33	6.4E-10	orange
+AT3G47480		Calcium-binding EF-hand family protein	1.41	1.3E-01	2.32	7.4E-06	orange
+AT1G50750		Plant mobile domain protein family	0.40	9.1E-01	2.32	8.2E-08	orange
+AT2G27080		Late embryogenesis abundant (LEA) hydroxyproline-rich glycoprotein family	0.01	1.0E+00	2.31	2.1E-05	orange
+AT3G50260	CEJ1	cooperatively regulated by ethylene and jasmonate 1	-0.32	9.3E-01	2.31	7.3E-04	orange
+AT5G51190		Integrase-type DNA-binding superfamily protein	0.53	8.9E-01	2.30	2.2E-03	orange
+AT1G10340		Ankyrin repeat family protein	0.60	8.9E-01	2.29	1.7E-02	orange
+AT2G04450	NUDT6	nudix hydrolase homolog 6	0.73	7.7E-01	2.28	2.3E-03	orange
+AT1G74930	ORA47	Integrase-type DNA-binding superfamily protein	0.81	3.4E-01	2.28	5.3E-07	orange
+AT5G16080	CXE17	carboxyesterase 17	0.33	8.5E-01	2.27	7.5E-14	orange
+AT3G25180	CYP82G1	"cytochrome P450, family 82, subfamily G, polypeptide 1"	1.19	7.8E-01	2.25	2.2E-02	orange
+AT4G15660		Thioredoxin superfamily protein	0.16	9.4E-01	2.25	2.4E-17	orange
+AT1G59590	ZCF37	ZCF37	0.67	5.8E-01	2.25	2.3E-05	orange
+AT3G46090	ZAT7	C2H2 and C2HC zinc fingers superfamily protein	2.01	4.9E-01	2.25	3.5E-02	orange
+AT1G67920			1.05	8.6E-02	2.25	3.8E-07	orange
+AT3G29034			-0.06	9.9E-01	2.23	7.9E-03	orange
+AT1G57630		Toll-Interleukin-Resistance (TIR) domain family protein	0.92	8.7E-01	2.23	1.6E-02	orange
+AT4G02320		Plant invertase/pectin methylesterase inhibitor superfamily	0.99	4.1E-01	2.22	9.7E-04	orange
+AT1G62420		Protein of unknown function (DUF506) 	0.25	9.6E-01	2.22	9.7E-05	orange
+AT2G38470	WRKY33	WRKY DNA-binding protein 33	0.53	7.7E-01	2.20	9.6E-10	orange
+AT2G37130		Peroxidase superfamily protein	0.99	4.2E-01	2.20	1.2E-03	orange
+AT5G52750		Heavy metal transport/detoxification superfamily protein 	0.48	8.4E-01	2.20	1.1E-06	orange
+AT3G46080		C2H2-type zinc finger family protein	2.11	3.0E-01	2.17	3.5E-02	orange
+AT3G60970	ABCC15	multidrug resistance-associated protein 15	0.67	4.7E-01	2.16	1.7E-09	orange
+AT1G32690			0.71	3.0E-01	2.15	1.5E-06	orange
+AT5G41740		Disease resistance protein (TIR-NBS-LRR class) family	0.31	7.7E-01	2.15	8.5E-12	orange
+AT5G13700	PAO1	polyamine oxidase 1	0.36	7.9E-01	2.14	2.9E-06	orange
+AT3G14700		SART-1 family	0.63	5.1E-01	2.13	3.0E-07	orange
+AT3G48080		alpha/beta-Hydrolases superfamily protein	0.46	9.1E-01	2.13	2.0E-03	orange
+AT3G10815		RING/U-box superfamily protein	0.38	9.5E-01	2.12	4.7E-02	orange
+AT1G24090		RNase H family protein	0.43	7.0E-01	2.12	4.8E-10	orange
+AT4G27410	RD26	NAC (No Apical Meristem) domain transcriptional regulator superfamily protein	1.00	7.5E-02	2.12	2.1E-11	orange
+AT4G32480		Protein of unknown function (DUF506) 	0.84	3.5E-01	2.12	6.3E-10	orange
+AT1G73805	SARD1	Calmodulin binding protein-like	0.62	8.2E-01	2.12	3.6E-04	orange
+AT5G38900		Thioredoxin superfamily protein	0.96	7.1E-01	2.12	4.0E-03	orange
+AT1G25422			0.76	1.1E-01	2.11	1.3E-08	orange
+AT2G30540		Thioredoxin superfamily protein	0.66	8.6E-02	2.11	3.2E-15	orange
+AT1G05675		UDP-Glycosyltransferase superfamily protein	-0.39	9.5E-01	2.11	9.6E-03	orange
+AT5G09440	EXL4	EXORDIUM like 4	0.21	8.7E-01	2.11	3.1E-05	orange
+AT2G26440		Plant invertase/pectin methylesterase inhibitor superfamily	0.86	1.7E-01	2.10	4.9E-05	orange
+AT5G45000		Disease resistance protein (TIR-NBS-LRR class) family	-0.88	8.8E-01	2.10	6.1E-03	orange
+AT5G25250	FLOT1	SPFH/Band 7/PHB domain-containing membrane-associated protein family	1.74	2.3E-01	2.10	5.2E-03	orange
+AT1G21550		Calcium-binding EF-hand family protein	0.83	2.1E-01	2.09	2.1E-05	orange
+AT2G32210			0.28	9.0E-01	2.09	1.0E-05	orange
+AT5G51060	RHD2	NADPH/respiratory burst oxidase protein D	0.61	6.5E-01	2.09	1.4E-02	orange
+AT5G52390		PAR1 protein	0.88	6.7E-01	2.08	1.2E-03	orange
+AT1G09421		other RNA	0.89	4.7E-01	2.08	6.9E-05	orange
+AT1G72280	ERO1	endoplasmic reticulum oxidoreductins 1	0.54	2.8E-01	2.07	4.1E-08	orange
+AT4G11000		Ankyrin repeat family protein	-0.26	9.4E-01	2.07	8.4E-03	orange
+AT4G25490	CBF1	C-repeat/DRE binding factor 1	-0.23	9.8E-01	2.07	3.4E-03	orange
+AT2G23170	GH3.3	Auxin-responsive GH3 family protein	1.85	2.9E-01	2.06	4.6E-02	orange
+AT5G52050		MATE efflux family protein	0.17	9.5E-01	2.05	2.8E-04	orange
+AT2G44450	BGLU15	beta glucosidase 15	0.26	9.4E-01	2.05	1.4E-04	orange
+AT4G14365	XBAT34	XB3 ortholog 4 in Arabidopsis thaliana	0.79	5.6E-01	2.05	6.8E-04	orange
+AT3G63010	GID1B	alpha/beta-Hydrolases superfamily protein	0.57	7.7E-02	2.05	2.4E-11	orange
+AT1G68620		alpha/beta-Hydrolases superfamily protein	0.41	8.8E-01	2.04	1.3E-03	orange
+AT4G28085			1.01	4.2E-01	2.04	3.8E-04	orange
+AT1G33790		jacalin lectin family protein	0.51	7.2E-01	2.03	5.3E-06	orange
+AT3G50470	HR3	homolog of RPW8 3	0.38	8.9E-01	2.02	1.3E-03	orange
+AT5G26920	CBP60G	Cam-binding protein 60-like G	0.76	6.8E-01	2.01	1.4E-03	orange
+AT1G36622			0.28	9.6E-01	2.01	1.6E-02	orange
+AT3G62930		Thioredoxin superfamily protein	-0.10	9.6E-01	2.01	2.4E-09	orange
+AT1G73810		"Core-2/I-branching beta-1,6-N-acetylglucosaminyltransferase family protein"	1.29	4.6E-01	2.01	9.7E-03	orange
+AT3G18250		Putative membrane lipoprotein	0.72	8.6E-01	2.01	4.7E-03	orange
+AT4G37370	CYP81D8	"cytochrome P450, family 81, subfamily D, polypeptide 8"	0.34	8.0E-01	1.99	2.8E-04	orange
+AT3G48360	bt2	BTB and TAZ domain protein 2	-0.85	8.5E-01	1.99	8.1E-03	orange
+AT1G22400	UGT85A1	UDP-Glycosyltransferase superfamily protein	0.97	2.8E-01	1.98	1.3E-02	orange
+AT5G06320	NHL3	NDR1/HIN1-like 3	0.28	8.6E-01	1.98	1.3E-09	orange
+AT2G02010	GAD4	glutamate decarboxylase 4	0.60	5.0E-01	1.98	1.5E-05	orange
+AT2G18196		Heavy metal transport/detoxification superfamily protein 	0.66	4.4E-01	1.97	1.6E-11	orange
+AT1G16130	WAKL2	wall associated kinase-like 2	-0.14	9.6E-01	1.96	6.1E-06	orange
+AT4G15700		Thioredoxin superfamily protein	0.07	9.8E-01	1.96	3.6E-16	orange
+AT4G21390	B120	S-locus lectin protein kinase family protein	0.25	9.4E-01	1.96	2.2E-03	orange
+AT2G35930	PUB23	plant U-box 23	0.41	6.1E-01	1.96	2.6E-04	orange
+AT2G05518			0.21	9.6E-01	1.96	7.9E-04	orange
+AT3G09020		"alpha 1,4-glycosyltransferase family protein"	-0.33	9.4E-01	1.96	1.4E-02	orange
+AT4G11910			0.82	2.8E-01	1.95	9.1E-05	orange
+AT4G12735			1.45	9.3E-02	1.94	1.5E-02	orange
+AT4G14370		Disease resistance protein (TIR-NBS-LRR class) family	0.29	9.4E-01	1.94	4.7E-03	orange
+AT2G40750	WRKY54	WRKY DNA-binding protein 54	0.92	2.6E-01	1.94	4.6E-05	orange
+AT1G61340	FBS1	F-box family protein	-0.06	9.8E-01	1.93	1.3E-13	orange
+AT4G11890	ARCK1	Protein kinase superfamily protein	1.93	1.6E-01	1.93	7.4E-03	orange
+AT2G40000	HSPRO2	ortholog of sugar beet HS1 PRO-1 2	-0.07	9.9E-01	1.92	6.6E-05	orange
+AT1G75580		SAUR-like auxin-responsive protein family 	0.07	9.7E-01	1.91	2.3E-07	orange
+AT4G15680		Thioredoxin superfamily protein	-0.04	9.9E-01	1.91	7.1E-07	orange
+AT3G52400	SYP122	syntaxin of plants 122	0.09	9.8E-01	1.90	4.0E-06	orange
+AT3G22910		ATPase E1-E2 type family protein / haloacid dehalogenase-like hydrolase family protein	1.07	2.7E-01	1.90	7.6E-04	orange
+AT3G13950			0.60	8.8E-01	1.89	8.9E-03	orange
+AT2G34940	VSR5	VACUOLAR SORTING RECEPTOR 5	-0.04	9.9E-01	1.89	2.4E-04	orange
+AT4G23610		Late embryogenesis abundant (LEA) hydroxyproline-rich glycoprotein family	0.25	9.6E-01	1.89	1.4E-02	orange
+AT4G12410		SAUR-like auxin-responsive protein family 	1.00	5.0E-01	1.88	1.1E-02	orange
+AT3G25510		"disease resistance protein (TIR-NBS-LRR class), putative"	1.76	6.3E-02	1.87	9.5E-03	orange
+AT3G16860	COBL8	COBRA-like protein 8 precursor	0.86	5.1E-02	1.86	1.9E-13	orange
+AT4G28140		Integrase-type DNA-binding superfamily protein	-0.11	9.7E-01	1.86	1.4E-04	orange
+AT5G22250	CAF1b	"Polynucleotidyl transferase, ribonuclease H-like superfamily protein"	0.23	8.6E-01	1.85	1.4E-04	orange
+AT3G19030			0.36	8.7E-01	1.85	9.0E-13	orange
+AT4G18501			0.27	8.8E-01	1.84	5.6E-06	orange
+AT5G10695			0.24	8.9E-01	1.84	4.2E-11	orange
+AT5G54490	PBP1	pinoid-binding protein 1	0.18	9.5E-01	1.84	2.6E-03	orange
+AT2G23680		Cold acclimation protein WCOR413 family	0.54	4.5E-01	1.83	7.0E-06	orange
+AT2G14245		transposable element gene	0.60	8.1E-01	1.83	2.5E-03	orange
+AT2G38790			0.33	7.7E-01	1.82	4.3E-10	orange
+AT1G14870	PCR2	PLANT CADMIUM RESISTANCE 2	0.87	3.9E-01	1.82	1.5E-03	orange
+AT1G21520			1.07	3.1E-01	1.81	2.6E-04	orange
+AT3G14050	RSH2	RELA/SPOT homolog 2	0.57	1.7E-02	1.81	6.6E-24	orange
+AT3G22930	CML11	calmodulin-like 11	0.87	6.5E-01	1.79	4.5E-02	orange
+AT4G27652			0.73	1.5E-01	1.79	3.5E-06	orange
+AT2G30770	CYP71A13	"cytochrome P450, family 71, subfamily A, polypeptide 13"	0.55	8.9E-01	1.79	1.7E-03	orange
+AT1G75290		NAD(P)-binding Rossmann-fold superfamily protein	0.38	4.9E-01	1.78	2.6E-09	orange
+AT1G14240		GDA1/CD39 nucleoside phosphatase family protein	0.74	4.1E-01	1.78	2.7E-04	orange
+AT1G76600			0.34	6.8E-01	1.78	5.9E-04	orange
+AT5G03210	DIP2		0.61	4.9E-01	1.77	1.4E-14	orange
+AT1G24145			0.12	9.6E-01	1.77	1.0E-04	orange
+AT3G17110			0.75	1.3E-01	1.77	8.1E-06	orange
+AT1G02610		RING/FYVE/PHD zinc finger superfamily protein	0.29	8.5E-01	1.76	8.5E-07	orange
+AT5G56550	OXS3	oxidative stress 3	0.82	2.1E-01	1.76	1.7E-06	orange
+AT2G33580	LYK5	Protein kinase superfamily protein	0.56	6.2E-01	1.75	4.0E-06	orange
+AT1G49450		Transducin/WD40 repeat-like superfamily protein	0.75	2.1E-01	1.75	6.8E-12	orange
+AT5G28010		Polyketide cyclase/dehydrase and lipid transport superfamily protein	0.45	6.5E-01	1.75	2.0E-05	orange
+AT5G46871		Putative membrane lipoprotein	0.25	9.5E-01	1.75	8.1E-08	orange
+AT5G49525			0.53	2.6E-01	1.74	3.8E-08	orange
+AT1G10585		basic helix-loop-helix (bHLH) DNA-binding superfamily protein	0.95	3.4E-01	1.74	2.4E-02	orange
+AT2G25460			0.56	6.3E-01	1.74	3.9E-04	orange
+AT4G17230	SCL13	SCARECROW-like 13	0.65	9.4E-02	1.74	1.3E-15	orange
+AT3G23870		Protein of unknown function (DUF803)	0.51	1.1E-01	1.72	1.4E-10	orange
+AT2G40140	CZF1	zinc finger (CCCH-type) family protein	0.41	5.8E-01	1.72	1.1E-08	orange
+AT1G77380	AAP3	amino acid permease 3	0.56	7.2E-01	1.71	1.1E-03	orange
+AT1G65510			0.65	8.8E-01	1.71	3.7E-02	orange
+AT3G63060	EDL3	EID1-like 3	0.51	7.8E-01	1.71	2.3E-08	orange
+AT1G78680	GGH2	gamma-glutamyl hydrolase 2	0.55	2.6E-07	1.70	1.6E-22	orange
+AT4G36670	PMT6	Major facilitator superfamily protein	0.36	6.3E-01	1.70	6.9E-06	orange
+AT1G32928			0.54	7.3E-01	1.70	5.1E-04	orange
+AT1G70920	HB18	homeobox-leucine zipper protein 18	0.28	9.2E-01	1.69	3.5E-07	orange
+AT1G05550		Protein of unknown function (DUF295)	0.91	2.3E-01	1.69	1.7E-05	orange
+AT3G18610	NUC-L2	nucleolin like 2	0.50	6.3E-01	1.69	2.8E-05	orange
+AT3G60540		"Preprotein translocase Sec, Sec61-beta subunit protein"	0.82	3.4E-01	1.69	8.9E-03	orange
+AT2G18690			0.45	8.6E-01	1.69	1.0E-02	orange
+AT5G39610	NAC6	NAC domain containing protein  6	0.42	9.3E-01	1.69	3.0E-02	orange
+AT5G53450	ORG1	OBP3-responsive gene 1	0.16	8.3E-01	1.69	1.5E-09	orange
+AT3G59050	PAO3	polyamine oxidase 3	0.40	6.3E-01	1.68	1.2E-14	orange
+AT1G58420		Uncharacterised conserved protein UCP031279	-0.17	9.6E-01	1.68	1.1E-02	orange
+AT4G22100	BGLU3	beta glucosidase 2	0.60	6.3E-02	1.68	1.0E-13	orange
+AT2G32830	PHT1;5	phosphate transporter 1;5	1.06	1.5E-01	1.67	1.0E-04	orange
+AT3G22415			0.47	6.0E-01	1.67	2.5E-04	orange
+AT5G43420		RING/U-box superfamily protein	0.31	8.7E-01	1.67	1.2E-04	orange
+AT4G01540	NTM1	NAC with transmembrane motif1	0.36	6.2E-01	1.66	5.1E-07	orange
+AT3G01080	WRKY58	WRKY DNA-binding protein 58	-0.06	9.9E-01	1.66	3.4E-03	orange
+AT3G61280		Arabidopsis thaliana protein of unknown function (DUF821)	0.33	6.0E-01	1.65	2.0E-07	orange
+AT2G23810	TET8	tetraspanin8	0.35	8.3E-01	1.65	7.5E-09	orange
+AT3G59700	HLECRK	lectin-receptor kinase	0.78	2.0E-01	1.65	6.5E-05	orange
+AT5G20400		2-oxoglutarate (2OG) and Fe(II)-dependent oxygenase superfamily protein	-0.31	8.8E-01	1.64	7.3E-05	orange
+AT3G53370		S1FA-like DNA-binding protein	0.58	1.0E-04	1.64	2.3E-24	orange
+AT5G49520	WRKY48	WRKY DNA-binding protein 48	0.24	9.3E-01	1.64	4.3E-03	orange
+AT3G19660			0.35	6.5E-01	1.64	5.8E-07	orange
+AT1G02450	NIMIN1	NIM1-interacting 1	0.48	9.1E-01	1.64	1.3E-02	orange
+AT3G47640	PYE	basic helix-loop-helix (bHLH) DNA-binding superfamily protein	0.13	9.3E-01	1.63	8.5E-08	orange
+AT5G60310		Concanavalin A-like lectin protein kinase family protein	1.06	4.4E-01	1.63	2.1E-03	orange
+AT1G23020	FRO3	ferric reduction oxidase 3	-0.06	9.6E-01	1.63	8.4E-11	orange
+AT1G48500	JAZ4	jasmonate-zim-domain protein 4	1.21	1.5E-01	1.62	2.5E-04	orange
+AT3G24982	RLP40	receptor like protein 40	0.81	1.1E-01	1.62	6.7E-04	orange
+AT4G40020		Myosin heavy chain-related protein	0.97	5.8E-01	1.62	1.3E-02	orange
+AT1G34420		leucine-rich repeat transmembrane protein kinase family protein	1.00	1.6E-01	1.62	1.3E-03	orange
+AT5G62150		peptidoglycan-binding LysM domain-containing protein	0.86	5.0E-01	1.62	9.4E-03	orange
+AT1G18300	NUDT4	nudix hydrolase homolog 4	-0.11	9.5E-01	1.61	6.0E-05	orange
+AT2G04100		MATE efflux family protein	0.59	2.7E-01	1.61	1.6E-05	orange
+AT1G72920		Toll-Interleukin-Resistance (TIR) domain family protein	0.71	2.7E-01	1.60	4.9E-06	orange
+AT4G20110	VSR7	VACUOLAR SORTING RECEPTOR 7	0.28	8.2E-01	1.60	1.8E-05	orange
+AT1G23840			0.33	8.8E-01	1.59	1.9E-03	orange
+AT2G36650			0.00	1.0E+00	1.59	7.0E-06	orange
+AT3G09490		Tetratricopeptide repeat (TPR)-like superfamily protein	0.64	4.4E-01	1.59	6.6E-05	orange
+AT2G41100	TCH3	Calcium-binding EF hand family protein	0.10	9.7E-01	1.59	2.6E-04	orange
+AT1G13340		Regulator of Vps4 activity in the MVB pathway protein	0.41	8.7E-01	1.59	5.4E-03	orange
+AT2G30360	SIP4	SOS3-interacting protein 4	0.97	1.1E-01	1.59	7.2E-04	orange
+AT1G29160		Dof-type zinc finger DNA-binding family protein	0.36	9.2E-01	1.59	8.5E-03	orange
+AT1G14370	APK2A	protein kinase 2A	0.31	7.4E-01	1.58	8.4E-06	orange
+AT2G30040	MAPKKK14	mitogen-activated protein kinase kinase kinase 14	0.65	2.9E-01	1.58	2.2E-08	orange
+AT5G59550	RDUF2	zinc finger (C3HC4-type RING finger) family protein	0.46	4.0E-01	1.58	3.7E-11	orange
+AT3G15280			0.89	6.1E-01	1.58	9.4E-04	orange
+AT1G02405		proline-rich family protein	-0.32	9.3E-01	1.57	3.9E-02	orange
+AT5G10760		Eukaryotic aspartyl protease family protein	0.58	7.3E-01	1.57	4.9E-03	orange
+AT4G38470	STY46	ACT-like protein tyrosine kinase family protein	0.42	3.8E-02	1.56	7.5E-14	orange
+AT1G04770		Tetratricopeptide repeat (TPR)-like superfamily protein	0.40	6.8E-01	1.56	3.5E-09	orange
+AT1G22340	UGT85A7	UDP-glucosyl transferase 85A7	0.49	3.6E-01	1.56	1.1E-13	orange
+AT1G23070		Protein of unknown function (DUF300)	0.90	6.2E-01	1.55	3.5E-04	orange
+AT3G16720	ATL2	TOXICOS EN LEVADURA 2	0.57	3.8E-01	1.55	1.2E-05	orange
+AT1G13970		Protein of unknown function (DUF1336)	0.64	5.1E-01	1.55	1.6E-05	orange
+AT2G46640			0.57	1.1E-03	1.55	1.4E-18	orange
+AT1G01560	MPK11	MAP kinase 11	1.62	1.1E-01	1.55	2.1E-02	orange
+AT5G53660	GRF7	growth-regulating factor 7	0.28	8.8E-01	1.55	4.5E-05	orange
+AT2G24600		Ankyrin repeat family protein	0.14	9.7E-01	1.55	1.3E-03	orange
+AT5G01540	LECRKA4.1	lectin receptor kinase a4.1	0.17	9.6E-01	1.54	1.8E-02	orange
+AT1G06002			0.40	8.1E-01	1.54	1.7E-04	orange
+AT5G54170		Polyketide cyclase/dehydrase and lipid transport superfamily protein	0.57	1.8E-02	1.54	1.1E-05	orange
+AT3G14550	GGPS3	geranylgeranyl pyrophosphate synthase 3	0.02	1.0E+00	1.54	2.6E-06	orange
+AT5G01100		O-fucosyltransferase family protein	0.15	9.5E-01	1.54	7.4E-05	orange
+AT3G47420	G3Pp1	phosphate starvation-induced gene 3	0.45	5.8E-02	1.54	2.2E-12	orange
+AT3G20960	CYP705A33	"cytochrome P450, family 705, subfamily A, polypeptide 33"	0.31	8.8E-01	1.53	1.9E-04	orange
+AT1G65620	AS2	Lateral organ boundaries (LOB) domain family protein	0.51	3.6E-01	1.53	3.1E-05	orange
+AT1G45616	RLP6	receptor like protein 6	0.56	8.0E-03	1.53	7.6E-13	orange
+AT4G01250	WRKY22	WRKY family transcription factor	0.17	9.4E-01	1.52	2.0E-06	orange
+AT2G04070		MATE efflux family protein	0.18	9.6E-01	1.52	1.5E-02	orange
+AT2G41312		other RNA	0.44	8.9E-02	1.51	1.7E-09	orange
+AT2G34220	MEE20	Protein with domains of unknown function (DUF627 and DUF629)	-0.15	9.6E-01	1.51	2.0E-04	orange
+AT4G23140	CRK6	cysteine-rich RLK (RECEPTOR-like protein kinase) 6	1.35	2.7E-01	1.51	1.1E-02	orange
+AT5G20900	JAZ12	jasmonate-zim-domain protein 12	0.58	3.4E-04	1.51	6.6E-23	orange
+AT2G25000	WRKY60	WRKY DNA-binding protein 60	0.76	4.4E-01	1.50	3.2E-03	orange
+AT2G30362		other RNA	0.16	9.5E-01	1.50	4.6E-03	orange
+AT2G31880	SOBIR1	Leucine-rich repeat protein kinase family protein	0.33	8.1E-01	1.50	1.2E-04	orange
+AT2G11810	MGDC	monogalactosyldiacylglycerol synthase type C	0.78	4.8E-01	1.49	6.0E-05	orange
+AT4G36990	HSF4	heat shock factor 4	0.55	2.9E-01	1.49	1.1E-04	orange
+AT5G23020	"IMS2, MAM3"	2-isopropylmalate synthase 2	0.42	7.8E-01	1.49	5.0E-05	orange
+AT2G47190	MYB2	myb domain protein 2	0.25	9.2E-01	1.49	8.4E-04	orange
+AT1G73500	MKK9	MAP kinase kinase 9	0.55	2.8E-01	1.48	2.6E-07	orange
+AT5G55450		Bifunctional inhibitor/lipid-transfer protein/seed storage 2S albumin superfamily protein	0.21	9.5E-01	1.48	1.0E-02	orange
+AT3G56400	WRKY70	WRKY DNA-binding protein 70	0.74	1.8E-01	1.48	9.4E-06	orange
+AT3G50450	HR1	homolog of RPW8 1	0.79	5.5E-01	1.47	8.0E-06	orange
+AT1G74450		Protein of unknown function (DUF793)	0.31	7.5E-01	1.46	1.1E-08	orange
+AT1G20350	TIM17-1	translocase inner membrane subunit 17-1	0.81	1.2E-01	1.46	1.8E-03	orange
+AT2G47780		Rubber elongation factor protein (REF)	0.20	8.9E-01	1.46	2.1E-06	orange
+AT4G30250		P-loop containing nucleoside triphosphate hydrolases superfamily protein	0.60	3.1E-01	1.46	8.4E-06	orange
+AT4G21990	APR3	APS reductase 3	0.52	2.6E-01	1.45	9.0E-13	orange
+AT1G15670		Galactose oxidase/kelch repeat superfamily protein	-0.18	9.6E-01	1.45	5.0E-02	orange
+AT1G33260		Protein kinase superfamily protein	0.42	4.6E-02	1.45	2.3E-14	orange
+AT2G32990	GH9B8	glycosyl hydrolase 9B8	0.48	3.2E-02	1.45	1.1E-08	orange
+AT2G45510	CYP704A2	"cytochrome P450, family 704, subfamily A, polypeptide 2"	0.27	6.7E-01	1.44	1.9E-09	orange
+AT1G74440		Protein of unknown function (DUF962)	0.82	6.1E-02	1.44	2.3E-05	orange
+AT5G43380	TOPP6	type one serine/threonine protein phosphatase 6	0.49	1.3E-01	1.44	2.2E-07	orange
+AT2G16660		Major facilitator superfamily protein	0.31	6.6E-01	1.44	2.1E-07	orange
+AT2G39650		Protein of unknown function (DUF506) 	0.36	8.2E-01	1.43	7.9E-08	orange
+AT3G08720	S6K2	serine/threonine protein kinase 2	0.39	2.9E-01	1.43	2.2E-05	orange
+AT1G65390	PP2-A5	phloem protein 2 A5	-0.14	9.7E-01	1.43	3.6E-03	orange
+AT2G28400		"Protein of unknown function, DUF584"	0.20	9.4E-01	1.43	3.4E-04	orange
+AT1G53542			0.00	1.0E+00	1.42	7.1E-03	orange
+AT3G20440	EMB2729	Alpha amylase family protein	-0.11	9.2E-01	1.42	4.4E-13	orange
+AT1G71530		Protein kinase superfamily protein	0.16	9.6E-01	1.41	7.6E-04	orange
+AT1G09950	RAS1	RESPONSE TO ABA AND SALT 1	-0.39	9.0E-01	1.41	9.8E-03	orange
+AT1G73480		alpha/beta-Hydrolases superfamily protein	0.59	5.8E-02	1.41	2.1E-20	orange
+AT3G60160	ABCC9	multidrug resistance-associated protein 9	0.51	1.7E-04	1.41	5.4E-15	orange
+AT3G60130	BGLU16	beta glucosidase 16	0.53	2.2E-02	1.41	3.1E-06	orange
+AT4G16000			0.15	9.2E-01	1.41	1.1E-09	orange
+AT4G04760		Major facilitator superfamily protein	0.41	7.6E-01	1.40	1.1E-03	orange
+AT4G37295			0.42	8.2E-01	1.40	1.8E-02	orange
+AT3G18290	BTS	zinc finger protein-related	0.20	5.5E-01	1.40	2.6E-11	orange
+AT3G44720	ADT4	arogenate dehydratase 4	0.35	2.1E-01	1.40	2.4E-09	orange
+AT1G56120		Leucine-rich repeat transmembrane protein kinase	0.42	5.8E-01	1.40	4.0E-04	orange
+AT3G62950		Thioredoxin superfamily protein	-0.26	9.3E-01	1.40	3.0E-07	orange
+AT1G30220	INT2	inositol transporter 2	0.63	2.0E-01	1.39	3.8E-06	orange
+AT5G37770	TCH2	EF hand calcium-binding protein family	-0.11	9.6E-01	1.39	1.5E-08	orange
+AT5G13740	ZIF1	zinc induced facilitator 1	0.04	9.6E-01	1.39	2.4E-22	orange
+AT1G67856		RING/U-box superfamily protein	-0.06	9.8E-01	1.39	2.0E-05	orange
+AT4G23680		Polyketide cyclase/dehydrase and lipid transport superfamily protein	0.65	2.7E-01	1.39	1.5E-03	orange
+AT4G18170	WRKY28	WRKY DNA-binding protein 28	0.02	9.9E-01	1.39	2.2E-03	orange
+AT1G02660		alpha/beta-Hydrolases superfamily protein	-0.28	8.9E-01	1.39	3.1E-08	orange
+AT1G69890		Protein of unknown function (DUF569)	0.49	7.1E-01	1.39	4.7E-05	orange
+AT4G36988	CPuORF49	conserved peptide upstream open reading frame 49	0.28	8.3E-01	1.38	1.1E-04	orange
+AT3G15270	SPL5	squamosa promoter binding protein-like 5	0.29	6.9E-01	1.37	3.2E-06	orange
+AT3G05905		other RNA	-0.29	9.2E-01	1.37	5.5E-03	orange
+AT1G75490		Integrase-type DNA-binding superfamily protein	-0.33	9.4E-01	1.37	4.3E-03	orange
+AT3G15650		alpha/beta-Hydrolases superfamily protein	0.36	7.3E-01	1.37	1.8E-03	orange
+AT3G49320		Metal-dependent protein hydrolase	0.13	9.2E-01	1.36	1.5E-07	orange
+AT1G42990	BZIP60	basic region/leucine zipper motif 60	0.37	1.9E-01	1.36	8.5E-10	orange
+AT2G24550			0.15	9.1E-01	1.36	3.2E-06	orange
+AT5G19120		Eukaryotic aspartyl protease family protein	0.09	9.8E-01	1.35	4.0E-03	orange
+AT1G25560	TEM1	AP2/B3 transcription factor family protein	0.14	9.5E-01	1.35	4.8E-05	orange
+AT1G65500			0.29	9.3E-01	1.35	2.3E-03	orange
+AT4G13190		Protein kinase superfamily protein	0.29	8.8E-01	1.35	2.8E-07	orange
+AT3G28620		"Zinc finger, C3HC4 type (RING finger) family protein"	0.19	9.4E-01	1.35	8.5E-04	orange
+AT4G16370	OPT3	oligopeptide transporter	0.28	2.1E-01	1.35	5.2E-11	orange
+AT3G05165		Major facilitator superfamily protein	0.55	4.7E-04	1.34	2.7E-10	orange
+AT3G27970		Exonuclease family protein	0.15	9.7E-01	1.34	8.2E-04	orange
+AT4G15690		Thioredoxin superfamily protein	-0.08	9.7E-01	1.34	1.2E-10	orange
+AT1G72900		Toll-Interleukin-Resistance (TIR) domain-containing protein	0.50	5.1E-01	1.34	8.5E-05	orange
+AT4G18010	IP5PII	myo-inositol polyphosphate 5-phosphatase 2	0.31	1.9E-01	1.34	1.4E-09	orange
+AT3G21780	UGT71B6	UDP-glucosyl transferase 71B6	0.43	6.9E-01	1.34	5.6E-04	orange
+AT1G07050		CCT motif family protein	0.84	3.5E-01	1.34	1.4E-02	orange
+AT3G19500		basic helix-loop-helix (bHLH) DNA-binding superfamily protein	0.78	5.7E-02	1.33	4.5E-09	orange
+AT3G25610		ATPase E1-E2 type family protein / haloacid dehalogenase-like hydrolase family protein	0.08	9.6E-01	1.33	5.7E-06	orange
+AT1G70140	FH8	formin 8	-0.05	9.8E-01	1.33	4.4E-04	orange
+AT5G16410		HXXXD-type acyl-transferase family protein	0.10	9.8E-01	1.33	5.1E-06	orange
+AT1G09070	SRC2	soybean gene regulated by cold-2	0.01	1.0E+00	1.33	3.0E-08	orange
+AT5G38280	PR5K	PR5-like receptor kinase	-0.17	9.4E-01	1.33	3.7E-04	orange
+AT2G45210		SAUR-like auxin-responsive protein family 	0.49	8.2E-01	1.32	2.6E-02	orange
+AT3G52770	ZPR3	protein binding	0.70	1.8E-01	1.32	6.8E-05	orange
+AT2G15080	RLP19	receptor like protein 19	0.22	6.2E-01	1.32	1.5E-12	orange
+AT4G37190			0.28	2.3E-01	1.32	2.6E-17	orange
+AT5G16370	AAE5	acyl activating enzyme 5	0.49	1.2E-02	1.31	5.2E-11	orange
+AT4G19850		lectin-related	-0.19	9.3E-01	1.31	9.6E-05	orange
+AT5G21940			-0.37	8.3E-01	1.31	4.5E-03	orange
+AT3G15510	NAC2	NAC domain containing protein  2	0.12	9.2E-01	1.31	4.9E-10	orange
+AT2G47670		Plant invertase/pectin methylesterase inhibitor superfamily protein	0.52	2.5E-01	1.31	1.6E-07	orange
+AT2G29490	GSTU1	glutathione S-transferase TAU 1	0.36	6.2E-01	1.31	1.9E-03	orange
+AT2G46940			0.54	3.1E-01	1.30	1.9E-05	orange
+AT1G28190			0.45	3.9E-01	1.30	9.6E-04	orange
+AT2G35290			0.17	9.4E-01	1.30	9.6E-03	orange
+AT5G16690	ORC3	origin recognition complex subunit 3	0.42	2.0E-01	1.30	6.1E-06	orange
+AT5G16360		NC domain-containing protein-related	0.47	5.2E-01	1.30	3.3E-03	orange
+AT3G23120	RLP38	receptor like protein 38	0.91	4.1E-01	1.30	4.8E-02	orange
+AT5G60440	AGL62	AGAMOUS-like 62	0.19	9.5E-01	1.30	6.3E-03	orange
+AT5G04340	ZAT6	zinc finger of Arabidopsis thaliana 6	0.58	5.6E-01	1.30	9.9E-03	orange
+AT2G15960			0.39	7.6E-02	1.29	2.3E-16	orange
+AT1G56660			-0.02	9.9E-01	1.29	6.8E-03	orange
+AT3G51960	BZIP24	basic leucine zipper 24	0.19	7.4E-01	1.29	2.0E-11	orange
+AT3G16530		Legume lectin family protein	-0.19	9.6E-01	1.29	3.4E-02	orange
+AT2G21350		RNA-binding CRS1 / YhbY (CRM) domain protein	-0.25	9.0E-01	1.29	3.4E-04	orange
+AT5G13200		GRAM domain family protein	0.29	6.3E-01	1.29	3.9E-09	orange
+AT3G55840		Hs1pro-1 protein	-0.17	9.5E-01	1.28	1.0E-02	orange
+AT4G21570		Protein of unknown function (DUF300)	0.42	1.7E-01	1.28	1.3E-12	orange
+AT5G49480	CP1	Ca2+-binding protein 1	0.57	8.5E-03	1.28	1.5E-07	orange
+AT1G24792			0.69	5.7E-01	1.27	2.5E-03	orange
+AT5G60730		Anion-transporting ATPase	0.18	9.5E-01	1.27	8.7E-03	orange
+AT1G05100	MAPKKK18	mitogen-activated protein kinase kinase kinase 18	0.65	6.6E-01	1.27	8.8E-03	orange
+AT5G64660	CMPG2	"CYS, MET, PRO, and GLY protein 2"	0.23	8.2E-01	1.27	1.5E-07	orange
+AT2G23340	DEAR3	DREB and EAR motif protein 3	0.43	1.7E-01	1.27	5.3E-09	orange
+AT1G22570		Major facilitator superfamily protein	0.39	2.3E-01	1.26	7.2E-07	orange
+AT4G11280	ACS6	1-aminocyclopropane-1-carboxylic acid (acc) synthase 6	0.14	9.4E-01	1.26	6.5E-05	orange
+AT1G24625	ZFP7	zinc finger protein 7	0.52	8.6E-06	1.26	4.0E-14	orange
+AT5G33290	XGD1	xylogalacturonan deficient 1	0.57	6.5E-04	1.26	8.3E-11	orange
+AT4G12080	AHL1	AT-hook motif nuclear-localized protein 1	0.40	6.1E-01	1.25	1.7E-03	orange
+AT1G61560	MLO6	Seven transmembrane MLO family protein	0.71	2.0E-01	1.25	5.5E-04	orange
+AT1G07128			0.63	6.9E-01	1.25	1.2E-02	orange
+AT5G09420	TOC64-V	translocon at the outer membrane of chloroplasts 64-V	0.08	9.5E-01	1.24	2.1E-07	orange
+AT2G46270	GBF3	G-box binding factor 3	-0.03	9.9E-01	1.24	1.1E-06	orange
+AT3G05936			0.26	7.7E-01	1.24	7.2E-10	orange
+AT3G09830		Protein kinase superfamily protein	0.50	1.1E-01	1.24	1.4E-07	orange
+AT4G02380	SAG21	senescence-associated gene 21	0.14	9.4E-01	1.24	7.5E-03	orange
+AT4G23320	CRK24	cysteine-rich RLK (RECEPTOR-like protein kinase) 24	0.04	9.9E-01	1.24	1.2E-02	orange
+AT3G15210	ERF4	ethylene responsive element binding factor 4	0.27	9.2E-01	1.23	2.5E-06	orange
+AT5G17350			-0.33	9.1E-01	1.23	3.6E-02	orange
+AT1G69790		Protein kinase superfamily protein	0.47	5.6E-02	1.23	2.5E-10	orange
+AT5G64310	AGP1	arabinogalactan protein 1	-0.18	9.3E-01	1.23	5.7E-06	orange
+AT3G44798		other RNA	0.52	1.9E-02	1.23	1.8E-15	orange
+AT3G22240			0.21	9.4E-01	1.23	1.4E-02	orange
+AT5G15240		Transmembrane amino acid transporter family protein	0.54	5.3E-02	1.23	5.8E-06	orange
+AT2G01023			0.72	7.5E-01	1.23	2.7E-02	orange
+AT5G60300	LecRK-I.9	Concanavalin A-like lectin protein kinase family protein	0.44	2.4E-02	1.23	2.7E-11	orange
+AT5G42050		DCD (Development and Cell Death) domain protein	0.29	5.6E-01	1.22	3.5E-11	orange
+AT2G35550	BPC7	basic pentacysteine 7	0.22	8.8E-01	1.22	1.4E-03	orange
+AT3G03910	GDH3	glutamate dehydrogenase 3	0.24	9.2E-01	1.22	3.7E-05	orange
+AT3G59080		Eukaryotic aspartyl protease family protein	0.21	9.2E-01	1.22	4.6E-05	orange
+AT3G28930	AIG2	AIG2-like (avirulence induced gene) family protein	0.54	8.1E-04	1.22	2.5E-06	orange
+AT2G05260		alpha/beta-Hydrolases superfamily protein	0.41	7.2E-02	1.22	3.9E-11	orange
+AT5G02260	EXPA9	expansin A9	0.47	8.9E-02	1.22	4.0E-06	orange
+AT3G11580		AP2/B3-like transcriptional factor family protein	0.33	2.4E-01	1.22	3.7E-08	orange
+AT4G38810		Calcium-binding EF-hand family protein	0.38	2.2E-02	1.21	1.6E-07	orange
+AT4G26850	VTC2	mannose-1-phosphate guanylyltransferase (GDP)s;GDP-galactose:mannose-1-phosphate guanylyltransferases;GDP-galactose:glucose-1-phosphate guanylyltransferases;GDP-galactose:myoinositol-1-phosphate guanylyltransferases;glucose-1-phosphate guanylyltransferase	0.46	4.5E-04	1.21	3.7E-11	orange
+AT4G36500			0.27	7.3E-01	1.21	2.2E-08	orange
+AT2G25450		2-oxoglutarate (2OG) and Fe(II)-dependent oxygenase superfamily protein	0.43	1.7E-03	1.21	5.0E-13	orange
+AT2G30250	WRKY25	WRKY DNA-binding protein 25	0.21	7.6E-01	1.21	3.1E-06	orange
+AT2G47470	UNE5	thioredoxin family protein	0.53	2.3E-05	1.21	2.1E-12	orange
+AT2G39240		RNA polymerase I specific transcription initiation factor RRN3 protein	0.25	7.5E-01	1.21	1.6E-09	orange
+AT3G56880		VQ motif-containing protein	-0.04	9.9E-01	1.21	4.8E-07	orange
+AT3G49530	NAC062	NAC domain containing protein 62	0.27	7.3E-01	1.21	1.2E-12	orange
+AT5G64260	EXL2	EXORDIUM like 2	0.21	9.0E-01	1.21	6.5E-07	orange
+AT1G66920		Protein kinase superfamily protein	0.68	1.4E-01	1.21	3.3E-04	orange
+AT5G66590		"CAP (Cysteine-rich secretory proteins, Antigen 5, and Pathogenesis-related 1 protein) superfamily protein"	0.30	3.1E-01	1.20	1.3E-07	orange
+AT3G05120	GID1A	alpha/beta-Hydrolases superfamily protein	0.49	1.5E-06	1.20	2.5E-14	orange
+AT5G58570			0.26	8.8E-01	1.20	1.5E-03	orange
+AT3G32980		Peroxidase superfamily protein	0.75	5.8E-02	1.20	1.7E-06	orange
+AT5G17300	RVE1	Homeodomain-like superfamily protein	-0.15	9.4E-01	1.20	1.9E-03	orange
+AT2G48090			0.02	9.9E-01	1.20	3.3E-03	orange
+AT1G18740		Protein of unknown function (DUF793)	0.38	5.8E-01	1.20	5.4E-06	orange
+AT4G29850		Eukaryotic protein of unknown function (DUF872)	-0.01	1.0E+00	1.19	1.2E-02	orange
+AT3G07350		Protein of unknown function (DUF506) 	0.29	8.5E-01	1.19	2.3E-05	orange
+AT1G09500		NAD(P)-binding Rossmann-fold superfamily protein	0.48	5.1E-01	1.19	5.3E-03	orange
+AT4G25470	CBF2	C-repeat/DRE binding factor 2	0.24	9.6E-01	1.19	1.1E-02	orange
+AT1G57990	PUP18	purine permease 18	0.13	9.6E-01	1.19	1.4E-03	orange
+AT3G11010	RLP34	receptor like protein 34	0.15	9.2E-01	1.18	1.1E-02	orange
+AT3G57530	CPK32	calcium-dependent protein kinase 32	0.32	7.7E-01	1.18	1.4E-11	orange
+AT2G46400	WRKY46	WRKY DNA-binding protein 46	0.30	8.8E-01	1.18	4.8E-03	orange
+AT5G12420		O-acyltransferase (WSD1-like) family protein	0.61	3.8E-01	1.18	1.4E-03	orange
+AT1G43980		Tetratricopeptide repeat (TPR)-like superfamily protein	-0.16	9.4E-01	1.17	5.0E-05	orange
+AT5G06750		Protein phosphatase 2C family protein	0.26	3.3E-01	1.17	1.9E-09	orange
+AT1G70290	TPS8	trehalose-6-phosphatase synthase S8	0.27	8.6E-01	1.17	1.1E-06	orange
+AT1G23100		GroES-like family protein	0.05	9.7E-01	1.17	4.6E-06	orange
+AT4G25433		peptidoglycan-binding LysM domain-containing protein	0.46	7.1E-01	1.17	7.0E-04	orange
+AT3G07650	COL9	CONSTANS-like 9	-0.16	9.3E-01	1.17	4.0E-04	orange
+AT3G14870		Plant protein of unknown function (DUF641)	0.18	8.3E-01	1.16	3.0E-04	orange
+AT3G47750	ABCA4	ATP binding cassette subfamily A4	0.34	3.2E-01	1.16	1.4E-14	orange
+AT3G02150	PTF1	plastid transcription factor 1	0.20	6.4E-01	1.16	4.3E-07	orange
+AT2G23320	WRKY15	WRKY DNA-binding protein 15	0.05	9.8E-01	1.16	2.9E-06	orange
+AT5G50950	FUM2	FUMARASE 2	0.45	5.5E-03	1.16	6.3E-14	orange
+AT5G60142		AP2/B3-like transcriptional factor family protein	0.65	3.3E-01	1.16	5.7E-04	orange
+AT3G47960		Major facilitator superfamily protein	0.57	1.8E-02	1.16	1.2E-09	orange
+AT5G59780	MYB59	myb domain protein 59	0.21	5.0E-01	1.15	1.4E-07	orange
+AT3G06890			0.46	7.2E-01	1.15	1.1E-02	orange
+AT1G32700		PLATZ transcription factor family protein	0.29	2.6E-01	1.15	7.0E-10	orange
+AT4G27657			0.59	6.7E-01	1.15	2.8E-05	orange
+AT3G58710	WRKY69	WRKY DNA-binding protein 69	0.20	6.8E-01	1.14	4.2E-07	orange
+AT1G65486			0.14	9.6E-01	1.14	1.9E-03	orange
+AT2G01008			0.18	8.5E-01	1.14	5.6E-06	orange
+AT3G09520	EXO70H4	exocyst subunit exo70 family protein H4	0.96	1.9E-01	1.14	2.5E-03	orange
+AT5G58690	PLC5	phosphatidylinositol-speciwc phospholipase C5	0.17	7.4E-01	1.14	5.5E-07	orange
+AT5G07660	SMC6A	structural maintenance of chromosomes 6A	0.61	5.4E-02	1.14	2.0E-04	orange
+AT1G67865			0.19	7.4E-01	1.14	3.7E-07	orange
+AT5G45110	NPR3	NPR1-like protein 3	0.44	8.2E-02	1.14	2.9E-09	orange
+AT3G46600		GRAS family transcription factor	0.19	9.3E-01	1.14	2.9E-05	orange
+AT1G77405		Pentatricopeptide repeat (PPR) superfamily protein	0.09	9.7E-01	1.14	8.8E-04	orange
+AT4G20830		FAD-binding Berberine family protein	0.35	3.3E-01	1.14	7.0E-05	orange
+AT5G45990		"crooked neck protein, putative / cell cycle protein, putative"	0.40	7.4E-01	1.13	1.7E-04	orange
+AT3G47840		Tetratricopeptide repeat (TPR)-like superfamily protein	0.14	9.4E-01	1.13	4.0E-05	orange
+AT3G49120	PRXCB	peroxidase CB	0.53	1.6E-02	1.13	2.4E-03	orange
+AT5G64990	RABH1a	RAB GTPase homolog H1A	0.28	8.8E-01	1.13	4.7E-05	orange
+AT1G80120		Protein of unknown function (DUF567)	0.69	1.6E-01	1.13	3.5E-06	orange
+AT2G25510			0.12	8.3E-01	1.13	1.1E-04	orange
+AT5G59730	EXO70H7	exocyst subunit exo70 family protein H7	0.47	2.3E-01	1.13	8.4E-08	orange
+AT4G33050	EDA39	calmodulin-binding family protein	0.49	2.8E-01	1.13	8.4E-04	orange
+AT2G26740	SEH	soluble epoxide hydrolase	0.38	4.4E-04	1.13	4.6E-14	orange
+AT1G48000	MYB112	myb domain protein 112	-0.11	9.7E-01	1.13	2.8E-02	orange
+AT3G62010			0.55	6.0E-07	1.13	1.1E-14	orange
+AT1G80610			0.03	9.9E-01	1.12	5.1E-06	orange
+AT1G52450		Ubiquitin carboxyl-terminal hydrolase-related protein	-0.14	9.3E-01	1.12	9.4E-06	orange
+AT1G52710		Rubredoxin-like superfamily protein	0.51	5.7E-02	1.12	1.5E-09	orange
+AT1G34210	SERK2	somatic embryogenesis receptor-like kinase 2	0.44	1.9E-06	1.12	2.1E-12	orange
+AT5G45850		Protein of unknown function (DUF688)	0.53	9.8E-02	1.12	3.5E-05	orange
+AT3G14900	EMB3120		-0.03	9.8E-01	1.12	2.2E-10	orange
+AT5G19240		Glycoprotein membrane precursor GPI-anchored	0.07	9.8E-01	1.12	3.0E-05	orange
+AT1G74010		Calcium-dependent phosphotriesterase superfamily protein	0.87	3.2E-01	1.12	4.6E-02	orange
+AT5G35735		Auxin-responsive family protein	0.62	9.0E-02	1.12	3.3E-04	orange
+AT1G73040		Mannose-binding lectin superfamily protein	0.31	6.4E-01	1.11	1.8E-04	orange
+AT2G29500		HSP20-like chaperones superfamily protein	0.56	3.4E-01	1.11	5.9E-03	orange
+AT3G06550	RWA2	O-acetyltransferase family protein	0.48	4.8E-07	1.11	1.6E-16	orange
+AT3G19100		Protein kinase superfamily protein	0.38	3.5E-02	1.11	1.0E-10	orange
+AT5G40780	LHT1	lysine histidine transporter 1	0.20	9.1E-01	1.11	1.2E-02	orange
+AT5G50570	SPL13A	Squamosa promoter-binding protein-like (SBP domain) transcription factor family protein	0.63	5.3E-01	1.10	1.1E-03	orange
+AT3G21460		Glutaredoxin family protein	-0.59	3.7E-01	1.10	1.3E-07	orange
+AT4G33700		CBS domain-containing protein with a domain of unknown function (DUF21)	0.50	4.0E-06	1.10	1.3E-19	orange
+AT1G49520		SWIB complex BAF60b domain-containing protein	0.54	5.4E-03	1.10	3.3E-08	orange
+AT5G46350	WRKY8	WRKY DNA-binding protein 8	0.58	5.5E-01	1.10	2.2E-02	orange
+AT2G07719		Putative membrane lipoprotein	-0.18	9.5E-01	1.10	1.3E-03	orange
+AT4G33980			0.16	9.7E-01	1.10	4.6E-02	orange
+AT1G31820	PUT1	Amino acid permease family protein	0.26	5.5E-01	1.10	9.3E-08	orange
+AT1G05730		Eukaryotic protein of unknown function (DUF842)	-0.06	9.8E-01	1.10	1.6E-03	orange
+AT3G13770		Pentatricopeptide repeat (PPR) superfamily protein	0.18	8.9E-01	1.10	5.0E-05	orange
+AT4G28330			0.59	5.0E-01	1.10	3.5E-03	orange
+AT1G17340		Phosphoinositide phosphatase family protein	0.28	4.9E-02	1.10	2.2E-12	orange
+AT3G07760		Sterile alpha motif (SAM) domain-containing protein	0.20	5.3E-01	1.10	1.6E-12	orange
+AT2G03380		Pentatricopeptide repeat (PPR) superfamily protein	-0.13	9.3E-01	1.10	2.5E-05	orange
+AT5G58710	ROC7	rotamase CYP 7	0.43	5.2E-04	1.10	4.0E-14	orange
+AT5G46140		Protein of unknown function (DUF295)	0.14	9.6E-01	1.09	3.9E-03	orange
+AT1G15870		Mitochondrial glycoprotein family protein	0.11	9.6E-01	1.09	6.5E-04	orange
+AT4G36010		Pathogenesis-related thaumatin superfamily protein	0.12	9.5E-01	1.09	1.0E-03	orange
+AT5G11810			0.57	2.2E-07	1.09	1.6E-16	orange
+AT5G04895	ABO6	DEA(D/H)-box RNA helicase family protein	0.20	7.4E-01	1.09	1.6E-09	orange
+AT1G67265	RTFL21	ROTUNDIFOLIA like 21	0.56	7.8E-01	1.09	4.2E-02	orange
+AT5G65140	TPPJ	Haloacid dehalogenase-like hydrolase (HAD) superfamily protein	0.04	9.7E-01	1.08	4.9E-15	orange
+AT5G63490		CBS / octicosapeptide/Phox/Bemp1 (PB1) domains-containing protein	0.46	4.6E-06	1.08	9.8E-09	orange
+AT4G19230	CYP707A1	"cytochrome P450, family 707, subfamily A, polypeptide 1"	0.39	5.6E-01	1.08	1.1E-05	orange
+AT3G01570		Oleosin family protein	-0.11	9.7E-01	1.08	7.4E-03	orange
+AT1G23710		Protein of unknown function (DUF1645)	0.18	9.3E-01	1.08	2.3E-03	orange
+AT5G44005			0.06	9.5E-01	1.08	1.2E-06	orange
+AT2G07739		Ycf1 protein	0.69	5.9E-01	1.08	3.5E-03	orange
+AT2G16890		UDP-Glycosyltransferase superfamily protein	0.37	4.9E-01	1.08	5.8E-04	orange
+AT1G63440	HMA5	heavy metal atpase 5	0.31	3.4E-01	1.08	2.3E-04	orange
+AT3G56770		basic helix-loop-helix (bHLH) DNA-binding superfamily protein	-0.04	9.9E-01	1.08	1.8E-02	orange
+AT1G11220		Protein of unknown function (DUF761)	0.02	9.9E-01	1.07	9.0E-03	orange
+AT5G13750	ZIFL1	zinc induced facilitator-like 1	0.48	1.3E-02	1.07	1.8E-06	orange
+AT5G07700	MYB76	myb domain protein 76	0.36	1.7E-01	1.07	1.4E-13	orange
+AT1G69870	NRT1.7	nitrate transporter 1.7	0.28	3.6E-01	1.07	2.6E-05	orange
+AT2G35658			-0.13	9.6E-01	1.07	9.6E-03	orange
+AT5G45380	DUR3	solute:sodium symporters;urea transmembrane transporters	0.24	8.9E-01	1.07	4.6E-03	orange
+AT3G51430	YLS2	Calcium-dependent phosphotriesterase superfamily protein	0.33	5.5E-01	1.07	3.2E-04	orange
+AT5G41620			0.57	2.6E-04	1.07	1.3E-12	orange
+AT4G04180		P-loop containing nucleoside triphosphate hydrolases superfamily protein	0.18	8.3E-01	1.07	2.3E-07	orange
+AT3G26090	RGS1	G-protein coupled receptors;GTPase activators	0.43	2.0E-02	1.07	5.0E-08	orange
+AT1G08290	WIP3	WIP domain protein 3	0.29	8.4E-01	1.06	1.0E-02	orange
+AT1G53580	GLY3	glyoxalase II  3	0.46	8.2E-06	1.06	1.6E-12	orange
+AT4G18880	HSF A4A	heat shock transcription factor  A4A	0.10	9.4E-01	1.06	4.8E-07	orange
+AT1G27350		Ribosome associated membrane protein RAMP4	0.57	1.9E-06	1.06	2.6E-12	orange
+AT5G24920	GDU5	glutamine dumper 5	0.54	7.0E-01	1.06	1.5E-02	orange
+AT5G24530	DMR6	2-oxoglutarate (2OG) and Fe(II)-dependent oxygenase superfamily protein	0.23	8.7E-01	1.06	8.8E-03	orange
+AT1G27770	ACA1	autoinhibited Ca2+-ATPase 1	0.15	9.2E-01	1.06	1.4E-09	orange
+AT3G48830		polynucleotide adenylyltransferase family protein / RNA recognition motif (RRM)-containing protein	0.18	7.4E-01	1.06	1.3E-08	orange
+AT2G28305	LOG1	Putative lysine decarboxylase family protein	0.13	8.3E-01	1.06	4.0E-11	orange
+AT5G49410			0.21	8.5E-01	1.06	1.6E-05	orange
+AT5G10946			0.30	3.7E-01	1.06	3.1E-10	orange
+AT5G63130		Octicosapeptide/Phox/Bem1p family protein	0.28	9.1E-01	1.06	5.0E-03	orange
+AT5G24090	CHIA	chitinase A	-0.21	9.3E-01	1.05	3.2E-03	orange
+AT3G27620	AOX1C	alternative oxidase 1C	0.28	8.3E-01	1.05	3.8E-02	orange
+AT4G15260		UDP-Glycosyltransferase superfamily protein	0.52	4.6E-03	1.05	4.9E-07	orange
+AT3G27210			0.21	8.9E-01	1.05	1.9E-04	orange
+AT4G34150		Calcium-dependent lipid-binding (CaLB domain) family protein	0.06	9.7E-01	1.05	1.4E-08	orange
+AT3G56550		Pentatricopeptide repeat (PPR) superfamily protein	0.01	1.0E+00	1.05	4.2E-03	orange
+AT5G18290	SIP1;2	Aquaporin-like superfamily protein	0.58	1.4E-01	1.05	2.3E-04	orange
+AT5G13205		transposable element gene	0.35	4.7E-01	1.05	1.0E-04	orange
+AT2G41475		"Embryo-specific protein 3, (ATS3)"	0.32	1.5E-01	1.05	4.3E-09	orange
+AT1G72910		Toll-Interleukin-Resistance (TIR) domain-containing protein	0.23	8.9E-01	1.05	1.4E-03	orange
+AT1G14010		emp24/gp25L/p24 family/GOLD family protein	0.42	1.9E-04	1.05	1.7E-10	orange
+AT5G54610	ANK	ankyrin	0.10	9.7E-01	1.05	2.5E-02	orange
+AT1G69310	WRKY57	WRKY DNA-binding protein 57	0.09	9.3E-01	1.05	3.3E-05	orange
+AT1G19190		alpha/beta-Hydrolases superfamily protein	0.75	5.1E-01	1.04	1.5E-02	orange
+AT3G13100	ABCC7	multidrug resistance-associated protein 7	0.48	2.0E-01	1.04	6.7E-04	orange
+AT5G18490		Plant protein of unknown function (DUF946)	0.27	4.3E-01	1.04	1.2E-04	orange
+AT1G19210		Integrase-type DNA-binding superfamily protein	0.19	9.3E-01	1.04	2.2E-02	orange
+AT5G25930		Protein kinase family protein with leucine-rich repeat domain	0.33	7.8E-01	1.04	4.1E-02	orange
+AT3G05380	ALY2	DIRP ;Myb-like DNA-binding domain	0.38	5.4E-03	1.04	1.9E-12	orange
+AT1G27290			-0.03	9.9E-01	1.04	1.9E-05	orange
+AT5G50360			0.26	9.4E-01	1.04	2.5E-02	orange
+AT4G39890	RABH1c	RAB GTPase homolog H1C	0.05	9.8E-01	1.04	1.6E-03	orange
+AT5G04080			0.11	8.2E-01	1.03	1.2E-10	orange
+AT1G65110		Ubiquitin carboxyl-terminal hydrolase-related protein	0.30	9.2E-01	1.03	4.9E-03	orange
+AT1G61065		Protein of unknown function (DUF1218)	0.44	1.9E-01	1.03	2.0E-06	orange
+AT2G04032	ZIP7	zinc transporter 7 precursor	0.52	3.1E-01	1.03	1.4E-03	orange
+AT2G28510		Dof-type zinc finger DNA-binding family protein	0.02	9.8E-01	1.03	6.7E-05	orange
+AT5G25980	TGG2	glucoside glucohydrolase 2	0.50	1.5E-02	1.03	4.5E-08	orange
+AT5G06860	PGIP1	polygalacturonase inhibiting protein 1	0.18	8.5E-01	1.03	4.2E-05	orange
+AT1G70830	MLP28	MLP-like protein 28	0.10	9.2E-01	1.03	4.4E-10	orange
+AT4G21326	SBT3.12	subtilase 3.12	0.37	1.3E-01	1.03	4.2E-09	orange
+AT5G26340	MSS1	Major facilitator superfamily protein	0.21	6.1E-01	1.03	7.4E-06	orange
+AT5G07460	PMSR2	peptidemethionine sulfoxide reductase 2	0.58	1.4E-05	1.03	2.2E-19	orange
+AT1G33610		Leucine-rich repeat (LRR) family protein	0.13	9.6E-01	1.03	2.9E-03	orange
+AT4G26255		other RNA	0.74	1.5E-01	1.03	2.4E-02	orange
+AT3G57520	SIP2	seed imbibition 2	0.48	1.3E-01	1.03	1.7E-03	orange
+AT3G14720	MPK19	MAP kinase 19	0.54	1.4E-05	1.03	6.9E-14	orange
+AT5G02400	PLL2	pol-like 2	-0.15	9.3E-01	1.02	1.5E-03	orange
+AT1G56430	NAS4	nicotianamine synthase 4	-0.18	8.1E-01	1.02	2.5E-04	orange
+AT2G34240		Protein with domains of unknown function DUF627 and DUF632	-0.12	9.6E-01	1.02	1.2E-03	orange
+AT4G14420		HR-like lesion-inducing protein-related	0.53	2.9E-04	1.02	5.3E-11	orange
+AT3G54960	PDIL1-3	PDI-like 1-3	0.12	8.9E-01	1.02	1.1E-04	orange
+AT4G04810	MSRB4	methionine sulfoxide reductase B4	0.47	3.2E-02	1.02	2.4E-07	orange
+AT3G50420		Pentatricopeptide repeat (PPR) superfamily protein	0.00	1.0E+00	1.02	4.4E-05	orange
+AT1G71100	RSW10	"Ribose 5-phosphate isomerase, type A protein"	0.21	6.2E-01	1.02	4.4E-06	orange
+AT5G27110		Tetratricopeptide repeat (TPR)-like superfamily protein	0.09	9.5E-01	1.02	3.5E-06	orange
+AT2G41010	CAMBP25	calmodulin (CAM)-binding protein of 25 kDa	0.28	8.6E-01	1.02	8.7E-06	orange
+AT3G13910		Protein of unknown function (DUF3511)	0.49	6.7E-02	1.02	9.6E-05	orange
+AT5G66070		RING/U-box superfamily protein	0.31	6.1E-01	1.01	1.3E-05	orange
+AT5G48380	BIR1	BAK1-interacting receptor-like kinase 1	0.32	5.1E-01	1.01	3.6E-04	orange
+AT1G06180	MYB13	myb domain protein 13	0.18	7.8E-01	1.01	3.1E-07	orange
+AT1G24148			0.25	1.9E-01	1.01	8.4E-11	orange
+AT5G67180	TOE3	target of early activation tagged (EAT) 3	0.40	1.2E-02	1.01	3.6E-09	orange
+AT1G52430		Ubiquitin carboxyl-terminal hydrolase-related protein	0.12	9.6E-01	1.01	7.0E-04	orange
+AT5G58670	PLC1	phospholipase C1	0.43	7.8E-03	1.01	6.1E-06	orange
+AT2G16595		"Translocon-associated protein (TRAP), alpha subunit"	-0.01	1.0E+00	1.01	2.8E-07	orange
+AT3G23570		alpha/beta-Hydrolases superfamily protein	0.57	1.6E-07	1.00	3.2E-21	orange
+AT5G24590	TIP;ANAC091	TCV-interacting protein	0.17	8.8E-01	1.00	8.2E-11	orange
+AT1G67470		Protein kinase superfamily protein	-0.05	9.8E-01	1.00	3.6E-06	orange
+AT4G33985		Protein of unknown function (DUF1685)	-0.16	9.2E-01	1.00	1.7E-02	orange
+AT2G26190		calmodulin-binding family protein	0.13	9.5E-01	1.00	2.8E-05	orange
+AT1G73540	NUDT21	nudix hydrolase homolog 21	0.04	9.8E-01	1.00	8.2E-05	orange
+AT3G01930		Major facilitator superfamily protein	0.57	5.5E-05	1.00	2.9E-10	orange
+AT1G77360	APPR6	Tetratricopeptide repeat (TPR)-like superfamily protein	0.40	6.6E-01	1.00	1.8E-04	orange
+AT4G24120	YSL1	YELLOW STRIPE like 1	-0.02	9.9E-01	-1.00	1.7E-07	orange
+AT4G30960	SIP3	SOS3-interacting protein 3	-0.26	1.8E-01	-1.00	2.2E-08	orange
+AT1G04520	PDLP2	plasmodesmata-located protein 2	-0.27	2.6E-01	-1.00	1.9E-04	orange
+AT1G46768	RAP2.1	related to AP2 1	-0.52	1.3E-01	-1.00	3.4E-04	orange
+AT1G55760		BTB/POZ domain-containing protein	-0.27	3.7E-01	-1.00	1.1E-09	orange
+AT3G10520	HB2	haemoglobin 2	-0.22	5.7E-01	-1.01	3.3E-07	orange
+AT1G31485		other RNA	0.12	9.7E-01	-1.01	4.8E-02	orange
+AT1G09310		"Protein of unknown function, DUF538"	-0.21	3.0E-01	-1.01	1.1E-06	orange
+AT1G18710	MYB47	myb domain protein 47	0.56	5.3E-01	-1.01	7.0E-05	orange
+AT5G27895		transposable element gene	-0.27	8.3E-01	-1.01	3.6E-02	orange
+AT3G09730			-0.15	8.6E-01	-1.01	1.5E-06	orange
+AT2G39880	MYB25	myb domain protein 25	-0.53	9.3E-02	-1.01	4.4E-03	orange
+AT5G10400		Histone superfamily protein	-0.24	4.4E-01	-1.01	1.5E-06	orange
+AT4G14140	DMT2	DNA methyltransferase 2	-0.37	7.1E-01	-1.02	2.8E-03	orange
+AT4G05520	EHD2	EPS15 homology domain 2	-0.16	7.7E-01	-1.02	1.2E-07	orange
+AT1G54385		ARM repeat superfamily protein	-0.17	7.7E-01	-1.02	6.1E-06	orange
+AT3G06070			-0.41	6.3E-01	-1.02	1.3E-03	orange
+AT3G16380	PAB6	poly(A) binding protein 6	0.05	9.8E-01	-1.02	5.6E-03	orange
+AT5G20870		O-Glycosyl hydrolases family 17 protein	-0.16	9.1E-01	-1.02	2.6E-03	orange
+AT3G53650		Histone superfamily protein	-0.37	5.5E-01	-1.02	9.1E-04	orange
+AT4G01580		AP2/B3-like transcriptional factor family protein	-0.39	3.3E-01	-1.03	1.2E-03	orange
+AT2G18969			0.17	9.4E-01	-1.03	1.4E-02	orange
+AT1G29420		SAUR-like auxin-responsive protein family 	-0.40	6.9E-01	-1.03	6.8E-03	orange
+AT4G27290		S-locus lectin protein kinase family protein	-0.31	8.5E-01	-1.03	7.6E-03	orange
+AT5G26230	MAKR1		-0.36	3.9E-01	-1.03	3.9E-04	orange
+AT1G05210		"Transmembrane protein 97, predicted"	-0.06	9.7E-01	-1.03	3.5E-04	orange
+AT4G33220	PME44	pectin methylesterase 44	-0.40	2.3E-03	-1.04	1.4E-14	orange
+AT1G69530	EXPA1	expansin A1	-0.40	1.5E-01	-1.04	9.3E-16	orange
+AT1G04570		Major facilitator superfamily protein	-0.08	9.4E-01	-1.04	8.5E-06	orange
+AT4G03210	XTH9	xyloglucan endotransglucosylase/hydrolase 9	-0.01	1.0E+00	-1.04	1.5E-03	orange
+AT5G01180	PTR5	peptide transporter  5	-0.18	9.0E-01	-1.04	1.7E-03	orange
+AT4G03010		RNI-like superfamily protein	0.01	1.0E+00	-1.04	2.8E-03	orange
+AT4G37225		other RNA	-0.54	3.8E-01	-1.04	2.8E-03	orange
+AT4G16780	HB-2	homeobox protein 2	-0.39	2.1E-01	-1.04	3.1E-07	orange
+AT5G18030		SAUR-like auxin-responsive protein family 	-0.37	9.4E-02	-1.04	8.8E-13	orange
+AT4G29310		Protein of unknown function (DUF1005)	0.11	9.3E-01	-1.04	1.9E-05	orange
+AT1G32100	PRR1	pinoresinol reductase 1	-0.31	1.8E-01	-1.04	3.5E-07	orange
+AT1G25450	KCS5	3-ketoacyl-CoA synthase 5	-0.43	1.3E-01	-1.05	3.2E-04	orange
+AT4G09420		Disease resistance protein (TIR-NBS class)	-0.42	7.2E-01	-1.05	1.1E-02	orange
+AT2G38080	IRX12	Laccase/Diphenol oxidase family protein	-0.17	7.6E-01	-1.05	4.6E-08	orange
+AT1G06980			-0.33	2.5E-01	-1.05	1.7E-05	orange
+AT1G14350	FLP	Duplicated homeodomain-like superfamily protein	-0.29	6.2E-01	-1.06	3.5E-04	orange
+AT5G11160	APT5	adenine phosphoribosyltransferase 5	-0.56	5.3E-02	-1.06	4.4E-03	orange
+AT4G37980	ELI3-1	elicitor-activated gene 3-1	-0.13	7.3E-01	-1.06	1.2E-12	orange
+AT3G58070	GIS	C2H2 and C2HC zinc fingers superfamily protein	-0.10	8.9E-01	-1.06	1.1E-05	orange
+ATCG00490	RBCL	ribulose-bisphosphate carboxylases	0.03	9.9E-01	-1.06	7.8E-03	orange
+AT4G28720	YUC8	Flavin-binding monooxygenase family protein	-0.69	2.9E-01	-1.06	1.0E-02	orange
+AT3G03840	SAUR27	SAUR-like auxin-responsive protein family 	-0.71	6.6E-02	-1.06	1.6E-02	orange
+AT5G24105	AGP41	arabinogalactan protein 41	-0.16	9.1E-01	-1.06	1.2E-03	orange
+AT2G43445		F-box and associated interaction domains-containing protein	-0.28	7.0E-01	-1.06	2.2E-05	orange
+AT3G15550			0.03	9.9E-01	-1.06	2.1E-03	orange
+AT5G23750		Remorin family protein	0.01	9.9E-01	-1.06	1.8E-13	orange
+AT1G06420			0.20	9.3E-01	-1.06	2.5E-02	orange
+AT5G18060	SAUR23	SAUR-like auxin-responsive protein family 	-0.57	1.7E-02	-1.07	4.4E-05	orange
+AT1G20630	CAT1	catalase 1	-0.06	9.1E-01	-1.07	4.7E-20	orange
+AT3G06130		Heavy metal transport/detoxification superfamily protein 	-0.42	6.8E-03	-1.07	2.3E-05	orange
+AT4G38080		hydroxyproline-rich glycoprotein family protein	0.25	9.3E-01	-1.07	1.2E-02	orange
+AT4G32340		Tetratricopeptide repeat (TPR)-like superfamily protein	-0.24	4.3E-01	-1.07	1.7E-13	orange
+AT5G66330		Leucine-rich repeat (LRR) family protein	-0.20	8.0E-01	-1.07	1.2E-03	orange
+AT2G46970	PIL1	phytochrome interacting factor 3-like 1	-0.75	3.8E-01	-1.07	6.3E-03	orange
+AT1G54740		Protein of unknown function (DUF3049)	-0.41	7.6E-02	-1.07	6.0E-05	orange
+AT2G38320	TBL34	TRICHOME BIREFRINGENCE-LIKE 34	-0.10	9.4E-01	-1.08	2.8E-05	orange
+AT5G23270	STP11	sugar transporter 11	-0.57	4.6E-01	-1.08	1.1E-02	orange
+AT3G61950		basic helix-loop-helix (bHLH) DNA-binding superfamily protein	-0.25	7.0E-01	-1.08	7.9E-04	orange
+AT1G57820	VIM1	Zinc finger (C3HC4-type RING finger) family protein	-0.09	9.0E-01	-1.08	1.3E-04	orange
+AT3G49750	RLP44	receptor like protein 44	-0.54	6.6E-02	-1.08	1.2E-04	orange
+AT5G11420		"Protein of unknown function, DUF642"	-0.44	1.8E-02	-1.08	1.1E-10	orange
+AT4G14746			-0.42	3.1E-01	-1.08	1.7E-04	orange
+AT5G47220	ERF2	ethylene responsive element binding factor 2	0.66	2.1E-01	-1.08	1.6E-02	orange
+AT5G50011	CPuORF37	conserved peptide upstream open reading frame 37	-0.52	2.5E-01	-1.08	1.4E-04	orange
+AT1G23080	PIN7	Auxin efflux carrier family protein	-0.24	1.4E-01	-1.08	7.4E-09	orange
+AT4G16563		Eukaryotic aspartyl protease family protein	-0.35	4.5E-01	-1.08	4.3E-08	orange
+AT5G01930	MAN6	Glycosyl hydrolase superfamily protein	-0.24	6.6E-01	-1.09	3.1E-04	orange
+AT5G38420	RBCS2B	Ribulose bisphosphate carboxylase (small chain) family protein	-0.14	7.4E-01	-1.09	6.5E-07	orange
+AT1G15830			-0.25	3.4E-01	-1.09	1.8E-08	orange
+AT4G37800	XTH7	xyloglucan endotransglucosylase/hydrolase 7	-0.26	1.9E-01	-1.09	9.9E-08	orange
+AT5G46690	bHLH071	beta HLH protein 71	-0.17	7.5E-01	-1.09	1.4E-06	orange
+AT1G62380	ACO2	ACC oxidase 2	-0.30	7.8E-02	-1.09	3.0E-09	orange
+AT3G63450		RNA-binding (RRM/RBD/RNP motifs) family protein	-0.27	4.0E-01	-1.09	3.5E-06	orange
+AT2G26290	ARSK1	root-specific kinase 1	-0.13	9.6E-01	-1.09	3.6E-02	orange
+AT3G05660	RLP33	receptor like protein 33	-0.43	5.0E-01	-1.09	1.9E-10	orange
+AT3G18900			-0.23	8.9E-01	-1.09	1.4E-02	orange
+AT1G63930	ROH1	from the Czech roh meaning corner	-0.13	9.7E-01	-1.09	4.6E-02	orange
+AT3G09330		Transmembrane amino acid transporter family protein	-0.51	7.9E-01	-1.10	3.2E-02	orange
+AT2G32550		"Cell differentiation, Rcd1-like protein"	-0.24	6.3E-01	-1.10	5.7E-06	orange
+AT2G14900		Gibberellin-regulated family protein	-0.13	9.5E-01	-1.10	1.7E-02	orange
+AT1G02970	WEE1	WEE1 kinase homolog	-0.12	9.4E-01	-1.10	5.7E-03	orange
+AT1G53520	FAP3	Chalcone-flavanone isomerase family protein	-0.08	8.8E-01	-1.10	5.0E-05	orange
+AT4G14770	TCX2	TESMIN/TSO1-like CXC 2	-0.20	7.9E-01	-1.10	1.5E-04	orange
+AT2G13570	NF-YB7	"nuclear factor Y, subunit B7"	0.18	9.2E-01	-1.10	1.4E-02	orange
+AT3G06880		Transducin/WD40 repeat-like superfamily protein	-0.06	9.3E-01	-1.10	1.3E-07	orange
+AT5G45080	PP2-A6	phloem protein 2-A6	0.06	9.7E-01	-1.10	7.1E-03	orange
+AT3G52115	GR1	gamma response gene 1	-0.05	9.8E-01	-1.10	4.2E-03	orange
+AT3G63430	TRM5		-0.31	8.6E-01	-1.10	4.1E-02	orange
+AT5G24570			-0.46	1.0E-01	-1.10	8.5E-05	orange
+AT3G11690			-0.48	1.6E-02	-1.10	3.1E-12	orange
+AT1G27620		HXXXD-type acyl-transferase family protein	-0.90	4.0E-01	-1.10	2.7E-02	orange
+AT5G66310		ATP binding microtubule motor family protein	-0.37	1.4E-02	-1.10	1.2E-05	orange
+AT2G33370		Ribosomal protein L14p/L23e family protein	-0.48	2.0E-04	-1.11	1.7E-12	orange
+AT2G36830	GAMMA-TIP	gamma tonoplast intrinsic protein	-0.33	5.7E-01	-1.11	6.3E-10	orange
+AT1G29440	SAUR63	SAUR-like auxin-responsive protein family 	-0.34	1.9E-01	-1.11	4.1E-07	orange
+AT4G17340	TIP2;2	tonoplast intrinsic protein 2;2	-0.43	3.3E-01	-1.11	3.0E-12	orange
+AT5G20270	HHP1	heptahelical transmembrane protein1	-0.44	2.2E-02	-1.11	3.0E-13	orange
+AT1G19340		Methyltransferase MT-A70 family protein	-0.14	8.5E-01	-1.11	1.2E-04	orange
+AT2G22970	SCPL11	serine carboxypeptidase-like 11	-0.22	4.3E-01	-1.11	1.6E-09	orange
+AT1G02350		protoporphyrinogen oxidase-related	-0.01	1.0E+00	-1.11	1.5E-04	orange
+AT1G78970	LUP1	lupeol synthase 1	-0.39	1.7E-01	-1.11	3.7E-10	orange
+AT4G15500	UGT84A4	UDP-Glycosyltransferase superfamily protein	-0.39	5.3E-01	-1.11	1.2E-04	orange
+AT3G54180	CDKB1;1	cyclin-dependent kinase B1;1	0.24	7.7E-01	-1.11	7.3E-04	orange
+AT4G39110		Malectin/receptor-like protein kinase family protein	0.07	9.6E-01	-1.11	8.3E-05	orange
+AT1G15170		MATE efflux family protein	-0.13	8.8E-01	-1.11	3.3E-11	orange
+AT3G20450		B-cell receptor-associated protein 31-like 	-0.10	9.6E-01	-1.12	2.6E-04	orange
+AT4G34320		Protein of unknown function (DUF677)	-0.20	9.1E-01	-1.12	3.1E-02	orange
+AT3G27025			-0.15	9.4E-01	-1.12	1.0E-02	orange
+AT3G20460		Major facilitator superfamily protein	-0.06	9.8E-01	-1.12	1.8E-02	orange
+AT3G24420		alpha/beta-Hydrolases superfamily protein	-0.38	3.4E-01	-1.12	1.6E-06	orange
+AT4G39330	CAD9	cinnamyl alcohol dehydrogenase 9	-0.41	2.2E-03	-1.12	2.0E-06	orange
+AT1G09230		RNA-binding (RRM/RBD/RNP motifs) family protein	-0.21	5.6E-01	-1.12	2.6E-22	orange
+AT5G19740		Peptidase M28 family protein	-0.29	1.1E-01	-1.12	1.8E-12	orange
+AT5G48490		Bifunctional inhibitor/lipid-transfer protein/seed storage 2S albumin superfamily protein	-0.51	4.7E-01	-1.12	3.0E-03	orange
+AT3G53530	NAKR3	Chloroplast-targeted copper chaperone protein	-0.15	8.0E-01	-1.13	1.5E-05	orange
+AT1G58070			-0.28	5.2E-01	-1.13	1.7E-05	orange
+AT5G07000	ST2B	sulfotransferase 2B	-0.32	4.9E-01	-1.13	2.1E-05	orange
+AT2G27930		PLATZ transcription factor family protein	0.08	9.8E-01	-1.13	3.1E-02	orange
+AT5G65350	HTR11	histone 3 11	-0.10	9.6E-01	-1.13	1.3E-02	orange
+AT2G32160		S-adenosyl-L-methionine-dependent methyltransferases superfamily protein	-0.38	1.2E-02	-1.13	1.2E-10	orange
+AT2G38160			-0.38	7.8E-01	-1.14	4.4E-02	orange
+AT3G06520		agenet domain-containing protein	-0.21	8.3E-01	-1.14	7.1E-04	orange
+AT1G10960	FD1	ferredoxin 1	-0.30	2.6E-01	-1.14	3.1E-13	orange
+AT3G27640		Transducin/WD40 repeat-like superfamily protein	-0.26	8.2E-01	-1.15	2.8E-03	orange
+AT5G44568			-0.32	6.7E-01	-1.15	6.8E-03	orange
+AT1G62290		Saposin-like aspartyl protease family protein	-0.06	9.6E-01	-1.15	1.7E-07	orange
+AT1G69490	NAP	"NAC-like, activated by AP3/PI"	-0.59	6.6E-01	-1.15	1.2E-03	orange
+AT1G10682		other RNA	-0.52	5.4E-02	-1.15	2.0E-05	orange
+AT5G02430		Transducin/WD40 repeat-like superfamily protein	-0.25	6.4E-01	-1.16	1.2E-05	orange
+AT3G48550			-0.43	4.0E-01	-1.16	6.7E-05	orange
+AT3G10310		P-loop nucleoside triphosphate hydrolases superfamily protein with CH (Calponin Homology) domain	-0.12	9.3E-01	-1.16	2.5E-04	orange
+AT1G73600		S-adenosyl-L-methionine-dependent methyltransferases superfamily protein	-0.10	8.9E-01	-1.16	6.1E-07	orange
+AT2G06850	XTH4	xyloglucan endotransglucosylase/hydrolase 4	-0.37	2.3E-01	-1.16	8.5E-05	orange
+AT3G47070			-0.17	6.8E-01	-1.16	1.4E-18	orange
+AT3G03530	NPC4	non-specific phospholipase C4	-0.19	9.1E-01	-1.16	1.3E-02	orange
+AT2G27402			-0.07	9.6E-01	-1.16	4.3E-04	orange
+AT4G21320	HSA32	Aldolase-type TIM barrel family protein	-0.33	6.3E-01	-1.17	2.6E-06	orange
+AT1G23052			-0.98	1.1E-01	-1.17	3.4E-04	orange
+AT1G58150			-0.66	4.7E-01	-1.17	1.7E-04	orange
+AT1G43675		transposable element gene	-0.07	9.7E-01	-1.17	1.1E-03	orange
+AT2G30424	TCL2	Homeodomain-like superfamily protein	-0.45	8.0E-02	-1.17	7.9E-05	orange
+AT4G33550		Bifunctional inhibitor/lipid-transfer protein/seed storage 2S albumin superfamily protein	-0.47	1.3E-02	-1.17	8.5E-10	orange
+AT5G51670		Protein of unknown function (DUF668)	-0.41	2.3E-01	-1.17	5.1E-07	orange
+AT2G44300		Bifunctional inhibitor/lipid-transfer protein/seed storage 2S albumin superfamily protein	-0.10	9.2E-01	-1.17	2.7E-06	orange
+AT1G03870	FLA9	FASCICLIN-like arabinoogalactan 9	-0.42	2.7E-01	-1.17	6.2E-09	orange
+AT3G44610		Protein kinase superfamily protein	-0.48	1.7E-02	-1.17	5.0E-10	orange
+AT2G42980		Eukaryotic aspartyl protease family protein	-0.24	7.9E-01	-1.17	1.1E-04	orange
+AT5G48920	TED7	tracheary element differentiation-related 7	-0.39	2.2E-01	-1.18	3.1E-04	orange
+AT1G73830	BEE3	BR enhanced expression 3	-0.47	5.0E-01	-1.18	6.6E-04	orange
+AT3G47875		transposable element gene	0.62	6.5E-01	-1.18	1.2E-02	orange
+AT4G01985			-0.08	9.6E-01	-1.18	8.6E-03	orange
+AT2G05540		Glycine-rich protein family	-0.75	4.2E-01	-1.18	6.6E-04	orange
+AT3G49070		Protein of unknown function (DUF677)	-0.21	8.8E-01	-1.18	3.2E-03	orange
+AT5G52290	SHOC1	shortage in chiasmata 1	-0.67	4.4E-01	-1.19	2.1E-03	orange
+AT5G49800		Polyketide cyclase/dehydrase and lipid transport superfamily protein	-0.37	3.9E-01	-1.19	1.6E-06	orange
+AT5G20250	DIN10	Raffinose synthase family protein	-0.36	6.3E-01	-1.19	1.0E-05	orange
+AT2G28630	KCS12	3-ketoacyl-CoA synthase 12	-0.35	5.8E-01	-1.19	2.8E-04	orange
+AT2G16630		Pollen Ole e 1 allergen and extensin family protein	-0.31	2.9E-01	-1.19	1.2E-04	orange
+AT1G33700		"Beta-glucosidase, GBA2 type family protein"	-0.56	3.4E-02	-1.20	2.1E-06	orange
+AT1G15050	IAA34	indole-3-acetic acid inducible 34	-0.79	4.7E-01	-1.20	3.7E-02	orange
+AT5G66620	DAR6	DA1-related protein 6	-0.23	7.7E-01	-1.20	2.3E-05	orange
+AT4G02100		Heat shock protein DnaJ with tetratricopeptide repeat	-0.33	3.5E-01	-1.20	1.9E-05	orange
+AT2G44190	EDE1	Family of unknown function (DUF566) 	0.08	9.8E-01	-1.20	1.9E-02	orange
+AT3G03850	SAUR26	SAUR-like auxin-responsive protein family 	-0.31	7.0E-01	-1.20	2.0E-03	orange
+AT1G63580		Receptor-like protein kinase-related family protein	-0.24	7.8E-01	-1.20	1.1E-06	orange
+AT4G13710		Pectin lyase-like superfamily protein	-0.41	8.6E-02	-1.20	5.4E-06	orange
+AT2G38540	LP1	lipid transfer protein 1	-0.31	1.5E-01	-1.20	6.5E-09	orange
+AT4G05220		Late embryogenesis abundant (LEA) hydroxyproline-rich glycoprotein family	0.40	8.2E-01	-1.20	1.1E-02	orange
+AT4G15480	UGT84A1	UDP-Glycosyltransferase superfamily protein	0.03	9.9E-01	-1.21	1.4E-02	orange
+AT2G39180	CCR2	CRINKLY4 related 2	0.00	1.0E+00	-1.21	7.1E-04	orange
+AT1G33811		GDSL-like Lipase/Acylhydrolase superfamily protein	-0.21	3.5E-01	-1.21	5.9E-06	orange
+AT5G51850	TRM24		-0.26	8.4E-01	-1.21	2.4E-03	orange
+AT2G43150		Proline-rich extensin-like family protein	-0.02	9.9E-01	-1.21	4.9E-06	orange
+AT2G19910		RNA-dependent RNA polymerase family protein	-0.48	6.9E-01	-1.21	1.1E-02	orange
+AT1G59265		transposable element gene	0.17	9.3E-01	-1.21	2.2E-02	orange
+AT2G24692			-0.59	3.5E-01	-1.21	1.5E-02	orange
+AT1G64670	BDG1	alpha/beta-Hydrolases superfamily protein	-0.43	3.2E-02	-1.21	7.1E-09	orange
+AT2G33830		Dormancy/auxin associated family protein	-0.51	3.5E-01	-1.21	5.9E-05	orange
+AT4G37895		other RNA	0.41	8.8E-01	-1.21	4.2E-02	orange
+AT1G70210	CYCD1;1	CYCLIN D1;1	-0.17	6.3E-01	-1.21	2.6E-09	orange
+AT1G02340	HFR1	basic helix-loop-helix (bHLH) DNA-binding superfamily protein	-0.31	6.6E-01	-1.22	7.4E-09	orange
+AT5G12940		Leucine-rich repeat (LRR) family protein	-0.51	3.4E-01	-1.22	5.3E-04	orange
+AT4G23500		Pectin lyase-like superfamily protein	-0.40	3.0E-02	-1.22	1.0E-17	orange
+AT2G34060		Peroxidase superfamily protein	-0.44	8.8E-02	-1.22	1.2E-10	orange
+AT1G01620	PIP1C	plasma membrane intrinsic protein 1C	-0.46	1.8E-03	-1.23	2.7E-11	orange
+AT5G47130		Bax inhibitor-1 family protein	0.26	9.2E-01	-1.23	2.0E-02	orange
+AT2G18970			0.93	4.7E-01	-1.23	3.2E-02	orange
+AT2G24560		GDSL-like Lipase/Acylhydrolase family protein	-0.69	7.7E-01	-1.23	2.6E-02	orange
+AT1G74670	GASA6	Gibberellin-regulated family protein	-0.53	3.6E-01	-1.23	8.2E-06	orange
+AT5G52310	LTI78	low-temperature-responsive protein 78 (LTI78) / desiccation-responsive protein 29A (RD29A)	-0.50	2.5E-01	-1.23	5.0E-15	orange
+AT5G03670	TRM28		0.16	8.9E-01	-1.23	1.1E-05	orange
+AT5G15160	BNQ2	BANQUO 2	-0.21	6.8E-01	-1.23	1.8E-05	orange
+AT3G14740		RING/FYVE/PHD zinc finger superfamily protein	0.09	9.5E-01	-1.23	4.6E-05	orange
+AT1G66940		protein kinase-related	-0.28	8.1E-01	-1.24	1.1E-04	orange
+AT3G16370		GDSL-like Lipase/Acylhydrolase superfamily protein	-0.46	1.5E-04	-1.24	9.3E-11	orange
+AT4G03190	GRH1	GRR1-like protein 1	-0.36	1.1E-01	-1.25	6.8E-08	orange
+AT2G18470	PERK4	roline-rich extensin-like receptor kinase 4	-0.59	7.1E-01	-1.25	2.0E-02	orange
+AT5G44210	ERF9	erf domain protein 9	0.29	9.1E-01	-1.25	1.7E-03	orange
+AT5G16600	MYB43	myb domain protein 43	-0.29	5.3E-01	-1.25	8.6E-04	orange
+AT1G55330	AGP21	arabinogalactan protein 21	-0.13	8.8E-01	-1.25	3.5E-06	orange
+AT5G19170		Protein of Unknown Function (DUF239)	-0.02	9.9E-01	-1.26	3.3E-04	orange
+AT2G18620		Terpenoid synthases superfamily protein	0.21	8.9E-01	-1.26	9.3E-04	orange
+AT5G44020		"HAD superfamily, subfamily IIIB acid phosphatase "	-0.14	9.4E-01	-1.26	1.9E-09	orange
+AT5G66840		SAP domain-containing protein	0.31	8.8E-01	-1.26	3.5E-02	orange
+AT1G53887			-0.05	9.7E-01	-1.26	6.7E-05	orange
+AT3G56100	MRLK	meristematic receptor-like  kinase	-0.01	1.0E+00	-1.27	2.0E-02	orange
+AT5G05840		Protein of unknown function (DUF620)	-0.39	7.9E-02	-1.27	1.2E-12	orange
+AT5G15180		Peroxidase superfamily protein	-0.28	8.1E-01	-1.27	3.5E-03	orange
+AT2G15620	NIR1	nitrite reductase 1	-0.25	4.6E-01	-1.27	1.8E-16	orange
+AT2G25880	AUR2	ataurora2	-0.08	9.5E-01	-1.27	2.1E-06	orange
+AT5G28415		transposable element gene	0.03	9.9E-01	-1.27	1.6E-02	orange
+AT2G47560		RING/U-box superfamily protein	-0.51	5.8E-01	-1.27	2.3E-03	orange
+AT1G29430		SAUR-like auxin-responsive protein family 	-0.31	3.7E-01	-1.27	3.1E-09	orange
+AT5G47330		alpha/beta-Hydrolases superfamily protein	0.22	7.0E-01	-1.28	5.6E-08	orange
+AT2G47920	NET3C	Kinase interacting (KIP1-like) family protein	-0.10	9.5E-01	-1.28	2.3E-05	orange
+AT1G14430		glyoxal oxidase-related protein	0.03	9.9E-01	-1.28	7.6E-03	orange
+AT5G36910	THI2.2	thionin 2.2	-0.53	2.3E-01	-1.28	1.9E-04	orange
+AT2G37960			-0.01	1.0E+00	-1.28	1.1E-02	orange
+AT2G18890		Protein kinase superfamily protein	-0.37	1.4E-01	-1.28	1.4E-07	orange
+AT5G03620		Subtilisin-like serine endopeptidase family protein	-0.30	6.9E-01	-1.28	2.4E-05	orange
+AT5G57760			-1.64	1.7E-01	-1.29	2.2E-02	orange
+AT5G22940	F8H	FRA8 homolog	-0.14	9.6E-01	-1.29	1.4E-02	orange
+AT3G25100	CDC45	cell division cycle 45	0.01	1.0E+00	-1.29	3.9E-05	orange
+AT1G29510	SAUR68	SAUR-like auxin-responsive protein family 	-0.38	2.4E-01	-1.29	3.6E-04	orange
+AT3G07010		Pectin lyase-like superfamily protein	-0.51	4.7E-02	-1.29	9.2E-16	orange
+AT4G37220		Cold acclimation protein WCOR413 family	-0.96	1.8E-01	-1.29	6.3E-04	orange
+AT4G22010	sks4	SKU5  similar 4	-0.33	4.6E-01	-1.30	6.9E-04	orange
+AT3G19850		Phototropic-responsive NPH3 family protein	-0.26	5.3E-01	-1.30	7.6E-09	orange
+AT4G25100	FSD1	Fe superoxide dismutase 1	0.05	9.8E-01	-1.30	1.0E-07	orange
+AT1G09750		Eukaryotic aspartyl protease family protein	-0.31	6.4E-02	-1.30	1.1E-19	orange
+AT5G64410	OPT4	oligopeptide transporter 4	-0.31	2.7E-01	-1.30	2.6E-07	orange
+AT3G13980			-0.53	1.7E-01	-1.30	8.4E-10	orange
+AT4G28310			-0.24	6.9E-01	-1.31	9.7E-06	orange
+AT1G71015			-0.15	9.6E-01	-1.32	9.5E-03	orange
+AT5G43040		Cysteine/Histidine-rich C1 domain family protein	-0.60	5.4E-01	-1.32	3.2E-03	orange
+AT4G34580	COW1	Sec14p-like phosphatidylinositol transfer family protein	-0.06	9.7E-01	-1.32	2.1E-03	orange
+AT1G77690	LAX3	like AUX1 3	-0.35	3.0E-01	-1.32	4.0E-06	orange
+AT4G11950		Protein of unknown function (DUF1191)	-1.05	1.4E-01	-1.32	9.5E-03	orange
+AT4G32630		ArfGap/RecO-like zinc finger domain-containing protein	-0.35	9.4E-01	-1.33	4.5E-02	orange
+AT3G25670		Leucine-rich repeat (LRR) family protein	-0.35	4.3E-01	-1.33	2.1E-05	orange
+AT5G51010		Rubredoxin-like superfamily protein	-0.02	9.7E-01	-1.33	4.6E-20	orange
+AT4G26960			-0.25	7.6E-01	-1.33	1.9E-04	orange
+AT2G28190	CSD2	copper/zinc superoxide dismutase 2	-0.48	7.0E-01	-1.34	7.1E-05	orange
+AT1G49700		Plant protein 1589 of unknown function	0.29	9.1E-01	-1.34	7.5E-03	orange
+AT1G05835		PHD finger protein	-0.40	7.8E-01	-1.34	4.5E-03	orange
+AT2G38620	CDKB1;2	cyclin-dependent kinase B1;2	-0.13	9.5E-01	-1.34	2.5E-02	orange
+AT5G08000	E13L3	"glucan endo-1,3-beta-glucosidase-like protein 3"	-0.30	7.0E-01	-1.34	3.5E-05	orange
+AT5G14740	CA2	carbonic anhydrase 2	-0.36	1.9E-02	-1.34	8.6E-13	orange
+AT3G25717	RTFL16	ROTUNDIFOLIA like 16	-0.45	1.4E-03	-1.35	8.6E-13	orange
+AT4G14440	HCD1	3-hydroxyacyl-CoA dehydratase 1	-0.52	5.3E-03	-1.35	4.3E-14	orange
+AT2G46530	ARF11	auxin response factor 11	-0.23	3.2E-01	-1.35	1.1E-15	orange
+AT3G47400		Plant invertase/pectin methylesterase inhibitor superfamily	-0.51	2.9E-01	-1.35	4.4E-04	orange
+AT1G30760		FAD-binding Berberine family protein	-0.31	8.9E-01	-1.35	4.4E-02	orange
+AT3G01500	CA1	carbonic anhydrase 1	-0.21	3.8E-01	-1.36	7.7E-10	orange
+AT5G49330	MYB111	myb domain protein 111	0.04	9.9E-01	-1.36	1.3E-02	orange
+AT4G21760	BGLU47	beta-glucosidase 47	-0.20	7.4E-01	-1.36	1.3E-10	orange
+AT5G18430		GDSL-like Lipase/Acylhydrolase superfamily protein	-0.12	9.6E-01	-1.36	2.8E-03	orange
+AT4G18670		Leucine-rich repeat (LRR) family protein	-0.36	3.4E-03	-1.36	1.5E-10	orange
+AT5G10340		F-box family protein	-0.12	9.4E-01	-1.37	4.1E-06	orange
+AT3G51290		Protein of unknown function (DUF630) ;Protein of unknown function (DUF632)	-0.47	2.1E-01	-1.37	3.9E-07	orange
+AT1G02710		glycine-rich protein	-0.48	6.3E-01	-1.37	3.2E-04	orange
+AT2G37380	MAKR3		-0.31	6.7E-01	-1.37	2.4E-04	orange
+AT5G03150	JKD	C2H2-like zinc finger protein	-0.67	3.1E-01	-1.37	2.1E-05	orange
+AT1G01900	SBTI1.1	subtilase family protein	-0.17	8.2E-01	-1.38	6.5E-09	orange
+AT3G17050		transposable element gene	-0.65	2.0E-01	-1.38	4.9E-04	orange
+AT1G11850			-0.46	3.4E-01	-1.38	9.0E-03	orange
+AT5G42120		Concanavalin A-like lectin protein kinase family protein	-0.14	9.6E-01	-1.38	2.6E-02	orange
+AT2G26180	IQD6	IQ-domain 6	-0.16	9.0E-01	-1.38	1.5E-06	orange
+AT4G39795		Protein of unknown function (DUF581)	-0.40	6.9E-01	-1.39	4.9E-04	orange
+AT5G25390	SHN3	Integrase-type DNA-binding superfamily protein	-0.28	8.3E-01	-1.39	2.5E-05	orange
+AT1G65985		Plant protein of unknown function (DUF247)	-0.21	9.0E-01	-1.39	4.5E-04	orange
+AT1G04040		"HAD superfamily, subfamily IIIB acid phosphatase "	-0.18	8.9E-01	-1.39	9.7E-06	orange
+AT5G54190	PORA	protochlorophyllide oxidoreductase A	-0.50	4.4E-01	-1.39	9.3E-08	orange
+AT2G37390	NAKR2	Chloroplast-targeted copper chaperone protein	-0.21	8.9E-01	-1.39	8.3E-04	orange
+AT1G53860		Remorin family protein	0.14	9.6E-01	-1.39	1.5E-02	orange
+AT1G33930		P-loop containing nucleoside triphosphate hydrolases superfamily protein	-0.78	5.7E-01	-1.39	3.1E-02	orange
+AT3G30730			0.09	9.8E-01	-1.40	5.0E-02	orange
+AT1G52827	CDT1	cadmium tolerance 1	-0.47	6.7E-02	-1.40	7.1E-10	orange
+AT5G41900		alpha/beta-Hydrolases superfamily protein	-0.48	1.3E-02	-1.40	2.0E-08	orange
+AT5G57785			-0.72	2.6E-01	-1.40	4.9E-03	orange
+AT2G31730		basic helix-loop-helix (bHLH) DNA-binding superfamily protein	-0.05	9.7E-01	-1.40	1.3E-04	orange
+AT4G02290	GH9B13	glycosyl hydrolase 9B13	-0.58	9.7E-02	-1.40	8.4E-04	orange
+AT5G13060	ABAP1	ARMADILLO BTB protein 1	-0.02	9.9E-01	-1.41	4.9E-07	orange
+AT4G36060	bHLH11	basic helix-loop-helix (bHLH) DNA-binding superfamily protein	-0.39	5.5E-01	-1.41	1.8E-03	orange
+AT1G65180		Cysteine/Histidine-rich C1 domain family protein	-0.56	6.7E-01	-1.42	2.4E-02	orange
+AT1G60950	FED A	2Fe-2S ferredoxin-like superfamily protein	-0.18	4.7E-01	-1.42	4.1E-15	orange
+AT1G08080	ACA7	alpha carbonic anhydrase 7	-0.60	7.3E-01	-1.42	1.2E-02	orange
+AT1G48480	RKL1	receptor-like kinase 1	-0.38	3.7E-02	-1.42	6.5E-11	orange
+AT3G08885			-0.52	6.6E-01	-1.43	2.2E-02	orange
+AT5G47500	PME5	Pectin lyase-like superfamily protein	-0.24	7.4E-01	-1.43	5.2E-05	orange
+AT4G00400	GPAT8	glycerol-3-phosphate acyltransferase 8	-0.49	1.8E-04	-1.43	4.4E-09	orange
+AT1G60680	AGD2	NAD(P)-linked oxidoreductase superfamily protein	-0.53	2.5E-01	-1.43	6.0E-05	orange
+AT4G39340		Protein of unknown function (DUF1278)	-0.83	6.2E-01	-1.43	2.6E-02	orange
+AT5G43840	HSFA6A	heat shock transcription factor  A6A	-1.09	3.8E-01	-1.44	6.2E-03	orange
+AT3G54510		Early-responsive to dehydration stress protein (ERD4)	-0.82	2.3E-01	-1.44	9.5E-04	orange
+AT5G25110	CIPK25	CBL-interacting protein kinase 25	-0.19	9.4E-01	-1.45	1.7E-03	orange
+AT2G04570		GDSL-like Lipase/Acylhydrolase superfamily protein	-0.26	7.7E-01	-1.45	9.5E-05	orange
+AT5G15600	SP1L4	SPIRAL1-like4	-0.20	8.8E-01	-1.45	2.4E-05	orange
+AT5G02420			0.13	9.6E-01	-1.45	4.9E-03	orange
+AT1G50110		D-aminoacid aminotransferase-like PLP-dependent enzymes superfamily protein	-0.23	7.7E-01	-1.45	3.9E-06	orange
+AT1G29660		GDSL-like Lipase/Acylhydrolase superfamily protein	-0.42	5.0E-04	-1.45	6.5E-13	orange
+AT3G59480		pfkB-like carbohydrate kinase family protein	-0.45	6.1E-01	-1.45	5.9E-06	orange
+AT3G58850	PAR2	phy rapidly regulated 2	-0.35	3.1E-01	-1.45	1.2E-10	orange
+AT3G45710		Major facilitator superfamily protein	-0.19	9.0E-01	-1.47	5.0E-05	orange
+AT4G30180		sequence-specific DNA binding transcription factors;transcription regulators	-0.59	7.7E-01	-1.48	8.6E-03	orange
+AT4G11780	TRM10		-1.00	2.0E-01	-1.48	1.3E-02	orange
+AT3G55700		UDP-Glycosyltransferase superfamily protein	-0.04	9.9E-01	-1.48	1.7E-02	orange
+AT3G16180		Major facilitator superfamily protein	-0.34	4.6E-01	-1.48	2.6E-08	orange
+AT3G17180	SCPL33	serine carboxypeptidase-like 33	1.14	4.1E-01	-1.49	7.1E-03	orange
+AT1G05420	OFP12	ovate family protein 12	-0.36	8.2E-01	-1.49	1.2E-03	orange
+AT3G56090	FER3	ferritin 3	-0.34	7.2E-01	-1.50	3.4E-13	orange
+AT2G34170		Protein of unknown function (DUF688)	-0.34	3.3E-02	-1.50	6.1E-10	orange
+AT1G04540		Calcium-dependent lipid-binding (CaLB domain) family protein	-0.10	9.4E-01	-1.50	2.6E-08	orange
+AT3G23050	IAA7	indole-3-acetic acid 7	-0.40	1.3E-04	-1.50	2.8E-10	orange
+AT4G06746	RAP2.9	related to AP2 9	-0.98	5.5E-01	-1.50	8.5E-03	orange
+AT4G26530	FBA5	Aldolase superfamily protein	-0.57	8.5E-03	-1.51	5.7E-13	orange
+AT3G63470	SCPL40	serine carboxypeptidase-like 40	-0.44	4.9E-01	-1.51	4.4E-05	orange
+AT2G25940	ALPHA-VPE	alpha-vacuolar processing enzyme	0.16	9.3E-01	-1.51	5.3E-03	orange
+AT1G48100		Pectin lyase-like superfamily protein	-0.45	8.5E-03	-1.52	2.5E-09	orange
+AT2G27420		Cysteine proteinases superfamily protein	-0.25	6.5E-01	-1.52	1.9E-06	orange
+AT3G18485	ILR2	iaa-leucine resistant 2	-0.31	6.8E-01	-1.52	5.3E-07	orange
+AT5G04530	KCS19	3-ketoacyl-CoA synthase 19	-0.53	4.8E-01	-1.52	9.3E-04	orange
+AT3G06840			-0.48	5.7E-01	-1.52	8.1E-03	orange
+AT1G19840		SAUR-like auxin-responsive protein family 	-0.66	4.4E-01	-1.52	8.3E-03	orange
+AT2G41190		Transmembrane amino acid transporter family protein	-0.65	1.2E-01	-1.53	7.8E-13	orange
+AT1G16515			-0.37	6.6E-01	-1.54	6.4E-06	orange
+AT3G05140	RBK2	ROP binding protein kinases 2	-0.41	8.0E-01	-1.54	1.3E-03	orange
+AT2G27990	BLH8	BEL1-like homeodomain 8	-0.47	6.1E-01	-1.54	8.9E-05	orange
+AT3G23450			-0.36	2.6E-01	-1.54	2.8E-08	orange
+AT5G15580	LNG1	longifolia1	-0.51	2.3E-03	-1.54	2.4E-11	orange
+AT1G17870	EGY3	ethylene-dependent gravitropism-deficient and yellow-green-like 3	-0.54	4.6E-02	-1.55	1.6E-14	orange
+AT3G53040		"late embryogenesis abundant protein, putative / LEA protein, putative"	-0.18	9.6E-01	-1.55	2.5E-02	orange
+AT5G62170	TRM25		-0.29	2.7E-01	-1.56	2.6E-14	orange
+AT5G60660	PIP2;4	plasma membrane intrinsic protein 2;4	-0.35	5.8E-01	-1.57	3.2E-07	orange
+AT3G47380		Plant invertase/pectin methylesterase inhibitor superfamily protein	-1.02	2.2E-01	-1.57	5.4E-04	orange
+AT5G01335		transposable element gene	-0.04	9.9E-01	-1.58	7.6E-03	orange
+AT4G17030	EXLB1	expansin-like B1	-0.25	4.8E-01	-1.58	1.4E-06	orange
+AT1G09600		Protein kinase superfamily protein	-0.66	5.3E-01	-1.59	3.8E-03	orange
+AT5G65390	AGP7	arabinogalactan protein 7	0.31	9.2E-01	-1.59	1.1E-03	orange
+AT1G02360		Chitinase family protein	-1.30	2.0E-01	-1.59	1.6E-02	orange
+AT1G15405		other RNA	0.67	5.8E-01	-1.60	2.0E-02	orange
+AT5G25045		transposable element gene	-0.54	7.1E-01	-1.60	8.0E-03	orange
+AT5G18080	SAUR24	SAUR-like auxin-responsive protein family 	-0.45	3.9E-01	-1.62	1.2E-07	orange
+AT1G02700			-0.62	3.8E-01	-1.62	2.3E-04	orange
+AT5G42880		Plant protein of unknown function (DUF827)	-0.45	4.5E-01	-1.62	1.3E-04	orange
+AT3G13061		other RNA	-1.20	1.4E-01	-1.64	3.0E-05	orange
+AT3G12610	DRT100	Leucine-rich repeat (LRR) family protein	-0.54	6.8E-03	-1.64	5.6E-07	orange
+AT2G36026		Ovate family protein	-0.40	3.8E-01	-1.64	3.2E-07	orange
+AT3G23510		Cyclopropane-fatty-acyl-phospholipid synthase	-0.50	6.1E-01	-1.64	1.5E-08	orange
+AT5G45670		GDSL-like Lipase/Acylhydrolase superfamily protein	-0.65	3.4E-01	-1.65	4.4E-03	orange
+AT1G02800	CEL2	cellulase 2	-0.23	8.6E-01	-1.65	2.0E-05	orange
+AT2G21540	SFH3	SEC14-like 3	-0.42	6.6E-02	-1.65	8.7E-14	orange
+AT3G27500		Cysteine/Histidine-rich C1 domain family protein	-0.36	8.3E-01	-1.65	3.2E-03	orange
+AT4G20230		Terpenoid cyclases/Protein prenyltransferases superfamily protein	-0.53	2.3E-01	-1.65	1.0E-07	orange
+AT3G46300			-2.21	7.7E-02	-1.66	8.2E-03	orange
+AT1G78260		RNA-binding (RRM/RBD/RNP motifs) family protein	-0.43	6.1E-01	-1.66	5.1E-04	orange
+AT1G64110	DAA1	P-loop containing nucleoside triphosphate hydrolases superfamily protein	0.02	1.0E+00	-1.66	1.6E-12	orange
+AT1G52830	IAA6	indole-3-acetic acid 6	-0.91	2.2E-01	-1.66	1.2E-05	orange
+AT1G54120			-0.79	7.8E-02	-1.66	4.5E-06	orange
+AT4G23820		Pectin lyase-like superfamily protein	-0.39	2.9E-01	-1.68	7.2E-09	orange
+AT1G75900		GDSL-like Lipase/Acylhydrolase superfamily protein	-0.42	6.6E-02	-1.68	2.4E-16	orange
+AT4G14819		Protein of unknown function (DUF1677)	-0.17	9.2E-01	-1.69	3.6E-05	orange
+AT1G04110	SDD1	Subtilase family protein	-0.41	7.2E-01	-1.69	2.1E-02	orange
+AT1G77760	NIA1	nitrate reductase 1	-0.71	1.8E-01	-1.69	8.5E-13	orange
+AT1G05020		ENTH/ANTH/VHS superfamily protein	-0.37	7.9E-01	-1.70	5.6E-05	orange
+AT3G48720	DCF	HXXXD-type acyl-transferase family protein	-0.36	2.8E-01	-1.71	8.7E-20	orange
+AT5G57780	P1R1		-0.63	5.3E-02	-1.71	3.3E-09	orange
+AT5G45830	DOG1	delay of germination 1	-0.36	6.9E-01	-1.71	1.2E-09	orange
+AT1G56550	RGXT3	RhamnoGalacturonan speci&	-0.50	8.6E-01	-1.71	5.8E-03	orange
+AT5G17170	ENH1	rubredoxin family protein	-0.05	9.3E-01	-1.71	9.3E-31	orange
+AT1G50040		Protein of unknown function (DUF1005)	-0.49	8.4E-01	-1.72	7.3E-05	orange
+AT5G48550		F-box associated ubiquitination effector family protein	-0.82	5.4E-01	-1.72	4.0E-03	orange
+AT2G34180	CIPK13	CBL-interacting protein kinase 13	-0.34	6.3E-01	-1.72	3.7E-06	orange
+AT1G78530		Protein kinase superfamily protein	-0.14	9.5E-01	-1.73	6.1E-03	orange
+AT4G25420	GA20OX1	2-oxoglutarate (2OG) and Fe(II)-dependent oxygenase superfamily protein	-0.65	1.2E-01	-1.74	1.1E-08	orange
+AT2G30900	TBL43	TRICHOME BIREFRINGENCE-LIKE 43	-0.31	8.2E-01	-1.75	2.0E-06	orange
+AT1G12100		Bifunctional inhibitor/lipid-transfer protein/seed storage 2S albumin superfamily protein	-0.19	9.4E-01	-1.76	2.6E-03	orange
+AT2G20750	EXPB1	expansin B1	-0.40	1.9E-01	-1.76	3.6E-07	orange
+AT2G30432	TCL1	Homeodomain-like superfamily protein	-0.56	3.0E-02	-1.76	5.3E-06	orange
+AT4G24265			-0.25	9.1E-01	-1.76	4.3E-03	orange
+AT2G26695		Ran BP2/NZF zinc finger-like superfamily protein	-0.62	5.4E-02	-1.77	5.5E-07	orange
+AT5G58390		Peroxidase superfamily protein	-0.67	5.9E-01	-1.77	1.9E-03	orange
+AT5G38230		transposable element gene	0.46	7.9E-01	-1.77	3.4E-04	orange
+AT3G26614		transposable element gene	-0.32	9.2E-01	-1.77	2.4E-02	orange
+AT5G15800	SEP1	K-box region and MADS-box transcription factor family protein 	-0.12	9.7E-01	-1.78	3.1E-03	orange
+AT5G52300	LTI65	CAP160 protein	-1.22	2.0E-01	-1.78	1.0E-07	orange
+AT1G75640		Leucine-rich receptor-like protein kinase family protein	-0.31	7.2E-01	-1.79	2.7E-04	orange
+AT1G60590		Pectin lyase-like superfamily protein	-0.35	1.0E-02	-1.80	1.9E-06	orange
+AT2G24610	CNGC14	cyclic nucleotide-gated channel 14	-0.18	9.5E-01	-1.80	8.8E-04	orange
+AT1G11000	MLO4	Seven transmembrane MLO family protein	-0.75	5.1E-02	-1.81	2.7E-08	orange
+AT1G09240	NAS3	nicotianamine synthase 3	0.15	9.5E-01	-1.81	8.1E-04	orange
+AT2G10940		Bifunctional inhibitor/lipid-transfer protein/seed storage 2S albumin superfamily protein	-0.37	1.0E-01	-1.82	8.1E-15	orange
+AT4G33420		Peroxidase superfamily protein	-0.61	1.5E-01	-1.82	3.0E-07	orange
+AT2G42840	PDF1	protodermal factor 1	-0.37	8.4E-01	-1.82	1.3E-02	orange
+AT1G78440	ATGA2OX1	Arabidopsis thaliana gibberellin 2-oxidase 1	-0.19	8.8E-01	-1.82	5.7E-05	orange
+AT1G52750		alpha/beta-Hydrolases superfamily protein	-0.41	6.7E-01	-1.84	1.5E-04	orange
+AT3G43960		Cysteine proteinases superfamily protein	-0.46	5.8E-01	-1.85	2.3E-04	orange
+AT1G06360		Fatty acid desaturase family protein	-0.35	8.2E-01	-1.86	1.5E-03	orange
+AT5G50335			0.39	7.6E-01	-1.86	1.0E-05	orange
+AT5G53210	SPCH	basic helix-loop-helix (bHLH) DNA-binding superfamily protein	-1.21	2.3E-01	-1.86	2.3E-02	orange
+AT1G23205		Plant invertase/pectin methylesterase inhibitor superfamily protein	-0.14	8.8E-01	-1.87	1.3E-06	orange
+AT3G42800			-0.92	4.5E-01	-1.88	2.4E-03	orange
+AT3G61680		alpha/beta-Hydrolases superfamily protein	-0.29	8.8E-01	-1.88	3.3E-03	orange
+AT3G03830	SAUR28	SAUR-like auxin-responsive protein family 	-0.21	9.5E-01	-1.89	2.5E-04	orange
+AT4G35770	SEN1	Rhodanese/Cell cycle control phosphatase superfamily protein	-0.19	8.8E-01	-1.90	1.4E-10	orange
+AT2G40610	EXPA8	expansin A8	-0.99	5.8E-02	-1.92	3.7E-08	orange
+AT3G22540		Protein of unknown function (DUF1677)	-0.49	1.3E-01	-1.92	7.1E-05	orange
+AT5G25460	DGR2	"Protein of unknown function, DUF642"	-0.56	9.2E-02	-1.92	2.6E-11	orange
+AT1G74890	ARR15	response regulator 15	-0.82	9.7E-02	-1.95	6.1E-10	orange
+AT3G44900	CHX4	cation/H+ exchanger 4	-0.40	8.3E-01	-1.95	1.2E-04	orange
+AT3G28857	PRE5	basic helix-loop-helix (bHLH) DNA-binding family protein	-0.51	8.2E-01	-1.96	2.4E-03	orange
+AT1G04800		glycine-rich protein	-0.11	9.4E-01	-1.96	1.2E-02	orange
+AT5G22890		C2H2 and C2HC zinc fingers superfamily protein	0.93	7.2E-01	-1.97	4.6E-02	orange
+AT3G04290	LTL1	Li-tolerant lipase 1	-0.40	6.8E-01	-1.97	1.4E-02	orange
+AT2G42380	BZIP34	Basic-leucine zipper (bZIP) transcription factor family protein	-0.45	2.0E-01	-1.99	6.9E-09	orange
+AT1G02205	CER1	Fatty acid hydroxylase superfamily	-0.55	1.0E-04	-1.99	3.3E-13	orange
+AT5G22460		alpha/beta-Hydrolases superfamily protein	-0.39	3.8E-01	-1.99	4.4E-05	orange
+AT4G28780		GDSL-like Lipase/Acylhydrolase superfamily protein	-0.58	3.6E-02	-2.00	6.6E-06	orange
+AT1G17700	PRA1.F1	prenylated RAB acceptor 1.F1	-0.54	4.4E-01	-2.01	2.4E-05	orange
+AT4G25760	GDU2	glutamine dumper 2	-0.48	6.0E-01	-2.01	6.7E-05	orange
+AT3G20470	GRP5	glycine-rich protein 5	-0.55	1.1E-01	-2.02	3.0E-11	orange
+AT5G49130		MATE efflux family protein	0.28	9.3E-01	-2.02	1.2E-03	orange
+AT4G31910		HXXXD-type acyl-transferase family protein	-0.38	6.5E-01	-2.03	5.6E-09	orange
+AT3G10340	PAL4	phenylalanine ammonia-lyase 4	-0.64	5.7E-02	-2.05	7.8E-10	orange
+AT2G29090	CYP707A2	"cytochrome P450, family 707, subfamily A, polypeptide 2"	-0.66	1.6E-01	-2.05	9.5E-12	orange
+AT4G14690	ELIP2	Chlorophyll A-B binding family protein	0.03	9.9E-01	-2.08	2.6E-03	orange
+AT5G24580		Heavy metal transport/detoxification superfamily protein 	-0.56	3.9E-02	-2.10	3.0E-10	orange
+AT5G51720	NEET	"2 iron, 2 sulfur cluster binding"	-0.11	9.0E-01	-2.13	5.4E-20	orange
+AT5G62210		"Embryo-specific protein 3, (ATS3)"	-0.25	7.1E-01	-2.14	4.4E-06	orange
+AT2G40300	FER4	ferritin 4	-0.32	4.0E-01	-2.15	7.4E-20	orange
+AT3G43670		Copper amine oxidase family protein	-0.27	3.3E-01	-2.16	3.4E-25	orange
+AT1G71890	SUC5	Major facilitator superfamily protein	-0.13	9.7E-01	-2.17	5.6E-03	orange
+AT1G09350	GolS3	galactinol synthase 3	-1.09	2.1E-01	-2.17	1.0E-10	orange
+AT5G12050			-0.56	6.0E-02	-2.17	2.4E-15	orange
+AT1G78860		D-mannose binding lectin protein with Apple-like carbohydrate-binding domain	-0.54	7.0E-01	-2.19	4.2E-03	orange
+AT4G30610	BRS1	alpha/beta-Hydrolases superfamily protein	-0.52	3.0E-03	-2.19	4.7E-12	orange
+AT4G39010	GH9B18	glycosyl hydrolase 9B18	-0.38	6.6E-01	-2.19	9.6E-09	orange
+AT1G51460	ABCG13	ABC-2 type transporter family protein	-0.59	6.9E-01	-2.20	9.5E-05	orange
+AT1G76800		Vacuolar iron transporter (VIT) family protein	-0.52	3.3E-01	-2.21	1.2E-20	orange
+AT5G04380		S-adenosyl-L-methionine-dependent methyltransferases superfamily protein	-0.35	9.2E-01	-2.21	8.8E-04	orange
+AT5G49360	BXL1	beta-xylosidase 1	-0.84	2.0E-01	-2.22	5.9E-18	orange
+AT1G28130	GH3.17	Auxin-responsive GH3 family protein	-0.72	1.9E-01	-2.23	1.2E-05	orange
+AT5G26010		Protein phosphatase 2C family protein	-0.13	9.4E-01	-2.24	1.6E-06	orange
+AT3G48260	WNK3	with no lysine (K) kinase 3	-0.75	4.7E-01	-2.25	6.9E-05	orange
+AT1G15990	CNGC7	cyclic nucleotide gated channel 7	-0.19	9.6E-01	-2.27	9.4E-03	orange
+AT1G30190			-0.39	8.8E-01	-2.28	3.2E-04	orange
+AT5G20630	GER3	germin 3	-0.73	4.9E-01	-2.29	4.6E-03	orange
+AT5G49920		Octicosapeptide/Phox/Bem1p family protein	-0.08	9.9E-01	-2.31	3.9E-03	orange
+AT3G58120	BZIP61	Basic-leucine zipper (bZIP) transcription factor family protein	-0.72	1.7E-01	-2.33	2.2E-08	orange
+AT3G22275			0.88	6.3E-01	-2.36	5.3E-04	orange
+AT2G21650	MEE3	Homeodomain-like superfamily protein	-0.43	1.2E-01	-2.38	1.5E-08	orange
+AT2G40100	LHCB4.3	light harvesting complex photosystem II	-0.01	1.0E+00	-2.39	2.9E-30	orange
+AT3G50120		Plant protein of unknown function (DUF247)	-0.56	8.4E-01	-2.40	2.2E-04	orange
+AT5G02760		Protein phosphatase 2C family protein	-0.74	2.8E-01	-2.40	9.0E-13	orange
+AT1G61130	SCPL32	serine carboxypeptidase-like 32	-0.57	9.1E-01	-2.44	1.3E-04	orange
+AT3G22090			-0.01	1.0E+00	-2.50	6.6E-07	orange
+AT5G59320	LTP3	lipid transfer protein 3	-0.21	9.4E-01	-2.50	2.1E-11	orange
+AT1G69140			-0.90	6.6E-02	-2.56	3.6E-12	orange
+AT1G78990		HXXXD-type acyl-transferase family protein	-0.37	5.8E-01	-2.56	1.7E-09	orange
+AT5G53710			-0.67	7.7E-01	-2.63	7.2E-05	orange
+AT3G59220	PRN	pirin	-0.75	3.1E-01	-2.67	8.6E-07	orange
+AT3G13640	ABCE1	RNAse l inhibitor protein 1	-0.51	5.2E-01	-2.69	3.0E-07	orange
+AT2G22810	ACS4	1-aminocyclopropane-1-carboxylate synthase 4	-0.75	2.5E-01	-2.71	2.8E-03	orange
+AT4G25850	ORP4B	OSBP(oxysterol binding protein)-related protein 4B	-0.46	4.4E-01	-2.72	5.3E-09	orange
+AT4G28040		nodulin MtN21 /EamA-like transporter family protein	-0.43	4.5E-01	-2.78	1.3E-21	orange
+AT1G06080	ADS1	delta 9 desaturase 1	-1.13	3.5E-01	-2.85	3.7E-07	orange
+AT2G36885			-0.13	8.6E-01	-2.86	6.1E-24	orange
+AT3G49160		pyruvate kinase family protein	-0.27	7.8E-01	-2.92	2.6E-12	orange
+AT1G73120			-1.13	1.9E-01	-2.94	1.5E-13	orange
+AT3G55240		Plant protein 1589 of unknown function	-0.21	6.3E-01	-2.95	1.6E-21	orange
+AT1G15380	GLYI4	Lactoylglutathione lyase / glyoxalase I family protein	-1.43	8.1E-01	-2.99	8.8E-03	orange
+AT5G01600	FER1	ferretin 1	-0.44	7.1E-01	-2.99	1.6E-20	orange
+AT1G21140		Vacuolar iron transporter (VIT) family protein	-0.43	6.8E-01	-2.99	3.9E-13	orange
+AT1G10640		Pectin lyase-like superfamily protein	-0.79	1.2E-01	-3.05	5.3E-06	orange
+AT2G38530	LTP2	lipid transfer protein 2	0.12	9.7E-01	-3.29	1.9E-12	orange
+AT1G12570		Glucose-methanol-choline (GMC) oxidoreductase family protein	-0.05	9.9E-01	-3.48	8.5E-04	orange
+AT4G01975		transposable element gene	-1.11	2.7E-01	-3.67	1.5E-11	orange
+AT4G33790	CER4	Jojoba acyl CoA reductase-related male sterility protein	-1.04	5.5E-01	-3.80	6.0E-05	orange
