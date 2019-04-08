@@ -63,6 +63,19 @@ sample_table_datset <- DESeqDataSetFromHTSeqCount(sampleTable=sample_table,
 # Run DESeq2 on all samples.
 sample_deseq2 <- DESeq(sample_table_datset)
 
+# Write normalized table with ALL samples for certain plots:
+sample_deseq2_counts <- counts(sample_deseq2, normalized=TRUE)
+sample_deseq2_counts <- data.frame(sweep(sample_deseq2_counts, 2, colSums(sample_deseq2_counts), FUN="/")) * 100
+sample_table$unique <- make.unique(as.character(sample_table$condition))
+rownames(sample_table) <- sample_table$sample
+colnames(sample_deseq2_counts) <- sample_table[colnames(sample_deseq2_counts), "unique"]
+sample_deseq2_counts$At_gene <- rownames(sample_deseq2_counts)
+sample_deseq2_counts <- sample_deseq2_counts[, sort(colnames(sample_deseq2_counts))]
+
+write.table(x = sample_deseq2_counts, file="tables/At_homolog_deseq2_percents.txt", col.names=TRUE, row.names=FALSE,
+            quote=FALSE, sep="\t")
+            
+
 # Run day 1 comparisons:
 sample_day1_results_SC_SI <- results(sample_deseq2, contrast=c("condition", "S_I_D1", "S_C_D1"))
 sample_day1_results_RC_RI <- results(sample_deseq2, contrast=c("condition", "R_I_D1", "R_C_D1"))
