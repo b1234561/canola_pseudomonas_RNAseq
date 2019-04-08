@@ -1,15 +1,7 @@
-library(ggplot2)
+library(superheat)
 library(reshape2)
-library(scales)
 
 setwd("/home/gavin/projects/pseudomonas/canola_pseudomonas_RNAseq/tables/")
-
-# Define function to cluster a set of genes.
-cluster_genes <- function(df_in, genes_in) {
-  genes_in_subset <- genes_in[which((genes_in %in% rownames(df_in)))]
-  df_in_dist <- dist(df_in[genes_in_subset,])
-  return(hclust(df_in_dist, method="complete"))
-}
 
 # Read in log2fold ratios.
 ratios_AT <- read.table("At_homolog_deseq2_log2fold.txt",
@@ -42,28 +34,29 @@ ratios_AT_set$At_gene <- ratios_AT$At_gene
 # Create heatmap based on filtered set of all genes.
 ratios_AT_filt_set <- ratios_AT_set[ratio_AT_high_abs_rows,]
 
-ratios_AT_filt_set_hclust <- cluster_genes(ratios_AT_filt_set[,-which(colnames(ratios_AT_filt_set) == "At_gene")],
-                                           rownames(ratios_AT_filt_set))
-
-ratios_AT_filt_set_melt <- melt(ratios_AT_filt_set, variable.name = "sample")
-colnames(ratios_AT_filt_set_melt) <- c("At_gene", "Sample", "log2fold")
-ratios_AT_filt_set_melt$Gene <- ratios_AT_info[ratios_AT_filt_set_melt$At_gene, "unique_name"]
-ratios_AT_filt_set_melt$Gene <- factor(ratios_AT_filt_set_melt$Gene, levels = ratios_AT_info[ratios_AT_filt_set_hclust$labels[ratios_AT_filt_set_hclust$order], "unique_name"])
+ratios_AT_filt_set_to_cluster <- ratios_AT_filt_set[, -which(colnames(ratios_AT_filt_set) == "At_gene")]
+colnames(ratios_AT_filt_set_to_cluster) <- c("Day 1 Shoot", "Day 5 Shoot", "Day 1 Root", "Day 5 Root")
+superheat(ratios_AT_filt_set_to_cluster,
+          pretty.order.rows = TRUE,
+          pretty.order.cols = TRUE,
+          row.dendrogram = TRUE,
+          col.dendrogram = FALSE,
+          clustering.method="hierarchical",
+          dist.method="euclidean",
+          linkage.method="average",
+          heat.pal=c("blue", "red"),
+          heat.lim = c(-2, 2),
+          scale = FALSE)
+# Saved as 7x7 inches.
 
 ggplot(ratios_AT_filt_set_melt, aes(y=Gene, x=Sample)) +
   geom_tile(aes(fill = log2fold)) +
-  scale_fill_gradient2(high = muted("red"), low = muted("blue")) +
+  scale_fill_gradient2(high = "red", low = "blue") +
   theme(axis.text.y=element_blank())
 
 ##########################################################
 ### Now make heatmaps for smaller subsets of interest. ###
 ##########################################################
-
-# First melt set of ALL genes (unfiltered).
-ratios_AT_set_melt <- melt(ratios_AT_set, variable.name = "sample")
-colnames(ratios_AT_set_melt) <- c("At_gene", "Sample", "log2fold")
-ratios_AT_set_melt$Gene <- ratios_AT_info[ratios_AT_set_melt$At_gene, "unique_name"]
-
 
 # Read in small gene sets of interest.
 death_genes <- read.table("../At_gene_sets/functional_groups_of_interest/Death_AT_genes.txt", header=F, stringsAsFactors = FALSE)
@@ -96,6 +89,26 @@ log_AT_death_order_names <- ratios_AT_info[log_AT_death_order, "unique_name"]
 log_AT_melt_set_death_subset <- ratios_AT_set_melt[which(ratios_AT_set_melt$At_gene %in% death_genes$V1),]
 log_AT_melt_set_death_subset$Gene <- factor(log_AT_melt_set_death_subset$Gene, levels = log_AT_death_order_names)
 log_AT_melt_set_death_subset$At_gene <- factor(log_AT_melt_set_death_subset$At_gene, levels = log_AT_death_order)
+
+colnames(ratios_AT_set) <- c("Day 1 Shoot", "Day 5 Shoot", "Day 1 Root", "Day 5 Root", "At_gene")
+ratios_AT_set_death_subset <- ratios_AT_set[death_genes$V1, -which(colnames(ratios_AT_set) == "At_gene")]
+rownames(ratios_AT_set_death_subset) <- paste(rownames(ratios_AT_set_death_subset),
+                                              " ",
+                                              "(",
+                                              ratios_AT_info[rownames(ratios_AT_set_death_subset), "unique_name"],
+                                              ")",
+                                              sep="")
+superheat(ratios_AT_set_death_subset,
+          pretty.order.rows = TRUE,
+          pretty.order.cols = TRUE,
+          row.dendrogram = TRUE,
+          col.dendrogram = FALSE,
+          clustering.method="hierarchical",
+          dist.method="euclidean",
+          linkage.method="average",
+          heat.pal=c("blue", "red"),
+          heat.lim = c(-2, 2),
+          scale = FALSE)
 
 ggplot(log_AT_melt_set_death_subset, aes(y=Gene, x=Sample)) +
   geom_tile(aes(fill = log2fold)) +
@@ -273,3 +286,45 @@ ggplot(log_AT_melt_set_SA_subset, aes(y=At_gene, x=Sample)) +
   geom_tile(aes(fill = log2fold)) +
   scale_fill_gradient2(high = muted("red"), low = muted("blue")) +
   ggtitle("A. thaliana SA genes") + ylab("Gene")
+
+
+
+### TESTING Spearman correlations as distance matrix:
+# Calculate distance as 1 - Spearman's rho
+# ratios_AT_filt_set_spearman_dist <- data.frame(1 - cor(t(ratios_AT_filt_set[,-which(colnames(ratios_AT_filt_set) == "At_gene")]), method="spearman"))
+# 
+# # Note that due to the small sample size a few times there are invariable features that have standard deviation of 0.
+# # In these cases the NA output was converted to 0.
+# ratios_AT_filt_set_spearman_dist[is.na(ratios_AT_filt_set_spearman_dist)] <- 0
+# 
+# ratios_AT_filt_set_spearman_dist_hclust <- hclust(as.dist(ratios_AT_filt_set_spearman_dist), method="complete")
+# 
+# ratios_AT_filt_set_hclust <- ratios_AT_filt_set_spearman_dist_hclust
+
+# Define function to cluster a set of genes.
+# cluster_genes <- function(df_in, genes_in) {
+#   genes_in_subset <- genes_in[which((genes_in %in% rownames(df_in)))]
+#   df_in_dist <- dist(df_in[genes_in_subset,])
+#   return(hclust(df_in_dist, method="average"))
+# }
+
+
+
+
+# ratios_AT_filt_set_hclust <- cluster_genes(ratios_AT_filt_set[,-which(colnames(ratios_AT_filt_set) == "At_gene")],
+#                                            rownames(ratios_AT_filt_set))
+# 
+# 
+# ratios_AT_filt_set_melt <- melt(ratios_AT_filt_set, variable.name = "sample")
+# colnames(ratios_AT_filt_set_melt) <- c("At_gene", "Sample", "log2fold")
+# ratios_AT_filt_set_melt$Gene <- ratios_AT_info[ratios_AT_filt_set_melt$At_gene, "unique_name"]
+# ratios_AT_filt_set_melt$Gene <- factor(ratios_AT_filt_set_melt$Gene,
+#                                        levels = ratios_AT_info[ratios_AT_filt_set_hclust$labels[ratios_AT_filt_set_hclust$order], "unique_name"])
+
+
+# colnames(ratios_AT_set_melt) <- c("At_gene", "Sample", "log2fold")
+# ratios_AT_set_melt$Gene <- ratios_AT_info[ratios_AT_set_melt$At_gene, "unique_name"]
+
+# ratios_AT_set_melt <- melt(ratios_AT_set, variable.name = "sample")
+
+
