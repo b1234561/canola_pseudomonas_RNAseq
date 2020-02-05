@@ -5,7 +5,131 @@
 
 ### Next compare our day 1 PA14 root infection samples with the root WCS417 paper at 6 hours (Stringlis 2018).
 
+rm(list=ls(all=TRUE))
+
+library(ggplot2)
+library(reshape2)
+
 setwd("/home/gavin/projects/pseudomonas/canola_pseudomonas_RNAseq/")
+
+shoot_day1_up <- read.table("At_gene_sets/shoot_up/At_shoot_genes_Day1_up_padj_0.1_l2fc_2.txt", stringsAsFactors = FALSE, header=FALSE)$V1
+shoot_day5_up <- read.table("At_gene_sets/shoot_up/At_shoot_genes_Day5_up_padj_0.1_l2fc_2.txt", stringsAsFactors = FALSE, header=FALSE)$V1
+
+shoot_day1_down <- read.table("At_gene_sets/shoot_down/At_shoot_genes_Day1_down_padj_0.1_l2fc_-2.txt", stringsAsFactors = FALSE, header=FALSE)$V1
+shoot_day5_down <- read.table("At_gene_sets/shoot_down/At_shoot_genes_Day5_down_padj_0.1_l2fc_-2.txt", stringsAsFactors = FALSE, header=FALSE)$V1
+
+root_day1_up <- read.table("At_gene_sets/root_up/At_root_genes_Day1_up_padj_0.1_l2fc_2.txt", stringsAsFactors = FALSE, header=FALSE)$V1
+root_day5_up <- read.table("At_gene_sets/root_up/At_root_genes_Day5_up_padj_0.1_l2fc_2.txt", stringsAsFactors = FALSE, header=FALSE)$V1
+
+root_day1_down <- read.table("At_gene_sets/root_down/At_root_genes_Day1_down_padj_0.1_l2fc_-2.txt", stringsAsFactors = FALSE, header=FALSE)$V1
+root_day5_down <- read.table("At_gene_sets/root_down/At_root_genes_Day5_down_padj_0.1_l2fc_-2.txt", stringsAsFactors = FALSE, header=FALSE)$V1
+
+# Note that significant cut-offs used below are based on what was reported in the Vogel paper.
+vogel_de <- read.table("other_pseudomonas_RNAseq/Vogel_2016/T1_T2_DC3000_DE.txt", header=T, sep="\t", stringsAsFactors = FALSE)
+rownames(vogel_de) <- vogel_de$AGI
+
+log2fc_up <- 2
+log2fc_down <- -2
+
+vogel_de_day2 <- vogel_de[which(abs(vogel_de$T1_Ax_Pst.vs.Ax_CTL_log2FC) > log2fc_up & vogel_de$T1_Ax_Pst.vs.Ax_CTL_FDR < 0.05), ]
+vogel_de_day7 <- vogel_de[which(abs(vogel_de$T2_Ax_Pst.vs.Ax_CTL_log2FC) > log2fc_up & vogel_de$T2_Ax_Pst.vs.Ax_CTL_FDR < 0.05), ]
+
+vogel_down_day2 <- vogel_de_day2[which(vogel_de_day2$T1_Ax_Pst.vs.Ax_CTL_log2FC < log2fc_down), ]
+vogel_up_day2 <- vogel_de_day2[which(vogel_de_day2$T1_Ax_Pst.vs.Ax_CTL_log2FC > log2fc_up), ]
+
+vogel_down_day7 <- vogel_de_day7[which(vogel_de_day7$T2_Ax_Pst.vs.Ax_CTL_log2FC < log2fc_down), ]
+vogel_up_day7 <- vogel_de_day7[which(vogel_de_day7$T2_Ax_Pst.vs.Ax_CTL_log2FC > log2fc_up), ]
+
+
+stringlis_de <- read.table("other_pseudomonas_RNAseq/Stringlis_2018/WCS317_6h_DE.txt", header=TRUE, sep="\t", stringsAsFactors = FALSE)
+rownames(stringlis_de) <- stringlis_de$AGI_code
+stringlis_up <- stringlis_de[which(stringlis_de$log2.fold.change > log2fc_up), ]
+stringlis_down <- stringlis_de[which(stringlis_de$log2.fold.change < log2fc_up), ]
+
+
+
+
+de_sets <- list(Canola_shoot_d1_de=c(shoot_day1_up, shoot_day1_down),
+                     Canola_shoot_d5_de=c(shoot_day5_up, shoot_day5_down),
+                     At_leaf_d2_de=vogel_de_day2$AGI,
+                     At_leaf_d7_de=vogel_de_day7$AGI,
+                     Canola_root_d1_de=c(root_day1_up, root_day1_down),
+                     Canola_root_d5_de=c(root_day5_up, root_day5_down),
+                     At_root_6h_de=stringlis_de$AGI_code)
+
+
+possible_AGI <- sort(unique(c(de_sets$Canola_shoot_d1_de, de_sets$Canola_shoot_d5_de, de_sets$At_leaf_d2_de,
+                              de_sets$At_leaf_d7_de, de_sets$Canola_root_d1_de, de_sets$Canola_root_d5_de, de_sets$At_root_6h_de)))
+
+AGI_presence <- data.frame(matrix(0, nrow=length(possible_AGI), ncol=7))
+
+rownames(AGI_presence) <- possible_AGI
+
+colnames(AGI_presence) <- names(de_sets)
+
+for(gene_set in colnames(AGI_presence)) {
+  AGI_presence[which(rownames(AGI_presence) %in% de_sets[[gene_set]]), gene_set] <- 1
+}
+
+colnames(AGI_presence) <- c("Bn shoot (1d)", "Bn shoot (5d)", "At leaf (2d)", "At leaf (7d)", "Bn root (1d)", "Bn root (5d)", "At root (6h)")
+
+AGI_presence_dist <- dist(AGI_presence, method = "binary")
+AGI_presence_dist_hclust <- hclust(AGI_presence_dist, "average")
+
+AGI_presence_dist_t <- dist(t(AGI_presence), method = "binary")
+AGI_presence_dist_t_hclust <- hclust(AGI_presence_dist_t, "average")
+
+library(gplots)
+gplots::heatmap.2(as.matrix(AGI_presence),
+                  dendrogram = "col",
+                  Rowv = as.dendrogram(AGI_presence_dist_hclust),
+                  Colv = as.dendrogram(AGI_presence_dist_t_hclust),
+                  trace="none",
+                  margins =c(15, 15),
+                  denscol = "grey",
+                  density.info = "density",
+                  labRow=rep("", times=nrow(AGI_presence)),
+                  srtCol=45,
+                  offsetCol=0.2,
+                  offsetRow=0,
+                  col=c("light grey", "red"),
+                  key=FALSE)
+
+legend("topleft", legend = c("Yes", "No"), title = "Differentially Expressed Gene", fill = c("red", "light grey"), cex = 1)
+
+### Downloaded as 7x7 PDF and cleaned up in Illustrator.
+
+### Other commands below are for using different approaches for plotting heatmap / other analyses on this data.
+
+
+AGI_presence_melt <- melt(AGI_presence_to_plot)
+AGI_presence_melt$variable <- as.character(AGI_presence_melt$variable)
+
+AGI_presence_melt$variable <- factor(AGI_presence_melt$variable, levels = AGI_presence_dist_t_hclust$labels[AGI_presence_dist_t_hclust$order])
+AGI_presence_melt$AGI <- factor(AGI_presence_melt$AGI, levels = AGI_presence_dist_hclust$labels[AGI_presence_dist_hclust$order])
+
+ggplot(AGI_presence_melt, aes(y=AGI, x=variable)) +
+  geom_tile(aes(fill = value)) +
+  scale_fill_gradient2(high = "red", low = "blue")
+
+
+
+
+
+options(expressions=1000000)
+superheat(t(as.matrix(AGI_presence)),
+          pretty.order.rows = TRUE,
+          pretty.order.cols = TRUE,
+          row.dendrogram = TRUE,
+          col.dendrogram = TRUE,
+          clustering.method="hierarchical",
+          dist.method="binary",
+          linkage.method="complete",
+          heat.pal=c("blue", "red"),
+          heat.lim = c(0, 1),
+          scale = FALSE)
+
+
 
 # Function to take in a list of character vectors and return
 # a distance matrix of the Jaccard distance between all pairwise comparisons.
@@ -28,69 +152,30 @@ char_vec_jaccard_dist <- function(list_in) {
   
 }
 
-shoot_day1_up <- read.table("At_gene_sets/shoot_up/At_shoot_genes_d1_up_padj_0.1_l2fc_2.txt", stringsAsFactors = FALSE, header=FALSE)$V1
-shoot_day5_up <- read.table("At_gene_sets/shoot_up/At_shoot_genes_d5_up_padj_0.1_l2fc_2.txt", stringsAsFactors = FALSE, header=FALSE)$V1
-
-shoot_day1_down <- read.table("At_gene_sets/shoot_down/At_shoot_genes_d1_down_padj_0.1_l2fc_-2.txt", stringsAsFactors = FALSE, header=FALSE)$V1
-shoot_day5_down <- read.table("At_gene_sets/shoot_down/At_shoot_genes_d5_down_padj_0.1_l2fc_-2.txt", stringsAsFactors = FALSE, header=FALSE)$V1
-
-root_day1_up <- read.table("At_gene_sets/root_up/At_root_genes_d1_up_padj_0.1_l2fc_2.txt", stringsAsFactors = FALSE, header=FALSE)$V1
-root_day5_up <- read.table("At_gene_sets/root_up/At_root_genes_d5_up_padj_0.1_l2fc_2.txt", stringsAsFactors = FALSE, header=FALSE)$V1
-
-root_day1_down <- read.table("At_gene_sets/root_down/At_root_genes_d1_down_padj_0.1_l2fc_-2.txt", stringsAsFactors = FALSE, header=FALSE)$V1
-root_day5_down <- read.table("At_gene_sets/root_down/At_root_genes_d5_down_padj_0.1_l2fc_-2.txt", stringsAsFactors = FALSE, header=FALSE)$V1
-
-# Note that significant cut-offs used below are based on what was reported in the Vogel paper.
-vogel_de <- read.table("other_pseudomonas_RNAseq/Vogel_2016/T1_T2_DC3000_DE.txt", header=T, sep="\t", stringsAsFactors = FALSE)
-rownames(vogel_de) <- vogel_de$AGI
-vogel_de_day2 <- vogel_de[which(abs(vogel_de$T1_Ax_Pst.vs.Ax_CTL_log2FC) > 1 & vogel_de$T1_Ax_Pst.vs.Ax_CTL_FDR < 0.05), ]
-vogel_de_day7 <- vogel_de[which(abs(vogel_de$T2_Ax_Pst.vs.Ax_CTL_log2FC) > 1 & vogel_de$T2_Ax_Pst.vs.Ax_CTL_FDR < 0.05), ]
-
-vogel_down_day2 <- vogel_de_day2[which(vogel_de_day2$T1_Ax_Pst.vs.Ax_CTL_log2FC < -1), ]
-vogel_up_day2 <- vogel_de_day2[which(vogel_de_day2$T1_Ax_Pst.vs.Ax_CTL_log2FC > 1), ]
-
-vogel_down_day7 <- vogel_de_day7[which(vogel_de_day7$T2_Ax_Pst.vs.Ax_CTL_log2FC < -1), ]
-vogel_up_day7 <- vogel_de_day7[which(vogel_de_day7$T2_Ax_Pst.vs.Ax_CTL_log2FC > 1), ]
-
-
-stringlis_de <- read.table("other_pseudomonas_RNAseq/Stringlis_2018/WCS317_6h_DE.txt", header=TRUE, sep="\t", stringsAsFactors = FALSE)
-rownames(stringlis_de) <- stringlis_de$AGI_code
-stringlis_up <- stringlis_de[which(stringlis_de$log2.fold.change > 1), ]
-stringlis_down <- stringlis_de[which(stringlis_de$log2.fold.change < 1), ]
-
 # Calculate pairwise jaccard index between all groupings.
 up_down_sets <- list(Canola_shoot_d1_up=shoot_day1_up,
-                Canola_shoot_d5_up=shoot_day5_up,
-                Canola_shoot_d1_down=shoot_day1_down,
-                Canola_shoot_d5_down=shoot_day5_down,
-                
-                At_leaf_d2_up=vogel_up_day2$AGI,
-                At_leaf_d7_up=vogel_up_day7$AGI,
-                At_leaf_d2_down=vogel_down_day2$AGI,
-                At_leaf_d7_down=vogel_down_day7$AGI,
-                
-                Canola_root_d1_up=root_day1_up,
-                Canola_root_d5_up=root_day5_up,
-                Canola_root_d1_down=root_day1_down,
-                Canola_root_d5_down=root_day5_down,
-                
-                At_root_6h_up=stringlis_up$AGI_code,
-                At_root_6h_down=stringlis_down$AGI_code)
-                
-                           
+                     Canola_shoot_d5_up=shoot_day5_up,
+                     Canola_shoot_d1_down=shoot_day1_down,
+                     Canola_shoot_d5_down=shoot_day5_down,
+                     
+                     At_leaf_d2_up=vogel_up_day2$AGI,
+                     At_leaf_d7_up=vogel_up_day7$AGI,
+                     At_leaf_d2_down=vogel_down_day2$AGI,
+                     At_leaf_d7_down=vogel_down_day7$AGI,
+                     
+                     Canola_root_d1_up=root_day1_up,
+                     Canola_root_d5_up=root_day5_up,
+                     Canola_root_d1_down=root_day1_down,
+                     Canola_root_d5_down=root_day5_down,
+                     
+                     At_root_6h_up=stringlis_up$AGI_code,
+                     At_root_6h_down=stringlis_down$AGI_code)
+
+
 up_down_sets_jaccard <- char_vec_jaccard_dist(up_down_sets)
 
 up_down_sets_jaccard_hclust <- hclust(up_down_sets_jaccard)
 plot(up_down_sets_jaccard_hclust)
-
-
-de_sets <- list(Canola_shoot_d1_de=c(shoot_day1_up, shoot_day1_down),
-                     Canola_shoot_d5_de=c(shoot_day5_up, shoot_day5_down),
-                     At_leaf_d2_de=vogel_de_day2$AGI,
-                     At_leaf_d7_de=vogel_de_day7$AGI,
-                     Canola_root_d1_de=c(root_day1_up, root_day1_down),
-                     Canola_root_d5_de=c(root_day5_up, root_day5_down),
-                     At_root_6h_de=stringlis_de$AGI_code)
 
 
 de_sets_jaccard <- char_vec_jaccard_dist(de_sets)
