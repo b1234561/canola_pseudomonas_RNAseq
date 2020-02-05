@@ -8,6 +8,7 @@ old/
 tables/old_tables/*
 scripts/old_scripts/*
 scripts/test_scripts/*
+scripts/unused_scripts/*
 plots/old_plots/*
 mmquant_out/*gtf
 mmquant_out/*gff3
