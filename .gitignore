@@ -5,6 +5,7 @@ cds/
 RDP_release_11.5_align/
 Harvard_output/
 old/
+unused/
 tables/old_tables/*
 scripts/old_scripts/*
 scripts/test_scripts/*
