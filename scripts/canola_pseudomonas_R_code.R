@@ -11,7 +11,7 @@ write_out_vec <- function(vec2write, str_for_file) {
 }
 
 # Function that will draw three way Venn diagram and output gene ids overlapping in each set to textfiles.
-deseq2_ThreeWayVenn_and_set <- function(results1, results2, results3, name1, name2, name3, 
+deseq2_ThreeWayVenn_and_set <- function(results1, results2, results3, name1, name2, name3, plot_outdir,
                                         padj_cut=0.1, l2fc_cut=0, compare_type="de", 
                                         prefix = "genes", suffix="txt",
                                         venn_col=c("#1f78b4", "#33a02c", "#e31a1c")) {
@@ -42,8 +42,7 @@ deseq2_ThreeWayVenn_and_set <- function(results1, results2, results3, name1, nam
   set_n13=set1[which(set1 %in% set3)]
   set_n123=set_n12[which(set_n12 %in% set3)]
   
-  venn.plot <- draw.triple.venn(
-                                area1=length(set1),
+  venn.plot <- draw.triple.venn(area1=length(set1),
                                 area2=length(set2),
                                 area3=length(set3),
                                 n12=length(set_n12),
@@ -56,7 +55,7 @@ deseq2_ThreeWayVenn_and_set <- function(results1, results2, results3, name1, nam
   out_info <- paste(compare_type, "padj", as.character(padj_cut), "l2fc", as.character(l2fc_cut), sep="_")
   out_suffix <- paste(out_info, suffix, sep=".")
   
-  out_pdf <- paste("plots/venn/", basename(prefix), "_", out_info, ".pdf", sep="")
+  out_pdf <- paste(plot_outdir, "/", basename(prefix), "_", out_info, ".pdf", sep="")
   pdf(file=out_pdf)
   grid.draw(venn.plot);
   dev.off()
@@ -73,7 +72,7 @@ deseq2_ThreeWayVenn_and_set <- function(results1, results2, results3, name1, nam
 }
 
 # Function that will draw two way Venn diagram and output gene ids overlapping in each set to textfiles.
-deseq2_TwoWayVenn_and_set <- function(results1, results2, name1, name2,
+deseq2_TwoWayVenn_and_set <- function(results1, results2, name1, name2, plot_outdir,
                                         padj_cut=0.1, l2fc_cut=0, compare_type="de", 
                                         prefix = "genes", suffix="txt",
                                         venn_col=c("#1f78b4", "#33a02c")) {
@@ -119,7 +118,7 @@ deseq2_TwoWayVenn_and_set <- function(results1, results2, name1, name2,
   out_info <- paste(compare_type, "padj", as.character(padj_cut), "l2fc", as.character(l2fc_cut), sep="_")
   out_suffix <- paste(out_info, suffix, sep=".")
   
-  out_pdf <- paste("plots/venn/", basename(prefix), "_", out_info, ".pdf", sep="")
+  out_pdf <- paste(plot_outdir, "/", basename(prefix), "_", out_info, ".pdf", sep="")
   pdf(file=out_pdf)
   grid.draw(venn.plot);
   dev.off()
