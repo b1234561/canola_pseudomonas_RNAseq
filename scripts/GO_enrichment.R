@@ -22,7 +22,7 @@ for(g in gene_background) {
   At_gene_to_GO[[g]] <- At_gene_to_GO_raw[which(At_gene_to_GO_raw$V1 == g), "V2"]
 }
 
-run_topGO_classic_enrich <- function(sig_genes, go_map, background, name, ontology_set="BP", min_sig=11, max_annotated=999, min_fdr=10^-3) {
+run_topGO_classic_enrich <- function(sig_genes, go_map, background, name, ontology_set="BP", min_sig=5, max_annotated=100000, min_fdr=0.05) {
   
   geneList <- factor(as.integer(background %in% sig_genes))
   names(geneList) <- background

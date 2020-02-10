@@ -28,20 +28,19 @@ ratios_AT <- ratios_AT[, -c(1, 2)]
 # Make all names unique.
 ratios_AT_info$unique_name <- make.unique(ratios_AT_info$NAME, sep = ".")
 
-# Identify rows that have at least an absolute ratio of 1 in at least 4 samples.
-ratio_AT_high_abs_rows <- which(rowSums(abs(ratios_AT) > 1) >= 4)
+# Read in significant genes in at least 1 tissue on at least 1 day.
+AT_sig_genes <- read.table("sig_gene_sets/root_shoot_de.txt", header=FALSE, stringsAsFactors = FALSE)$V1
 
-# Number of genes that fit these criteria == 2751:
-length(ratio_AT_high_abs_rows)
+# Subset to the rows idnetified above and set any absolute values greater than 2 to have a max abs value of 2 (to make it easier to visualize).
+ratios_AT_set <- ratios_AT[AT_sig_genes, ]
+ratios_AT_set[ratios_AT_set > 2] <- 2
+ratios_AT_set[ratios_AT_set < -2] <- -2
 
-
-# Subset to the rows idnetified above and set any absolute values greater than 4 to have a max abs value of 4 (to make it easier to visualize).
-ratios_AT_set <- ratios_AT[ratio_AT_high_abs_rows, ]
-ratios_AT_set[ratios_AT_set > 4] <- 4
-ratios_AT_set[ratios_AT_set < -4] <- -4
+# Re-order so that root samples are first.
+ratios_AT_set <- ratios_AT_set[, c("r1", "r3", "r5", "s1", "s3", "s5")]
 
 # Give columns clearer names
-colnames(ratios_AT_set) <- c("Day 1 Shoot", "Day 3 Shoot", "Day 5 Shoot", "Day 1 Root", "Day 3 Root", "Day 5 Root")
+colnames(ratios_AT_set) <- c("Day 1 Root", "Day 3 Root", "Day 5 Root", "Day 1 Shoot", "Day 3 Shoot", "Day 5 Shoot")
 
 panelA <- pheatmap(t(ratios_AT_set),
                    clustering_distance_rows = "euclidean",
@@ -110,7 +109,7 @@ root_venn <- draw.triple.venn(area1=length(root1),
 
 root_venn <- grid.arrange(gTree(children=root_venn), top="Root")
 
-venn_grid <- plot_grid(shoot_venn, root_venn, labels=c('B', 'C'))
+venn_grid <- plot_grid(root_venn, shoot_venn, labels=c('B', 'C'))
 
 pdf(file = "plots/main/Figure2.pdf", width=7.3, height=7.3, onefile=FALSE)
 

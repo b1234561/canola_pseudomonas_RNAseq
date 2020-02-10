@@ -121,3 +121,19 @@ for(compare in comparison_types) {
   }
 }
 
+
+# Count number of significant genes overall.
+sig_genes <- c()
+
+de_gene_files <- c(list.files("sig_gene_sets/root_de/", full.names = TRUE),
+                   list.files("sig_gene_sets/shoot_de/", full.names = TRUE))
+
+for(f in de_gene_files) {
+  sig_genes <- c(sig_genes, read.table(f, stringsAsFactors = FALSE)$V1)
+}
+
+sig_genes <- sig_genes[-which(duplicated(sig_genes))]
+
+write.table(x = sig_genes, file="sig_gene_sets/root_shoot_de.txt", col.names = FALSE, row.names=FALSE, quote=FALSE)
+
+

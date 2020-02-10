@@ -135,8 +135,7 @@ root_scatterplot <- ggplot(root_rna, aes(x=rnaseq_mean, y=qpcr_mean, fill=Day, s
                             ylim(-5, 10) +
                             theme(legend.justification = c(0.05, 1), legend.position = c(0.05, 1),
                                   legend.background = element_blank(),
-                                  legend.box.background = element_rect(colour = "black"))
-  
+                                  legend.box.background = element_rect(colour = "black", fill="white"))
 
 shoot_scatterplot <- ggplot(shoot_rna, aes(x=rnaseq_mean, y=qpcr_mean, fill=Day, shape=Gene)) + 
   geom_point(size=5, color="black") +
@@ -159,10 +158,10 @@ shoot_scatterplot <- ggplot(shoot_rna, aes(x=rnaseq_mean, y=qpcr_mean, fill=Day,
   ylim(-5, 10) +
   theme(legend.justification = c(0.05, 1), legend.position = c(0.05, 1),
         legend.background = element_blank(),
-        legend.box.background = element_rect(colour = "black"))
+        legend.box.background = element_rect(colour = "black", fill="white"))
 
 
-pdf(file = "plots/main/Figure5_qPCR_vs_RNAseq.pdf", width=7.3, height=5, onefile=FALSE)
+pdf(file = "plots/main/Figure5_qPCR_vs_RNAseq.pdf", width=12, height=6, onefile=FALSE)
 plot_grid(root_scatterplot, shoot_scatterplot,
           nrow=1,
           labels=c('A', 'B'))

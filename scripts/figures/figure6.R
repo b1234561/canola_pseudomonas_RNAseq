@@ -1,84 +1,117 @@
-# Figure of hormone heatmaps.
+# Figure of hormone GO enrichments
 
 rm(list=ls(all.names=TRUE))
 
-setwd("/home/gavin/projects/pseudomonas_RNAseq/canola_pseudomonas_RNAseq/")
-source("scripts/canola_pseudomonas_R_code.R")
-
 library(cowplot)
-library(ggplotify)
-library(pheatmap)
-library(gridExtra)
-library(RColorBrewer)
+library(ggplot2)
+library(Hmisc)
+library(stringr)
+library(ggpubr)
 
-ET_genes <- read.table("At_GO/hormone_genes/ET.txt", header=F, stringsAsFactors = FALSE)$V1
-JA_genes <- read.table("At_GO/hormone_genes/JA.txt", header=F, stringsAsFactors = FALSE)$V1
-SA_genes <- read.table("At_GO/hormone_genes/SA.txt", header=F, stringsAsFactors = FALSE)$V1
+setwd("/home/gavin/projects/pseudomonas_RNAseq/canola_pseudomonas_RNAseq/")
 
-# Read in log2fold ratios.
-ratios_AT <- read.table("At_deseq2_outfiles/At_homolog_deseq2_log2fold.txt",
-                        header=TRUE, 
-                        sep="\t",
-                        stringsAsFactors = FALSE,
-                        quote="",
-                        comment.char = "")
-
-rownames(ratios_AT) <- ratios_AT$At_gene
-
-# Get info columns and remove from original df.
-ratios_AT_info <- ratios_AT[, c(1, 2)]
-ratios_AT <- ratios_AT[, -c(1, 2)]
-
-# Make all names unique.
-ratios_AT_info$unique_name <- make.unique(ratios_AT_info$NAME, sep = ".")
-
-ratios_AT[ratios_AT > 4] <- 4
-ratios_AT[ratios_AT < -4] <- -4
-
-# Give columns clearer names
-colnames(ratios_AT) <- c("Day 1 Shoot", "Day 3 Shoot", "Day 5 Shoot", "Day 1 Root", "Day 3 Root", "Day 5 Root")
-
-breaksList = seq(-4, 4, by = 0.1)
-
-SA_heatmap <- pheatmap(ratios_AT[SA_genes, ],
-                       clustering_distance_rows = "euclidean",
-                       clustering_method = "average",
-                       cluster_rows = TRUE,
-                       cluster_cols = FALSE,
-                       treeheight_col = 0,
-                       gaps_col=c(3, 3, 3),
-                       angle_col=45,
-                       color = colorRampPalette(rev(brewer.pal(n = 7, name = "RdYlBu")))(length(breaksList)),
-                       breaks = breaksList)
-
-JA_heatmap <- pheatmap(ratios_AT[JA_genes, ],
-                       clustering_distance_rows = "euclidean",
-                       clustering_method = "average",
-                       cluster_rows = TRUE,
-                       cluster_cols = FALSE,
-                       treeheight_col = 0,
-                       gaps_col=c(3, 3, 3),
-                       angle_col=45,
-                       color = colorRampPalette(rev(brewer.pal(n = 7, name = "RdYlBu")))(length(breaksList)),
-                       breaks = breaksList)
-                       
-ET_heatmap <- pheatmap(ratios_AT[ET_genes, ],
-                       clustering_distance_rows = "euclidean",
-                       clustering_method = "average",
-                       cluster_rows = TRUE,
-                       cluster_cols = FALSE,
-                       treeheight_col = 0,
-                       gaps_col=c(3, 3, 3),
-                       angle_col=45,
-                       color = colorRampPalette(rev(brewer.pal(n = 7, name = "RdYlBu")))(length(breaksList)),
-                       breaks = breaksList)
+go_enrichment_results <- readRDS("At_GO/go_enrichment_results.rds")
 
 
-as.grob(panelA)
+SA_GO <- "GO:0009751"
+JA_GO <- "GO:0009753"
+ET_GO <- "GO:0009723"
+focal_GO <- c(SA_GO, JA_GO, ET_GO)
 
-pdf(file = "plots/main/Figure5_qPCR_vs_RNAseq.pdf", width=7.3, height=5, onefile=FALSE)
-plot_grid(root_scatterplot, shoot_scatterplot,
-          nrow=1,
-          labels=c('A', 'B'))
+root_day1_hormones <- go_enrichment_results$Root_up_day1$all_results[which(go_enrichment_results$Root_up_day1$all_results$GO.ID %in% focal_GO), ]
+root_day1_hormones$tissue <- "Root"
+root_day1_hormones$Day <- 1
+
+root_day3_hormones <- go_enrichment_results$Root_up_day3$all_results[which(go_enrichment_results$Root_up_day3$all_results$GO.ID %in% focal_GO), ]
+root_day3_hormones$tissue <- "Root"
+root_day3_hormones$Day <- 3
+
+root_day5_hormones <- go_enrichment_results$Root_up_day5$all_results[which(go_enrichment_results$Root_up_day5$all_results$GO.ID %in% focal_GO), ]
+root_day5_hormones$tissue <- "Root"
+root_day5_hormones$Day <- 5
+
+shoot_day1_hormones <- go_enrichment_results$Shoot_up_day1$all_results[which(go_enrichment_results$Shoot_up_day1$all_results$GO.ID %in% focal_GO), ]
+shoot_day1_hormones$tissue <- "Shoot"
+shoot_day1_hormones$Day <- 1
+
+shoot_day3_hormones <- go_enrichment_results$Shoot_up_day3$all_results[which(go_enrichment_results$Shoot_up_day3$all_results$GO.ID %in% focal_GO), ]
+shoot_day3_hormones$tissue <- "Shoot"
+shoot_day3_hormones$Day <- 3
+
+shoot_day5_hormones <- go_enrichment_results$Shoot_up_day5$all_results[which(go_enrichment_results$Shoot_up_day5$all_results$GO.ID %in% focal_GO), ]
+shoot_day5_hormones$tissue <- "Shoot"
+shoot_day5_hormones$Day <- 5
+
+root_hormones <- rbind(root_day1_hormones, root_day3_hormones, root_day5_hormones)
+root_hormones$Day <- as.factor(root_hormones$Day)
+root_hormones$Term <- capitalize(root_hormones$Term)
+root_hormones$Term <- str_wrap(root_hormones$Term, 15)
+
+shoot_hormones <- rbind(shoot_day1_hormones, shoot_day3_hormones, shoot_day5_hormones)
+shoot_hormones$Day <- as.factor(shoot_hormones$Day)
+shoot_hormones$Term <- capitalize(shoot_hormones$Term)
+shoot_hormones$Term <- str_wrap(shoot_hormones$Term, 15)
+
+shoot_hormones$p.signif <- "ns"
+shoot_hormones[which(shoot_hormones$fdr < 0.1), "p.signif"] <- "*"
+shoot_hormones[which(shoot_hormones$fdr < 0.05), "p.signif"] <- "**"
+shoot_hormones[which(shoot_hormones$fdr < 0.0001), "p.signif"] <- "**"
+shoot_hormones$group1 <- shoot_hormones$Term
+shoot_hormones$group2 <- shoot_hormones$Term
+shoot_hormones$y.position <- shoot_hormones$fold + 0.2
+
+
+root_hormones$p.signif <- "ns"
+root_hormones[which(root_hormones$fdr < 0.1), "p.signif"] <- "*"
+root_hormones[which(root_hormones$fdr < 0.05), "p.signif"] <- "**"
+root_hormones[which(root_hormones$fdr < 0.0001), "p.signif"] <- "***"
+root_hormones$group1 <- root_hormones$Term
+root_hormones$group2 <- root_hormones$Term
+root_hormones$y.position <- root_hormones$fold + 0.2
+
+root_hormone_barplot <- ggplot(root_hormones, aes(x = Term, y = fold, fill=Day)) +
+                              geom_bar(position = "dodge", stat="identity", colour="black") +
+                              geom_hline(yintercept=1, linetype="dotted") +
+                              scale_fill_manual(values=c("white", "black", "grey")) +
+                              xlab("GO annotation") +
+                              ylab("Fold enrichment") +
+                              ggtitle("Root") +
+                              theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+                                    panel.background = element_blank(), axis.line = element_line(colour = "black"),
+                                    axis.text.y = element_text(size=10), legend.position = c(0.05, 0.75),
+                                    legend.background = element_blank(),
+                                    legend.box.background = element_rect(colour = "black")) +
+                              scale_y_continuous(expand = c(0, 0), limits = c(0, 7)) +
+                              stat_pvalue_manual(data = root_hormones,
+                                                 label = "p.signif",
+                                                 label.size = 4,
+                                                 xmax = NULL,
+                                                 position = position_dodge(.90))
+
+
+shoot_hormone_barplot <- ggplot(shoot_hormones, aes(x = Term, y = fold, fill=Day)) +
+                                  geom_bar(position = "dodge", stat="identity", colour="black") +
+                                  geom_hline(yintercept=1, linetype="dotted") +
+                                  scale_fill_manual(values=c("white", "black", "grey")) +
+                                  xlab("GO annotation") +
+                                  ylab("Fold enrichment") +
+                                  ggtitle("Shoot") +
+                                  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+                                        panel.background = element_blank(), axis.line = element_line(colour = "black"),
+                                        axis.text.y = element_text(size=10), legend.position = c(0.05, 0.75),
+                                        legend.background = element_blank(),
+                                        legend.box.background = element_rect(colour = "black")) +
+                                  scale_y_continuous(expand = c(0, 0), limits = c(0, 7)) +
+                                  stat_pvalue_manual(data = shoot_hormones,
+                                                     label = "p.signif",
+                                                     label.size = 4,
+                                                     xmax = NULL,
+                                                     position = position_dodge(.90))
+
+
+pdf(file = "plots/main/Figure6_hormone_GO.pdf", width=12, height=5, onefile=FALSE)
+
+plot_grid(root_hormone_barplot, shoot_hormone_barplot, labels=c('A', 'B'))
+
 dev.off()
 

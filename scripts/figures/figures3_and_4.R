@@ -11,7 +11,7 @@ library(Hmisc)
 library(stringr)
 
 
-go_enrichment_barplot <- function(go_output, title, num_to_keep=15, go2ignore=c(), x_max=10) {
+go_enrichment_barplot <- function(go_output, title, num_to_keep=15, go2ignore=c(), x_max=13) {
   
   # Remove and GO ids that are specified (which would be because they are 100% redundant with another GO in the plot already)
   row2remove <- which(go_output$filt_results$GO.ID %in% go2ignore)
@@ -38,7 +38,7 @@ go_enrichment_barplot <- function(go_output, title, num_to_keep=15, go2ignore=c(
       xlab("GO annotation") +
       ylab("Fold enrichment") +
       labs(fill=expression('log'[10]*'(q)')) +
-      scale_fill_gradient(low = "dark red", high = "orange", limits = c(-30, -3)) +
+      scale_fill_gradient(low = "dark red", high = "orange", limits = c(-30, log10(0.05))) +
       ggtitle(title) +
       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
             panel.background = element_blank(), axis.line = element_line(colour = "black"),
@@ -56,8 +56,23 @@ terms2replace[["benzene-containing compound metabolic pr..."]] <- "Benzene-conta
 terms2replace[["defense response, incompatible interacti..."]] <- "Defense response, incompatible interaction"
 terms2replace[["photosynthesis, light harvesting in phot..."]] <- "Photosynthesis, light harvesting in photosystem I"
 terms2replace[["cellular polysaccharide metabolic proces..."]] <- "Cellular polysaccharide metabolic process"
-terms2replace[["plant-type cell wall organization or bio..."]] <- "plant-type cell wall organization or biogenesis"
-terms2replace[["external encapsulating structure organiz..."]] <- "external encapsulating structure organization"
+terms2replace[["plant-type cell wall organization or bio..."]] <- "Plant-type cell wall organization or biogenesis"
+terms2replace[["external encapsulating structure organiz..."]] <- "External encapsulating structure organization"
+terms2replace[["branched-chain amino acid catabolic proc..."]] <- "Branched-chain amino acid catabolic process"
+terms2replace[["glutamine family amino acid catabolic pr..."]] <- "Glutamine family amino acid catabolic process"
+terms2replace[["regulation of response to water deprivat..."]] <- "Regulation of response to water deprivation"
+terms2replace[["glutamine family amino acid catabolic pr..."]] <- "Glutamine family amino acid catabolic process"
+terms2replace[["glucosamine-containing compound cataboli..."]] <- "Glucosamine-containing compound catabolic process"
+terms2replace[["aromatic amino acid family catabolic pro..."]] <- "Aromatic amino acid family catabolic process"
+terms2replace[["phenol-containing compound metabolic pro..."]] <- "Phenol-containing compound metabolic process"
+terms2replace[["energy derivation by oxidation of organi..."]] <- "Energy derivation by oxidation of organic compounds"
+terms2replace[["glucosamine-containing compound metaboli..."]] <- "Glucosamine-containing compound metabolic process"
+terms2replace[["cell wall macromolecule catabolic proces..."]] <- "Cell wall macromolecule catabolic process"
+terms2replace[["defense response by callose deposition i..."]] <- "Defense response by callose deposition in cell wall"
+terms2replace[["photosynthetic electron transport in pho..."]] <- "Photosynthetic electron transport in photosystem I"
+terms2replace[["regulation of photosynthesis, light reac..."]] <- "Regulation of photosynthesis, light reaction"
+terms2replace[["unsaturated fatty acid biosynthetic proc..."]] <- "Unsaturated fatty acid biosynthetic process"
+terms2replace[["regulation of generation of precursor me..."]] <- "Regulation of generation of precursor metabolites and energy"
 
 
 for(category in names(go_enrichment_results)) {
@@ -70,13 +85,15 @@ for(category in names(go_enrichment_results)) {
 }
   
 
+
+
 root_day1_up <- go_enrichment_barplot(go_enrichment_results$Root_up_day1,
                                       title="Root Day 1 Up-regulated",
-                                      go2ignore = c("GO:0036294"))
-                                      
+                                      go2ignore = c("GO:0036294", "GO:0046217", "GO:0052314", "GO:0052315"))
+
 root_day3_up <- go_enrichment_barplot(go_enrichment_results$Root_up_day3,
                                       title="Root Day 3 Up-regulated",
-                                      go2ignore = c("GO:0036294"))                                      
+                                      go2ignore = c("GO:0036294", "GO:1900056", "GO:1905622", "GO:0006030", "GO:0006032", "GO:0046348", "GO:1901072"))                                      
 
 root_day5_up <- go_enrichment_barplot(go_enrichment_results$Root_up_day5,
                                       title="Root Day 5 Up-regulated",
@@ -84,15 +101,18 @@ root_day5_up <- go_enrichment_barplot(go_enrichment_results$Root_up_day5,
 
 shoot_day1_up <- go_enrichment_barplot(go_enrichment_results$Shoot_up_day1,
                                       title="Shoot Day 1 Up-regulated",
-                                      go2ignore = c())
+                                      go2ignore = c("GO:0006030", "GO:0006032", "GO:0046348", "GO:1901072", "GO:0042343"))
 
 shoot_day3_up <- go_enrichment_barplot(go_enrichment_results$Shoot_up_day3,
                                       title="Shoot Day 3 Up-regulated",
-                                      go2ignore = c())                                      
+                                      go2ignore = c("GO:0015985"))
 
 shoot_day5_up <- go_enrichment_barplot(go_enrichment_results$Shoot_up_day5,
                                       title="Shoot Day 5 Up-regulated",
-                                      go2ignore = c())                                      
+                                      go2ignore = c("GO:0052317", "GO:0006030", "GO:0006032", "GO:0009700",
+                                                    "GO:0046217", "GO:0046348", "GO:0052314", "GO:0052315",
+                                                    "GO:1901072", "GO:0052482", "GO:1902074", "GO:0019759",
+                                                    "GO:0019762", "GO:0009074"))
 
 
 
@@ -100,7 +120,7 @@ shoot_day5_up <- go_enrichment_barplot(go_enrichment_results$Shoot_up_day5,
 # Downregulated plots
 root_day1_down <- go_enrichment_barplot(go_enrichment_results$Root_down_day1,
                                       title="Root Day 1 Down-regulated",
-                                      go2ignore = c("GO:0019757", "GO:0019760"),
+                                      go2ignore = c("GO:0019757", "GO:0019760", "GO:1990066", "GO:0018119", "GO:0042044"),
                                       x_max = 21)
 
 root_day3_down <- go_enrichment_barplot(go_enrichment_results$Root_down_day3,
@@ -109,7 +129,8 @@ root_day3_down <- go_enrichment_barplot(go_enrichment_results$Root_down_day3,
 
 root_day5_down <- go_enrichment_barplot(go_enrichment_results$Root_down_day5,
                                       title="Root Day 5 Down-regulated",
-                                      go2ignore = c(), x_max = 21)                                    
+                                      go2ignore = c("GO:0045490", "GO:0048765"),
+                                      x_max = 21)                                    
 
 shoot_day1_down <- go_enrichment_barplot(go_enrichment_results$Shoot_down_day1,
                                        title="Shoot Day 1 Down-regulated",
@@ -121,18 +142,17 @@ shoot_day3_down <- go_enrichment_barplot(go_enrichment_results$Shoot_down_day3,
 
 shoot_day5_down <- go_enrichment_barplot(go_enrichment_results$Shoot_down_day5,
                                        title="Shoot Day 5 Down-regulated",
-                                       go2ignore = c(), x_max = 21)  
-
+                                       go2ignore = c("GO:0019758", "GO:0019761"), x_max = 21)  
 
 # Write out plots
-pdf(file = "plots/main/Figure3_upregulated_GO.pdf", width=7.3, height=6, onefile=FALSE)
+pdf(file = "plots/main/Figure3_upregulated_GO.pdf", width=18, height=10, onefile=FALSE)
 plot_grid(root_day1_up, root_day3_up, root_day5_up, shoot_day1_up, shoot_day3_up, shoot_day5_up,
           nrow=2,
           labels=c('A', 'B', 'C', 'D', 'E', 'F'))
 dev.off()
 
 
-pdf(file = "plots/main/Figure4_downregulated_GO.pdf", width=7.3, height=6, onefile=FALSE)
+pdf(file = "plots/main/Figure4_downregulated_GO.pdf", width=18, height=6, onefile=FALSE)
 plot_grid(root_day1_down, root_day5_down, shoot_day5_down,
           nrow=1,
           labels=c('A', 'B', 'C'))
